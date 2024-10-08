@@ -1,0 +1,132 @@
+process,product,location,unit,value,input,source,year,stage,
+"acrylic acid, bio-based","acrylic acid, bio-based",US,kg,1,FALSE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",ammonia,US,kg,0.018258,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",ammonium sulfate,US,kg,0.000393,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",corn oil,US,kg,0.000312,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based","corn steep liquor, 50%",US,kg,0.036467,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",corn stover,US,kg,1.5036,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",diammonium phosphate,US,kg,0.048044,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",electricity,US,kWh,0.2888,TRUE,MFI,2019,"PET, upcycling",energy
+"acrylic acid, bio-based",ethanol,US,kg,0.002177,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",glucose,US,kg,0.056433,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",lime,US,kg,0.004639,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",magnesium sulfate,US,kg,0.000393,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",natural gas,US,m3,0.00106,TRUE,MFI,2019,"PET, upcycling",energy
+"acrylic acid, bio-based",potassium sulfate,US,kg,0.000393,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",sodium hydroxide,US,kg,0.09819,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",sulfur dioxide,US,kg,0.000776,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",sulfuric acid,US,kg,0.04123,TRUE,MFI,2019,"PET, upcycling",material
+"acrylic acid, bio-based",water,US,kg,6.279,TRUE,MFI,2019,"PET, upcycling",material
+"Aluminum ingot, production mix, at plant",aluminum,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Aluminum ingot, production mix, at plant","Aluminum ingot, production mix, at plant",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Ammonia, steam reforming, liquid, at plant",ammonia,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Ammonia, steam reforming, liquid, at plant","Ammonia, steam reforming, liquid, at plant",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Calcium carbonate, ground, 30 micron, at plant",calcium carbonate,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Calcium carbonate, ground, 30 micron, at plant","Calcium carbonate, ground, 30 micron, at plant",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Cold rolled sheet, steel, at plant",steel,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Cold rolled sheet, steel, at plant","Cold rolled sheet, steel, at plant",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+concrete,concrete,RNA,m3,0.00042,FALSE,GREET2019,2019,"concrete, in use",material
+concrete,"coal, raw",RNA,kg,0.0096291,TRUE,GREET2019,2019,"concrete, in use",energy
+concrete,diesel,RNA,L,0.000274,TRUE,GREET2019,2019,"concrete, in use",energy
+concrete,electricity,RNA,kWh,0.01470528,TRUE,GREET2019,2019,"concrete, in use",energy
+concrete,gasoline,RNA,L,0.00001197,TRUE,GREET2019,2019,"concrete, in use",energy
+concrete,lime,RNA,kg,0.123291,TRUE,GREET2019,2019,"concrete, in use",material
+concrete,liquefied petroleum gas,RNA,MJ,3.15E-07,TRUE,GREET2019,2019,"concrete, in use",energy
+concrete,natural gas,RNA,m3,0.0006243,TRUE,GREET2019,2019,"concrete, in use",energy
+concrete,residual oil,RNA,L,5.14E-08,TRUE,GREET2019,2019,"concrete, in use",energy
+concrete,sand and gravel,RNA,kg,0.84,TRUE,GREET2019,2019,"concrete, in use",material
+"Corn stover, production, average, US, 2022",corn stover,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Corn stover, production, average, US, 2022","Corn stover, production, average, US, 2022",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Crude oil, extracted",crude oil,RNA,L,1,FALSE,USLCI,2019,extraction and production,
+"Crude oil, extracted","Crude oil, extracted",RNA,L,1,TRUE,USLCI,2019,extraction and production,
+"Diesel, combusted in industrial boiler",diesel,RNA,L,1,FALSE,USLCI,2019,extraction and production,
+"Diesel, combusted in industrial boiler","Diesel, combusted in industrial boiler",RNA,L,1,TRUE,USLCI,2019,extraction and production,
+"E-glass, at plant",glass,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"E-glass, at plant","E-glass, at plant",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Ethanol, 85%, at blending terminal, 2022",ethanol,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Ethanol, 85%, at blending terminal, 2022","Ethanol, 85%, at blending terminal, 2022",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Ethylene glycol, materials production, organic compound, at plant, kg",ethylene glycol,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Ethylene glycol, materials production, organic compound, at plant, kg","Ethylene glycol, materials production, organic compound, at plant, kg",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"fiber reinforced resin, virgin",virgin fiber-reinforced resin,US,kg,1,FALSE,MFI,2019,"fiber reinforced resin, virgin",material
+"fiber reinforced resin, virgin",concrete,US,m3,5.85E-07,TRUE,estimate,2019,"fiber reinforced resin, virgin",material
+"fiber reinforced resin, virgin",diesel,US,L,0.0015,TRUE,MFI,2019,"fiber reinforced resin, virgin",energy
+"fiber reinforced resin, virgin",electricity,US,kWh,1.1,TRUE,MFI,2019,"fiber reinforced resin, virgin",energy
+"fiber reinforced resin, virgin",glass fiber,US,kg,0.4,TRUE,MFI,2019,"fiber reinforced resin, virgin",material
+"fiber reinforced resin, virgin",heat,US,MJ,2.42E-02,TRUE,estimate,2019,"fiber reinforced resin, virgin",energy
+"fiber reinforced resin, virgin",liquid petroleum gas,US,L,0.0241,TRUE,MFI,2019,"fiber reinforced resin, virgin",energy
+"fiber reinforced resin, virgin",natural gas,US,m3,0.00175,TRUE,MFI,2019,"fiber reinforced resin, virgin",energy
+"fiber reinforced resin, virgin","polyester, unsaturated",US,kg,0.6,TRUE,MFI,2019,"fiber reinforced resin, virgin",material
+"fiber reinforced resin, virgin",steel,US,kg,3.40E-03,TRUE,estimate,2019,"fiber reinforced resin, virgin",material
+"fiber reinforced resin, virgin",water,US,kg,7.4,TRUE,MFI,2019,"fiber reinforced resin, virgin",material
+"Gasoline, combusted in equipment",gasoline,RNA,L,1,FALSE,USLCI,2019,extraction and production,
+"Gasoline, combusted in equipment","Gasoline, combusted in equipment",RNA,L,1,TRUE,USLCI,2019,extraction and production,
+glass fiber,glass fiber,US,kg,1,FALSE,GREET2019,2019,background,material
+glass fiber,calcium carbonate,US,kg,0.395,TRUE,GREET2019,2019,background,material
+glass fiber,electricity,US,kWh,1.018,TRUE,GREET2019,2019,background,energy
+glass fiber,kaolin,US,kg,0.327,TRUE,GREET2019,2019,background,material
+glass fiber,"Natural gas, combusted in industrial boiler",US,m3,0.2969,TRUE,GREET2019,2019,background,energy
+glass fiber,sand and gravel,US,kg,0.393,TRUE,GREET2019,2019,background,material
+glass fiber,"Transport, combination truck, diesel powered",US,t*km,0.3562,TRUE,Ecoinvent3.7,2019,background,material
+glass fiber,"Transport, light commercial truck, diesel powered, East North Central",US,t*km,0.011,TRUE,Ecoinvent3.7,2019,background,material
+glass fiber,"Transport, train, diesel powered",US,t*km,0.0832,TRUE,Ecoinvent3.7,2019,background,material
+landfilling,landfilling,RNA,kg,1,FALSE,REF 1,2019,landfill,material
+landfilling,electricity,RNA,kWh,0.00188,TRUE,REF 1,2019,landfill,energy
+landfilling,"transport, truck",RNA,t*km,0.1,TRUE,REF 1,2019,landfill,material
+"Lignite coal, combusted in industrial boiler","coal, raw",RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Lignite coal, combusted in industrial boiler","Lignite coal, combusted in industrial boiler",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Limestone, at mine",lime,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Limestone, at mine","Limestone, at mine",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Liquefied petroleum gas, combusted in industrial boiler",liquefied petroleum gas,RNA,L,1,FALSE,USLCI,2019,extraction and production,
+"Liquefied petroleum gas, combusted in industrial boiler","Liquefied petroleum gas, combusted in industrial boiler",RNA,L,1,TRUE,USLCI,2019,extraction and production,
+"Lubricant feedstock, at refinery",lubricating oil,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Lubricant feedstock, at refinery","Lubricant feedstock, at refinery",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+muconic acid,muconic acid,US,kg,1,FALSE,MFI,2019,"PET, upcycling",material
+muconic acid,ammonia,US,kg,0.0321,TRUE,MFI,2019,"PET, upcycling",material
+muconic acid,ammonium sulfate,US,kg,0.0007,TRUE,MFI,2019,"PET, upcycling",material
+muconic acid,"corn steep liquor, 50%",US,kg,0.0691,TRUE,MFI,2019,"PET, upcycling",material
+muconic acid,corn stover,US,kg,2.6556,TRUE,MFI,2019,"PET, upcycling",material
+muconic acid,diammonium phosphate,US,kg,0.0918,TRUE,MFI,2019,"PET, upcycling",material
+muconic acid,electricity,US,kWh,0.5679,TRUE,MFI,2019,"PET, upcycling",energy
+muconic acid,glucose,US,kg,0.0997,TRUE,MFI,2019,"PET, upcycling",material
+muconic acid,lime,US,kg,0.0091,TRUE,MFI,2019,"PET, upcycling",material
+muconic acid,magnesium sulfate,US,kg,0.0007,TRUE,MFI,2019,"PET, upcycling",material
+muconic acid,potassium sulfate,US,kg,0.0007,TRUE,MFI,2019,"PET, upcycling",material
+muconic acid,sodium hydroxide,US,kg,0.8823,TRUE,MFI,2019,"PET, upcycling",material
+muconic acid,sulfur dioxide,US,kg,0.0014,TRUE,MFI,2019,"PET, upcycling",material
+muconic acid,sulfuric acid,US,kg,1.0073,TRUE,MFI,2019,"PET, upcycling",material
+muconic acid,water,US,kg,24.7442,TRUE,MFI,2019,"PET, upcycling",material
+"natural gas, combusted in boiler",natural gas,US,m3,1,FALSE,USLCI,2019,Thik ache,energy
+"natural gas, combusted in boiler","Natural gas, combusted in industrial boiler",RNA,m3,1,TRUE,USLCI,2019,extraction and production,energy
+"polyester, unsaturated, post-consumer","polyester, unsaturated, post-consumer",US,kg,1,FALSE,MFI,2019,"PET, upcycling",material
+"polyester, unsaturated, post-consumer",electricity,US,kWh,2.64E-07,TRUE,MFI,2019,"PET, upcycling",energy
+"polyester, unsaturated, post-consumer",muconic acid,US,kg,0.1773,TRUE,MFI,2019,"PET, upcycling",material
+"polyester, unsaturated, post-consumer",natural gas,US,m3,0.01884,TRUE,MFI,2019,"PET, upcycling",energy
+"polyester, unsaturated, post-consumer",postconsumer PET,US,kg,0.8536,TRUE,MFI,2019,"PET, upcycling",material
+"Polyethylene terephthalate, PET, virgin resin, at plant, kg","polyethylene terephthalate, pet, virgin resin",RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Polyethylene terephthalate, PET, virgin resin, at plant, kg","Polyethylene terephthalate, PET, virgin resin, at plant, kg",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Portland cement, at plant",cement,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Portland cement, at plant","Portland cement, at plant",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Petroleum refining, at refinery",residual fuel oil displaced,RNA,L,1,FALSE,USLCI,2019,PET residual oil displcaced,
+"Petroleum refining, at refinery","Diesel, at refinery",RNA,L,1,TRUE,USLCI,2019,PET residual oil displcaced,
+"residual oil, combusted in boiler",residual oil,RNA,L,1,FALSE,USLCI,2019,extraction and production,
+"residual oil, combusted in boiler","Residual fuel oil, combusted in industrial boiler",RNA,L,1,TRUE,USLCI,2019,extraction and production,
+"Sodium hydroxide; chlor-alkali average, membrane cell; at plant; 50% solution state",sodium hydroxide,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Sodium hydroxide; chlor-alkali average, membrane cell; at plant; 50% solution state","Sodium hydroxide; chlor-alkali average, membrane cell; at plant; 50% solution state",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Soybean oil, crude, degummed, at plant",corn oil,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Soybean oil, crude, degummed, at plant","Soybean oil, crude, degummed, at plant",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Steam, purchased by containerboard mills",steam,RNA,MJ,1,FALSE,USLCI,2019,extraction and production,
+"Steam, purchased by containerboard mills","Steam, purchased by containerboard mills",RNA,MJ,1,TRUE,USLCI,2019,extraction and production,
+"Steel, stainless 304, flat rolled coil",baling wire,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Steel, stainless 304, flat rolled coil","Steel, stainless 304, flat rolled coil",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Sulfuric acid, at plant",sulfuric acid,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Sulfuric acid, at plant","Sulfuric acid, at plant",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Transport, combination truck, diesel powered","transport, truck",RNA,t*km,1,FALSE,USLCI,2019,extraction and production,
+"Transport, combination truck, diesel powered","Transport, combination truck, diesel powered",RNA,t*km,1,TRUE,USLCI,2019,extraction and production,
+"Transport, refuse truck, diesel powered","transport, heavy truck",RNA,t*km,1,FALSE,USLCI,2019,extraction and production,
+"Transport, refuse truck, diesel powered","Transport, refuse truck, diesel powered",RNA,t*km,1,TRUE,USLCI,2019,extraction and production,
+"Unsaturated polyester, UPR, resin, at plant","polyester, unsaturated",RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Unsaturated polyester, UPR, resin, at plant","Unsaturated polyester, UPR, resin, at plant",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"Water, fresh",water,RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"Water, fresh","Water, fresh",RNA,kg,1,TRUE,USLCI,2019,extraction and production,
+"polyethylene terephthalate, pet, virgin resin, at plant, kg","PET, resin displaced by downcycling",RNA,kg,1,FALSE,USLCI,2019,extraction and production,
+"polyethylene terephthalate, pet, virgin resin, at plant, kg","polyethylene terephthalate, pet, virgin resin, at plant, kg",RNA,kg,1,TRUE,USLCI,2019,extraction and production,

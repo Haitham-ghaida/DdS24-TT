@@ -1,0 +1,137 @@
+﻿process,flow name,location,unit,flow quantity,input,source,stage,notes,type
+"PET, at MRF",diesel,US,L,0.000374,TRUE,REF 1,sorting,,material
+"PET, at MRF",electricity,US,kWh,0.01738,TRUE,REF 1,sorting,,energy
+"PET, at MRF",liquefied petroleum gas,US,L,0.00846,TRUE,REF 1,sorting,,material
+"PET, at MRF",lubricating oil,US,kg,1.00E-06,TRUE,REF 1,sorting,,material
+"PET, at MRF",postconsumer PET,US,kg,1,FALSE,REF 1,sorting,,material
+"PET, at MRF",water,US,kg,0.0362,TRUE,REF 1,sorting,,material
+"PET, chemical reclamation",activated carbon,US,kg,0.0077,TRUE,BOTTLE TEA,"PET, glycolysis",carbon black can be a stand-in if not available,material
+"PET, chemical reclamation",concrete,US,m3,5.85E-07,TRUE,estimate,"PET, glycolysis",for construction,material
+"PET, chemical reclamation",diantimony trioxide,US,kg,0.0002,TRUE,BOTTLE TEA,"PET, glycolysis",antimony can be a stand-in if not available,material
+"PET, chemical reclamation",electricity,US,kWh,0.36,TRUE,BOTTLE TEA,"PET, glycolysis",for refrigeration cycle,energy
+"PET, chemical reclamation",ethylene glycol,US,kg,0.1212,TRUE,BOTTLE TEA,"PET, glycolysis",,material
+"PET, chemical reclamation","glycolysis RPET, high grade",US,kg,1,FALSE,BOTTLE TEA,"PET, glycolysis",,material
+"PET, chemical reclamation",landfilling,US,kg,0.477205,TRUE,BOTTLE TEA,"PET, glycolysis",,material
+"PET, chemical reclamation",natural gas,US,m3,0.1212,TRUE,BOTTLE TEA,"PET, glycolysis",,energy
+"PET, chemical reclamation",steam,US,MJ,0.261,TRUE,BOTTLE TEA,"PET, glycolysis",,material
+"PET, chemical reclamation",steel,US,kg,3.40E-03,TRUE,estimate,"PET, glycolysis",for construction,material
+"PET, chemical reclamation",triethylamine,US,kg,0.0016,TRUE,BOTTLE TEA,"PET, glycolysis",,material
+"PET, chemical reclamation",water,US,kg,38.41,TRUE,BOTTLE TEA,"PET, glycolysis",cooling water,material
+"PET, chemical reclamation",sodium hydroxide,US,kg,1.07E-02,TRUE,"PET, glycolysis","PET, glycolysis",,material
+"PET, chemical reclamation",sulfuric acid,US,kg,1.10E-03,TRUE,"PET, glycolysis","PET, glycolysis",,material
+"PET, collection",baling wire,US,kg,1.64E-03,TRUE,REF 1,waste collection,,material
+"PET, collection",electricity,US,kWh,0.0555556,TRUE,REF 1,waste collection,,energy
+"PET, collection",gasoline,US,L,0.0336,TRUE,REF 1,waste collection,,material
+"PET, collection",liquefied petroleum gas,US,L,1.03E-05,TRUE,REF 1,waste collection,,material
+"PET, collection",lubricating oil,US,kg,2.68E-07,TRUE,REF 1,waste collection,,material
+"PET, collection","transport, heavy truck",US,t*km,0.119,TRUE,REF 1,waste collection,,material
+"PET, collection","transport, truck",US,t*km,0.026,TRUE,REF 1,waste collection,,material
+"PET, collection",water,US,kg,0.037,TRUE,REF 1,waste collection,,material
+"PET, fiber","acrylic acid, bio-based",US,kg,0.24,TRUE,MFI,"PET, upcycling",,material
+"PET, fiber",concrete,US,m3,5.85E-07,TRUE,estimate,"PET, upcycling",for construction,material
+"PET, fiber",diesel,US,L,0.0015,TRUE,MFI,"PET, upcycling",,energy
+"PET, fiber",electricity,US,kWh,1.1291,TRUE,MFI,"PET, upcycling",,energy
+"PET, fiber",glass fiber,US,kg,0.4,TRUE,MFI,"PET, upcycling",,material
+"PET, fiber",steam,US,MJ,2.42E-02,TRUE,estimate,"PET, upcycling",for construction,energy
+"PET, fiber",liquefied petroleum gas,US,L,0.0241,TRUE,MFI,"PET, upcycling",,energy
+"PET, fiber",natural gas,US,m3,0.00175,TRUE,MFI,"PET, upcycling",,energy
+"PET, fiber","polyester, unsaturated, post-consumer",US,kg,0.36,TRUE,MFI,"PET, upcycling",,material
+"PET, fiber",steel,US,kg,3.40E-03,TRUE,estimate,"PET, upcycling",for construction,material
+"PET, fiber","PET, fiber",US,kg,1,FALSE,MFI,"PET, upcycling",,material
+"PET, fiber",water,US,kg,7.4,TRUE,MFI,"PET, upcycling",process water,material
+"PET, fiber, displacement",concrete,US,m3,5.85E-07,TRUE,estimate,"PET, upcycling",for construction,material
+"PET, fiber, displacement",diesel,US,L,0.0015,TRUE,MFI,"PET, upcycling",,energy
+"PET, fiber, displacement",electricity,US,kWh,1.1291,TRUE,MFI,"PET, upcycling",,energy
+"PET, fiber, displacement",glass fiber,US,kg,0.4,TRUE,MFI,"PET, upcycling",,material
+"PET, fiber, displacement",steam,US,MJ,2.42E-02,TRUE,estimate,"PET, upcycling",for construction,energy
+"PET, fiber, displacement",liquefied petroleum gas,US,L,0.0241,TRUE,MFI,"PET, upcycling",,energy
+"PET, fiber, displacement",natural gas,US,m3,0.00175,TRUE,MFI,"PET, upcycling",,energy
+"PET, fiber, displacement","polyester, unsaturated",US,kg,0.6,TRUE,MFI,"PET, upcycling",,material
+"PET, fiber, displacement",steel,US,kg,3.40E-03,TRUE,estimate,"PET, upcycling",for construction,material
+"PET, fiber, displacement","PET, fiber, displacement",US,kg,1,FALSE,MFI,"PET, upcycling",,material
+"PET, fiber, displacement",water,US,kg,7.4,TRUE,MFI,"PET, upcycling",process water,material
+"PET, landfill",electricity,RNA,kWh,0.00188,TRUE,REF 1,"PET, landfill",,energy
+"PET, landfill",landfilling,RNA,kg,1,FALSE,REF 1,"PET, landfill",,material
+"PET, landfill","transport, truck",RNA,t*km,0.1,TRUE,REF 1,"PET, landfill",,energy
+"PET, manufacture","polyethylene terephthalate, pet, virgin resin",US,kg,1,TRUE,REF 1,"PET, manufacture",,material
+"PET, manufacture",virgin PET,US,kg,1,FALSE,REF 1,"PET, manufacture",,material
+"PET, mechanical reclamation, food grade",aluminum,US,kg,0.00011,TRUE,REF 1,"PET, mechanical reclamation, food grade",for construction,material
+"PET, mechanical reclamation, food grade",cement,US,kg,0.000802,TRUE,REF 1,"PET, mechanical reclamation, food grade",for construction,material
+"PET, mechanical reclamation, food grade",clay brick,US,kg,0.0023,TRUE,REF 1,"PET, mechanical reclamation, food grade",for construction,material
+"PET, mechanical reclamation, food grade",copper,US,kg,0.00011,TRUE,REF 1,"PET, mechanical reclamation, food grade",for construction,material
+"PET, mechanical reclamation, food grade",diesel,US,L,5.28E-06,TRUE,REF 1,"PET, mechanical reclamation, food grade",for construction,energy
+"PET, mechanical reclamation, food grade",electricity,US,kWh,0.547,TRUE,REF 1,"PET, mechanical reclamation, food grade",,energy
+"PET, mechanical reclamation, food grade",glass,US,kg,0.00004,TRUE,REF 1,"PET, mechanical reclamation, food grade",for construction,material
+"PET, mechanical reclamation, food grade",landfilling,US,kg,0.176,TRUE,REF 1,"PET, mechanical reclamation, food grade",,material
+"PET, mechanical reclamation, food grade",liquefied petroleum gas,US,L,0.0003,TRUE,REF 1,"PET, mechanical reclamation, food grade","(see note 4, p.37)",material
+"PET, mechanical reclamation, food grade","mechanical RPET, food grade",US,kg,1,FALSE,REF 1,"PET, mechanical reclamation, food grade",,material
+"PET, mechanical reclamation, food grade",natural gas,US,m3,0.0603,TRUE,REF 1,"PET, mechanical reclamation, food grade",,material
+"PET, mechanical reclamation, food grade",sodium hydroxide,US,kg,0.0381,TRUE,REF 1,"PET, mechanical reclamation, food grade",,material
+"PET, mechanical reclamation, food grade",steel,US,kg,0.000119,TRUE,REF 1,"PET, mechanical reclamation, food grade",for construction,material
+"PET, mechanical reclamation, food grade",water,US,kg,0.32,TRUE,REF 1,"PET, mechanical reclamation, food grade",Reclamation yield: 80%,material
+"PET, mechanical reclamation, high grade",aluminum,US,kg,0.00011,TRUE,REF 1,"PET, mechanical reclamation, high grade",for construction,material
+"PET, mechanical reclamation, high grade",cement,US,kg,0.000802,TRUE,REF 1,"PET, mechanical reclamation, high grade",for construction,material
+"PET, mechanical reclamation, high grade",clay brick,US,kg,0.0023,TRUE,REF 1,"PET, mechanical reclamation, high grade",for construction,material
+"PET, mechanical reclamation, high grade",copper,US,kg,0.00011,TRUE,REF 1,"PET, mechanical reclamation, high grade",for construction,material
+"PET, mechanical reclamation, high grade",diesel,US,L,5.28E-06,TRUE,REF 1,"PET, mechanical reclamation, high grade",for construction,energy
+"PET, mechanical reclamation, high grade",electricity,US,kWh,0.38,TRUE,REF 1,"PET, mechanical reclamation, high grade",,energy
+"PET, mechanical reclamation, high grade",glass,US,kg,0.00004,TRUE,REF 1,"PET, mechanical reclamation, high grade",for construction,material
+"PET, mechanical reclamation, high grade",liquefied petroleum gas,US,L,0.0003,TRUE,REF 1,"PET, mechanical reclamation, high grade","(see note 4, p.37)",material
+"PET, mechanical reclamation, high grade","mechanical RPET, high grade",US,kg,1,FALSE,REF 1,"PET, mechanical reclamation, high grade",,material
+"PET, mechanical reclamation, high grade",natural gas,US,m3,0.0603,TRUE,REF 1,"PET, mechanical reclamation, high grade",,material
+"PET, mechanical reclamation, high grade",sodium hydroxide,US,kg,0.0381,TRUE,REF 1,"PET, mechanical reclamation, food grade",,material
+"PET, mechanical reclamation, high grade",steel,US,kg,0.000119,TRUE,REF 1,"PET, mechanical reclamation, high grade",for construction,material
+"PET, mechanical reclamation, high grade",waste to landfill,US,kg,0.176,TRUE,REF 1,"PET, mechanical reclamation, high grade",,material
+"PET, mechanical reclamation, high grade",water,US,kg,0.32,TRUE,REF 1,"PET, mechanical reclamation, high grade",Reclamation yield: 80%,material
+"PET, mechanical reclamation, low grade",aluminum,US,kg,0.00011,TRUE,REF 1,"PET, mechanical reclamation, low grade",for construction,material
+"PET, mechanical reclamation, low grade",cement,US,kg,0.000802,TRUE,REF 1,"PET, mechanical reclamation, low grade",for construction,material
+"PET, mechanical reclamation, low grade",clay brick,US,kg,0.0023,TRUE,REF 1,"PET, mechanical reclamation, low grade",for construction,material
+"PET, mechanical reclamation, low grade",copper,US,kg,0.00011,TRUE,REF 1,"PET, mechanical reclamation, low grade",for construction,material
+"PET, mechanical reclamation, low grade",diesel,US,L,5.28E-06,TRUE,REF 1,"PET, mechanical reclamation, low grade",for construction,energy
+"PET, mechanical reclamation, low grade",electricity,US,kWh,0.2487,TRUE,REF 1,"PET, mechanical reclamation, low grade",,energy
+"PET, mechanical reclamation, low grade",glass,US,kg,0.00004,TRUE,REF 1,"PET, mechanical reclamation, low grade",for construction,material
+"PET, mechanical reclamation, low grade",liquefied petroleum gas,US,L,0.0003,TRUE,REF 1,"PET, mechanical reclamation, low grade","(see note 4, p.37)",material
+"PET, mechanical reclamation, low grade","mechanical RPET, low grade",US,kg,1,FALSE,REF 1,"PET, mechanical reclamation, low grade",,material
+"PET, mechanical reclamation, low grade",natural gas,US,m3,0.0603,TRUE,REF 1,"PET, mechanical reclamation, low grade",,material
+"PET, mechanical reclamation, low grade",sodium hydroxide,US,kg,0.0381,TRUE,REF 1,"PET, mechanical reclamation, low grade",,material
+"PET, mechanical reclamation, low grade",steel,US,kg,0.000119,TRUE,REF 1,"PET, mechanical reclamation, low grade",for construction,material
+"PET, mechanical reclamation, low grade",waste to landfill,US,kg,0.176,TRUE,REF 1,"PET, mechanical reclamation, low grade",,material
+"PET, mechanical reclamation, low grade",water,US,kg,0.32,TRUE,REF 1,"PET, mechanical reclamation, low grade",Reclamation yield: 80%,material
+"PET, mechanical reclamation, medium grade",aluminum,US,kg,0.00011,TRUE,REF 1,"PET, mechanical reclamation, medium grade",for construction,material
+"PET, mechanical reclamation, medium grade",cement,US,kg,0.000802,TRUE,REF 1,"PET, mechanical reclamation, medium grade",for construction,material
+"PET, mechanical reclamation, medium grade",clay brick,US,kg,0.0023,TRUE,REF 1,"PET, mechanical reclamation, medium grade",for construction,material
+"PET, mechanical reclamation, medium grade",copper,US,kg,0.00011,TRUE,REF 1,"PET, mechanical reclamation, medium grade",for construction,material
+"PET, mechanical reclamation, medium grade",diesel,US,L,5.28E-06,TRUE,REF 1,"PET, mechanical reclamation, medium grade",for construction,energy
+"PET, mechanical reclamation, medium grade",electricity,US,kWh,0.3887,TRUE,REF 1,"PET, mechanical reclamation, medium grade",,energy
+"PET, mechanical reclamation, medium grade",glass,US,kg,0.00004,TRUE,REF 1,"PET, mechanical reclamation, medium grade",for construction,material
+"PET, mechanical reclamation, medium grade",liquefied petroleum gas,US,L,0.0003,TRUE,REF 1,"PET, mechanical reclamation, medium grade","(see note 4, p.37)",material
+"PET, mechanical reclamation, medium grade","mechanical RPET, medium grade",US,kg,1,FALSE,REF 1,"PET, mechanical reclamation, medium grade",,material
+"PET, mechanical reclamation, medium grade",natural gas,US,m3,0.0603,TRUE,REF 1,"PET, mechanical reclamation, medium grade",,material
+"PET, mechanical reclamation, medium grade",sodium hydroxide,US,kg,0.0381,TRUE,REF 1,"PET, mechanical reclamation, low grade",,material
+"PET, mechanical reclamation, medium grade",steel,US,kg,0.000119,TRUE,REF 1,"PET, mechanical reclamation, medium grade",for construction,material
+"PET, mechanical reclamation, medium grade",waste to landfill,US,kg,0.176,TRUE,REF 1,"PET, mechanical reclamation, medium grade",,material
+"PET, mechanical reclamation, medium grade",water,US,kg,0.32,TRUE,REF 1,"PET, mechanical reclamation, medium grade",Reclamation yield: 80%,material
+"PET, pyrolysis",carbon dioxide,US,kg,8.40E-01,TRUE,REF 1,"PET, pyrolysis",,emission
+"PET, pyrolysis",electricity,US,kWh,6.40E-01,TRUE,REF 1,"PET, pyrolysis",,material
+"PET, pyrolysis",pyrolysis oil,US,kg,1,FALSE,REF 1,"PET, pyrolysis",,material
+"PET, pyrolysis",steel,US,kg,4.42E-06,TRUE,REF 1,"PET, pyrolysis",,material
+"PET, pyrolysis",water,US,kg,2.22E+02,TRUE,REF 1,"PET, pyrolysis",,material
+"PET, pyrolysis",steam,US,MJ,2.21E+00,TRUE,REF 1,"PET, pyrolysis",,material
+"PET, residual oil displaced","PET, residual oil displaced",US,kg,1.00E+00,FALSE,REF 1,"PET, pyrolysis, displacement",,material
+"PET, residual oil displaced",residual fuel oil displaced,US,kg,1.00E+00,TRUE,REF 1,"PET, pyrolysis, displacement",,material
+"PET, transportation to reclaimer",sorted PET,US,t*km,1,FALSE,REF 1,"PET, transportation to reclaimer",,material
+"PET, transportation to reclaimer","transport, truck",US,t*km,1,TRUE,REF 1,"PET, transportation to reclaimer",,material
+"PET, waste to incineration",carbon dioxide,RNA,kg,2.3,TRUE,REF 1,"PET, waste to incineration",,emission
+"PET, waste to incineration",methane,RNA,kg,1.99E-07,TRUE,REF 1,"PET, waste to incineration",,emission
+"PET, waste to incineration",nitogen oxides,RNA,kg,0.00026,TRUE,REF 1,"PET, waste to incineration",,emission
+"PET, waste to incineration","transport, truck",RNA,t*km,0.026,TRUE,REF 1,"PET, waste to incineration",,material
+"PET, waste to incineration",wastetoincineration,RNA,kg,1,FALSE,REF 1,"PET, waste to incineration",,material
+"PET, electricity displaced","PET, electricity displaced",US,kWh,1.00E+00,FALSE,REF 1,"PET, electricity displaced",,material
+"PET, electricity displaced",electricity,US,kWh,1.00E+00,TRUE,REF 1,"PET, electricity displaced",,material
+"PET, pyrolysis combustion",carbon dioxide,RNA,kg,3.214,TRUE,REF 1,"PET, pyrolysis combustion",,emission
+"PET, pyrolysis combustion",methane,RNA,kg,7.26E-06,TRUE,REF 1,"PET, pyrolysis combustion",,emission
+"PET, pyrolysis combustion",nitrogen oxides,RNA,kg,0.0034,TRUE,REF 1,"PET, pyrolysis combustion",,emission
+"PET, pyrolysis combustion","PET, pyrolysis combustion",RNA,kg,1,FALSE,REF 1,"PET, pyrolysis combustion",,material
+"PET, pyrolysis combustion","transport, truck",RNA,t*km,0.0001,TRUE,REF 1,"PET, pyrolysis combustion",,material
+"PET, resin displaced by downcycling","PET, resin displaced by downcycling",RNA,kg,1,FALSE,REF 1,"PET, resin displaced by downcycling",,material
+"PET, resin displaced by downcycling","PET, resin displaced by downcycling",RNA,kg,1,TRUE,REF 1,"PET, resin displaced by downcycling",,material

@@ -1,0 +1,26 @@
+﻿name,corrected_name
+Acidification Air (kg SO2 eq / kg substance),Acidification Air (kg SO2 eq)
+"Ecotox. CF [CTUeco/kg], Em.agr.soilC, freshwater","Ecotox. CF [CTUeco], Em.agr.soilC, freshwater"
+"Ecotox. CF [CTUeco/kg], Em.airC, freshwater","Ecotox. CF [CTUeco], Em.airC, freshwater"
+"Ecotox. CF [CTUeco/kg], Em.airU, freshwater","Ecotox. CF [CTUecokg], Em.airU, freshwater"
+"Ecotox. CF [CTUeco/kg], Em.fr.waterC, freshwater","Ecotox. CF [CTUecokg], Em.fr.waterC, freshwater"
+"Ecotox. CF [CTUeco/kg], Em.nat.soilC, freshwater","Ecotox. CF [CTUecokg], Em.nat.soilC, freshwater"
+"Ecotox. CF [CTUeco/kg], Em.sea waterC, freshwater","Ecotox. CF [CTUecokg], Em.sea waterC, freshwater"
+Eutrophication Air (kg N eq / kg substance),Eutrophication Air (kg N eq)
+Eutrophication Water (kg N eq / kg substance),Eutrophication Water (kg N eq )
+Global Warming Air (kg CO2 eq / kg substance),Global Warming Air (kg CO2 eq )
+HH Particulate Air (PM2.5 eq / kg substance),HH Particulate Air (PM2.5 eq )
+"Human health CF  [CTUcancer/kg], Emission to cont. agric. Soil, cancer","Human health CF  [CTUcancer], Emission to cont. agric. Soil, cancer"
+"Human health CF  [CTUcancer/kg], Emission to cont. freshwater, cancer","Human health CF  [CTUcancer], Emission to cont. freshwater, cancer"
+"Human health CF  [CTUcancer/kg], Emission to cont. natural soil, cancer","Human health CF  [CTUcancer], Emission to cont. natural soil, cancer"
+"Human health CF  [CTUcancer/kg], Emission to cont. rural air, cancer","Human health CF  [CTUcancer], Emission to cont. rural air, cancer"
+"Human health CF  [CTUcancer/kg], Emission to cont. sea water, cancer","Human health CF  [CTUcancer], Emission to cont. sea water, cancer"
+"Human health CF  [CTUcancer/kg], Emission to urban air, cancer","Human health CF  [CTUcancer], Emission to urban air, cancer"
+"Human health CF  [CTUnoncancer/kg], Emission to cont. agric. Soil, non-canc.","Human health CF  [CTUnoncancer], Emission to cont. agric. Soil, non-canc."
+"Human health CF  [CTUnoncancer/kg], Emission to cont. freshwater, non-canc.","Human health CF  [CTUnoncancer], Emission to cont. freshwater, non-canc."
+"Human health CF  [CTUnoncancer/kg], Emission to cont. natural soil, non-canc.","Human health CF  [CTUnoncancer], Emission to cont. natural soil, non-canc."
+"Human health CF  [CTUnoncancer/kg], Emission to cont. rural air, non-canc.","Human health CF  [CTUnoncancer], Emission to cont. rural air, non-canc."
+"Human health CF  [CTUnoncancer/kg], Emission to cont. sea water, non-canc.","Human health CF  [CTUnoncancer], Emission to cont. sea water, non-canc."
+"Human health CF  [CTUnoncancer/kg], Emission to urban air, non-canc.","Human health CF  [CTUnoncancer], Emission to urban air, non-canc."
+Ozone Depletion Air (kg CFC-11 eq / kg substance),Ozone Depletion Air (kg CFC-11 eq)
+Smog Air (kg O3 eq / kg substance),Smog Air (kg O3 eq )

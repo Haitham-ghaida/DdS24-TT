@@ -1,0 +1,9 @@
+﻿circularity,circularity_n
+closedloop_circularity,Closed loop circularity
+openloop_circularity,Open loop circularity
+upcycling_circularity,Upcycling circularity
+incineration_circularity,Incineration cirularity
+avg_inflow_outflow_circularity,Average inflow_outflow circularity
+Landfill_diversion_circularity,Landfill diversion circularity
+Weighted_circularity,Weighted circularity
+material_circularity_index,Material Circularity Index

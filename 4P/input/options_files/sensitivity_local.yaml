@@ -1,0 +1,94 @@
+#----parameters----
+parameters:
+       initial_year: 2019
+       final_year: 2020
+       states_to_drop: ["HI"]
+       #collection_rate_method: "ABM"  # other option: "ABM"
+       collection_rate_method: "user defined" 
+       electricity_grid_spatial_level: "state"
+       # Intervention scenario options: 'baseline' or 'scn1_ds&bin', 'scn2_kn_r', 
+       # 'scn3_kn_w', 'scn4_pbc'
+       intervention_scenario: 'baseline'
+       utility:
+              L_recycling: 1
+              U_recycling: 1
+              L_downcycling: 1
+              U_downcycling: 0.75
+              L_incineration: 0.60
+              U_incineration: 1
+              L_pyrolysis: 0.65
+              U_pyrolysis: 1
+              L_fiber_resin: 20
+              U_fiber_resin: 1
+              L_average: 1
+              U_average: 1
+       lci_indicator: "Global Warming"
+       mcda_weights:
+              global_warming: 0.333
+              cost: 0.333
+              pci: 0.333
+
+
+#---flags---
+flags:
+       #This comment is used to determine if lca shortcut calculations will be used in the code or not. 
+       use_shortcut_lca_calculations: True
+       #This comment is used to determine if LCA shortcut calculations should be parallelized by state to reduce run time. 
+       parallelization_flag: False
+       #ABM shortcut to decide whether or not to run the model 
+       use_shortcut_ABM: True
+       #shortcut to bypass SD model 
+       bypass_SD_model: False
+       #local sensitivity analysis
+       local_sensitivity_analysis: True
+       #range sensitivity analysis
+       range_sensitivity_analysis: False
+       #range of sensitivity analysis list
+       range_value_sensitivity_analysis_list: [10,20,30,40,50]
+       #uncertainty analysis
+       uncertainty_analysis_flag: False
+
+
+#-----input filenames------
+input_filenames:
+       parse_csv:
+              foreground_data: './input/core_files/primary_foreground_data_system_expansionv3.csv'
+              sensitivity_parameters_input: './input/core_files/sensitivity_parameters.csv'
+       parse_xlsx:
+              virgin_resin_production_df: './input/core_files/virgin_economics.xlsx'
+              mrf_df: './input/core_files/MRF_economics.xlsx'
+              mech_reclaiming_df: './input/core_files/mech_reclaiming_economics.xlsx'
+              chem_reclaiming_glyc_df: './input/core_files/glycolysis_economics.xlsx'
+              upcycling_pyro_df: './input/core_files/pyrolysis_economics.xlsx'
+              fiber_resin_upcycling_df: './input/core_files/upcycled_reinforced_resin_economics.xlsx'
+              waste_to_incineration_df: './input/core_files/wte_economics.xlsx'
+       no_parse:
+              shortcutlca: "./input/core_files/shortcut_files/shortcut_lca_db"
+              shortcutlca_displaced: "./input/core_files/shortcut_files/shortcut_lca_db_displaced"
+              dynamic_lci: "./input/core_files/state_level_grid_mix.csv"
+              static_lci: "./input/core_files/secondary_foreground_process.csv"
+              lca_locations: "./input/core_files/location.csv"
+              traci_lci: "./input/core_files/traci21.csv"
+              region_composition_filename: "./input/core_files/regions_composition_pet.csv"
+              lcia_name_bridge: "./input/core_files/lcia_name_bridge.csv"
+
+
+#-----output filenames------
+output_filenames:
+       intermediate_demand: "./output/intermediate_demand_file.csv"
+       intermediate_demand_displaced: "./output/intermediate_demand_file_displaced.csv"
+       lca_results: "./output/final_lcia_results.csv"
+       displaced_lca_results: "./output/displaced_final_lcia_results.csv"
+       cost_results: './output/costs_and_flow_results_by_region_year.csv'
+       aggregated_cost_results: './output/aggregated cost data.csv'
+       total_flow_results: "./output/total_flow_results.csv"
+       total_flow_results_statewise: "./output/total_flow_results_statewise.csv"
+       weighted_circ_results: "./output/circ_results_wtd_us.csv"
+       diversion_circ_results: "./output/circ_results_div_us.csv"
+       inflow_outflow_circ_results: "./output/circ_results_inflow_outflow_us.csv"
+       total_circ_results: "./output/total_circularity_results.csv"
+       combined_lca_results: "./output/combined_lca_results.csv"
+       national_lca_results: "./output/national_lca_results.csv"
+       regional_lca_results: "./output/regional_lca_results.csv"
+       changed_parameter: "./output/changed_parameter.csv"
+       mcda_results: "./output/multi_criteria_decision_analysis_results.csv"

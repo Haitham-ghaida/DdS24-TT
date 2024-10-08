@@ -1,0 +1,41 @@
+﻿variables,distribution,dparam1,dparam2,dparam3,limit
+vacuum cardboard,triangular,0.02,0.01,0.04,FALSE
+vacuum paper,triangular,0.02,0.01,0.04,FALSE
+vacuum film,triangular,0.98,0.95,0.99,FALSE
+discreen1 cardboard,triangular,0.75,0.65,0.9,FALSE
+discreen1 paper,triangular,0.02,0.01,0.04,FALSE
+glass_breaker glass,triangular,0.97,0.95,0.99,FALSE
+discreen2 cardboard,triangular,0.02,0.01,0.04,FALSE
+discreen2 paper,triangular,0.94,0.92,0.99,FALSE
+discreen2 film,triangular,0.02,0.01,0.04,FALSE
+nir_pet aluminum,triangular,0.03,0.02,0.05,FALSE
+nir_pet cardboard,triangular,0.05,0.03,0.07,FALSE
+nir_pet glass,triangular,0.08,0.06,0.1,FALSE
+nir_pet hdpe,triangular,0.1,0.08,0.12,FALSE
+nir_pet paper,triangular,0.05,0.03,0.07,FALSE
+nir_pet pet,triangular,0.91,0.87,0.99,FALSE
+nir_pet film,triangular,0.02,0.01,0.04,FALSE
+nir_pet other,triangular,0.05,0.03,0.07,FALSE
+recovery_foodgrade,triangular,0.8,0.6,0.95,FALSE
+recovery_highgrade,triangular,0.85,0.7,0.95,FALSE
+recovery_mediumgrade,triangular,0.9,0.8,0.95,FALSE
+recovery_lowgrade,triangular,0.95,0.9,0.99,FALSE
+mechanical_recycling_foodgrade_selectivity,triangular,1,0.95,1,FALSE
+mechanical_recycling_highgrade_selectivity,triangular,0.85,0.8,0.95,FALSE
+mechanical_recycling_mediumgrade_selectivity,triangular,0.75,0.7,0.8,FALSE
+mechanical_recycling_lowgrade_selectivity,triangular,0.6,0.55,0.7,FALSE
+distance_for_landfill,triangular,100,50,150,FALSE
+distance_for_wte,triangular,100,50,150,FALSE
+distance_for_mrf,triangular,100,50,150,FALSE
+distance_from_mrf_to_reclaimer,triangular,585.6,400,700,FALSE
+user_defined_collection_rate,triangular,0.3,0.2,0.9,FALSE
+chemical_recycling_selectivity,triangular,1,0.95,1,FALSE
+polyester_to_fiber_reinforced_resin_conversion_factor,triangular,2.77,2,3,FALSE
+pet_to_polyester_conversion_factor,triangular,1.171,1,2,FALSE
+pet_to_ppo_conversion_factor,triangular,0.709,0.6,0.95,FALSE
+recovery_chemical_recycling,triangular,0.76,0.6,0.95,FALSE
+mass_ratio_mechanical_recycling,uniform,1,0,0.65,TRUE
+mass_ratio_chemical_recycling,uniform,0,0,1,TRUE
+mass_ratio_waste_incineration,uniform,0,0,1,TRUE
+mass_ratio_ppo,uniform,0,0,1,TRUE
+mass_ratio_fiber_reinforced_resin,uniform,0,0,0.25,TRUE
