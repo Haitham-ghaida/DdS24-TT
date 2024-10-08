@@ -7,12 +7,9 @@ if __name__ == '__main__':
        import shutil
        sys.path.append(os.path.join(os.path.dirname(__file__), 'code'))
        from flow_model_new import PlasticSD
-       from visualizer import compare_results
-       from lifecycleanalysis import Pylca
-       from tea import Tea
-       from mcda import mcda
-       from circularity import circ
-       from circularity_statewise import circ_statewise
+       import logging
+
+       
 
        import yaml
 
@@ -72,112 +69,83 @@ if __name__ == '__main__':
 
 
        recycle_stream_material= ['aluminum','cardboard','iron','glass','hdpe','paper','pet','film','other']
-
+           
+       outputs = ['vacuum','film_bale','cardboard_bale','glass_bale','pet_bale','hdpe_bale','iron_bale','aluminum_bale']
+           
        flow = {}
-       loc = "South Carolina_Abbeville"
-       for mat in recycle_stream_material:
-           
-           df = pd.read_csv('./input/projected_by_linear_model_to_2050/'+mat+'projected_amounts_to_relog_grouped_2050.csv')
-           df = df[df['State_County'] == loc ]
-           for y in year:
-           
-               flow[(y,mat,'consumer','vacuum')] = float(df.loc[0,str(float(y))])
-               
-               
-               
-       scenario = str(pd.unique(parameters['scenario'])[0])
-
-       reg_df = [loc]
-       #Creating the flow model object
-       psd =  PlasticSD(reg_df = reg_df,
-                        flow = flow,
-                        material = "pet",
-                        recycled_material = "rpet",
-                        statewise_composition_filename = "./input/core_files/waste_composition.csv",
-                        region_composition_filename = scenario_from_yaml['input_filenames']['no_parse']['region_composition_filename'],
-                        demand_model = "linear",
-                        year = year,
-                        initial_recycled_mat = 0,
-                        initial_year = scenario_from_yaml['parameters']['initial_year'],
-                        final_year = scenario_from_yaml['parameters']['final_year'],
-                        parameters = parameters,
-                        collection_rate_method = scenario_from_yaml['parameters']['collection_rate_method'],
-                        mrf_equipment_efficiency = mrf_equipment_efficiency,
-                        verbose = 0
-                       )        
-       flow_result = psd.main()
        
-       
+       reg_df_data = pd.read_csv('State_County.csv')
+       reg_df_data = reg_df_data.sample(20)
+              
        # Film Bale
        yr_list = []
        mat_list = []
        value_list = []
        loc_list = []
+       bale_list = []
        df = pd.DataFrame()
+
        
-       outputs = ['film_bale']
-       
-       for o_bales in outputs:
-           for key in flow_result:
-               if key[3] == o_bales:
-                   print(key)
-                   yr_list.append(key[0])
-                   mat_list.append(key[1])
-                   value_list.append(flow_result[key])
-                   loc_list.append(loc)
+       for index,row in reg_df_data.iterrows():
+
+           for mat in recycle_stream_material:
                
+               data_df = pd.read_csv('./input/projected_by_linear_model_to_2050/'+mat+'projected_amounts_to_relog_grouped_2050.csv')
+               data_df = data_df[data_df['State_County'] == row['State_County'] ]
+               for y in year:
+                   if len(data_df) > 1:
+                       logging.warning('Issue with dataframe size')
+                   else:
+                       data_df = data_df.reset_index() 
+                   
+                   flow[(y,mat,'consumer','vacuum')] = float(data_df.loc[0,str(float(y))])
+                   
+                   
+                   
+           scenario = str(pd.unique(parameters['scenario'])[0])
+    
+           reg_df = [row['State_County']]
+           #logging.info(reg_df)
+           #Creating the flow model object
+           psd =  PlasticSD(reg_df = reg_df,
+                            flow = flow,
+                            material = "pet",
+                            recycled_material = "rpet",
+                            statewise_composition_filename = "./input/core_files/waste_composition.csv",
+                            region_composition_filename = scenario_from_yaml['input_filenames']['no_parse']['region_composition_filename'],
+                            demand_model = "linear",
+                            year = year,
+                            initial_recycled_mat = 0,
+                            initial_year = scenario_from_yaml['parameters']['initial_year'],
+                            final_year = scenario_from_yaml['parameters']['final_year'],
+                            parameters = parameters,
+                            collection_rate_method = scenario_from_yaml['parameters']['collection_rate_method'],
+                            mrf_equipment_efficiency = mrf_equipment_efficiency,
+                            verbose = 0
+                           )        
+           flow_result = psd.main()
+       
+
+
+           for o_bales in outputs:
+               for key in flow_result:
+                   if key[3] == o_bales:
+                       yr_list.append(key[0])
+                       mat_list.append(key[1])
+                       value_list.append(flow_result[key])
+                       bale_list.append(o_bales)
+                       loc_list.append(row['State_County'])
+                   
                
        df['location'] = loc_list
        df['year'] = yr_list
-       df['bale'] = o_bales
+       df['bale'] = bale_list
        df['material'] = mat_list
        df['value'] = value_list
        
        
        df.to_csv('bale_output.csv')
        
-       sys.exit(0)
-           
-
-
-
-
-       ###JDS: calculate all flows, costs, circularity indicators, and
-       def __run__():
-
-              #Loading parameters from the parameters files.
-              scenario = str(pd.unique(parameters['scenario'])[0])
-
-
-              #Creating the flow model object
-              psd = PlasticSD(flow = {},
-                              material = "pet",
-                              recycled_material = "rpet",
-                              statewise_composition_filename = "./input/core_files/waste_composition.csv",
-                              region_composition_filename = scenario_from_yaml['input_filenames']['no_parse']['region_composition_filename'],
-                              demand_model = "linear",
-                              year = year,
-                              initial_recycled_mat = 0,
-                              initial_year = scenario_from_yaml['parameters']['initial_year'],
-                              final_year = scenario_from_yaml['parameters']['final_year'],
-                              parameters = parameters,
-                              collection_rate_method = scenario_from_yaml['parameters']['collection_rate_method'],
-                              mrf_equipment_efficiency = mrf_equipment_efficiency,
-                              verbose = 0
-                             )
-
-              #Calculates all flows
-              psd.main()
-
-              #Saving the final flow results and removing the starting year because it has some anomalies.
-              flow_results = psd.final_results[psd.final_results['year'] > scenario_from_yaml['parameters']['initial_year']]
-              #Removing Hawaii because electricity grid information is currently missing
-              for st in scenario_from_yaml['parameters']['states_to_drop']:
-                  flow_results = flow_results[flow_results['region'] != st]
-
-              flow_results.to_csv('chk.csv')
-
-       __run__()
        folder_name = "result_"+"mechanical_recycling"
        try:
          shutil.rmtree(folder_name)
