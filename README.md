@@ -1,5 +1,33 @@
-# tt
+# Team Trash
 
+## TODO
+
+### Vocabs
+- [ ] link to DDS vocabs
+- [ ] link to https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://data.europa.eu/6p8/ewc4-stat/scheme
+
+### Model
+- [ ] Extract model
+
+### Python
+- [ ] Datapackage schema
+
+### Integration
+- [ ] Vocab, model, DP
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----
 [![PyPI](https://img.shields.io/pypi/v/tt.svg)][pypi status]
 [![Status](https://img.shields.io/pypi/status/tt.svg)][pypi status]
 [![Python Version](https://img.shields.io/pypi/pyversions/tt)][pypi status]
