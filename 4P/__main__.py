@@ -17,11 +17,11 @@ if __name__ == '__main__':
        import yaml
 
        scenario_from_yaml = {}
-       with open('./input/options_files/' + sys.argv[2] + '.yaml') as file:
+       with open('./input/options_files/' + 'singleyearanalysis' + '.yaml') as file:
               scenario_from_yaml = yaml.safe_load(file)
 
        # read input parameters file, and define mrf_equipment_efficiency from that
-       parameters = pd.read_csv('./input/scenario_files/'+sys.argv[1]+'.csv')
+       parameters = pd.read_csv('./input/scenario_files/'+'mechanical_recycling'+'.csv')
        mrf_equipment_efficiency = parameters[['year','discreen1 cardboard', 'discreen1 paper', 'discreen2 cardboard',
               'discreen2 film', 'discreen2 paper', 'eddy aluminum', 'eddy glass',
               'glass_breaker glass', 'magnet film', 'magnet iron', 'magnet other',
@@ -103,6 +103,9 @@ if __name__ == '__main__':
               for st in scenario_from_yaml['parameters']['states_to_drop']:
                   flow_results = flow_results[flow_results['region'] != st]
 
+              flow_results.to_csv('chk.csv')
+
+              '''
               #Creating the cost object
               cost = Tea(year = year,
                          flow_df = flow_results,
@@ -247,6 +250,7 @@ if __name__ == '__main__':
               #Creating plots
               ###JDS: if this is uncommented, it needs to be scenario_from_yaml['output_filenames']['total_circ_results'], etc.
               #compare_results(total_circ_results,total_flow_results, combined_lca_results, aggregated_cost_results)
+       '''
 
 
        if scenario_from_yaml['flags']['local_sensitivity_analysis']:
@@ -482,7 +486,7 @@ if __name__ == '__main__':
 
        else:
               __run__()
-              folder_name = "result_"+str(sys.argv[1])
+              folder_name = "result_"+"mechanical_recycling"
               try:
                 shutil.rmtree(folder_name)
               except FileNotFoundError:
