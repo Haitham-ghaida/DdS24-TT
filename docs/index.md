@@ -4,7 +4,7 @@ This is a `Sentier` model of an _material recover facility_ (MRF) in the US cont
 
 The model is a subset of the [CELAVI](https://github.com/NREL/celavi) model by NREL
 
-```mermaid
+```{mermaid}
 flowchart TD
 	MSW-->Vacuum
 	Vacuum--> disc_screen_1[disc screen 1]
