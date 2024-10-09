@@ -1,0 +1,10 @@
+﻿Equipment,Fraction of equipment capacity utilized ,Rated motor capacity (kW),Diesel use(L/t)
+vacuum,0.85,5,0
+disc_screen1,0.85,8.5,0
+disc_screen2,0.85,5.5,0
+glass_breaker,0.85,30,0
+nir_hdpe,0.85,13,0
+nir_pet,0.85,40,0
+magnet,0.85,4,0
+eddy,0.85,9,0
+rolling_stock,0.85,0,10
