@@ -33,6 +33,8 @@ extensions = [
     'sphinx_design',
     # copy button on code blocks
     "sphinx_copybutton",
+    # mermaid support
+    "sphinxcontrib.mermaid"
 ]
 
 napoleon_numpy_docstring = True
