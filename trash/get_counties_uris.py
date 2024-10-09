@@ -1,7 +1,18 @@
 import requests
 import pandas as pd
+import os
 
-def get_counties_in_batches(username):
+def get_counties_in_batches(username:str)->list:
+    """returns a list of all counties in US from the geonames platform, uncluding
+    a unique uri.
+
+    Args:
+        username (str): valid username for the geonames api
+
+    Returns:
+        list: list of counties in US with the associated metadata
+    """
+
     url = 'http://api.geonames.org/searchJSON'
     max_rows = 1000  # maximum
     start_row = 0
@@ -35,9 +46,13 @@ def get_counties_in_batches(username):
     return all_counties
 
 
-if __name__ == "__main__":
+def main():
+    """returns a csv with the uri of each county in USA. It assumes that you've
+    a valid username to use the geonames api and that the value is stored as an
+    environment variable as GEONAMES_USERNAME
+    """
 
-    username = 'tarblaster'
+    username = os.getenv('GEONAMES_USERNAME')
     counties = get_counties_in_batches(username)
 
     # reorganise the data to create a csv with the uris of each pair state - 
@@ -50,3 +65,7 @@ if __name__ == "__main__":
     county_s = pd.Series(county_dict)
     county_s.index.names = ['adminName1','toponymName']
     county_s.rename('uri').to_csv('counties_uris.csv')
+
+if __name__ == "__main__":
+
+    main()
