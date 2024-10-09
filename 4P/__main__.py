@@ -49,6 +49,8 @@ if __name__ == '__main__':
        recycle_stream_material= ['aluminum','cardboard','iron','glass','hdpe','paper','pet','film','other']
            
        outputs = ['vacuum','film_bale','cardboard_bale','glass_bale','pet_bale','hdpe_bale','iron_bale','aluminum_bale']
+       
+       unit_ops = ['vacuum','disc_screen1','glass_breaker','disc_screen2','nir_pet','nir_hdpe','magnet','eddy']
            
        flow = {}
        
@@ -63,7 +65,7 @@ if __name__ == '__main__':
        bale_list = []
        df = pd.DataFrame()
 
-       
+       electricity_df_result = pd.DataFrame()
        for index,row in reg_df_data.iterrows():
 
            for mat in recycle_stream_material:
@@ -113,6 +115,44 @@ if __name__ == '__main__':
                        value_list.append(flow_result[key])
                        bale_list.append(o_bales)
                        loc_list.append(row['State_County'])
+                       
+                       
+           df_energy = pd.read_csv('./input/core_data_files/mrf_electricity.csv') 
+           
+           ops_list = []
+           value_list_elec = []
+           for u in unit_ops:
+               total = 0
+               for key in flow_result:
+                   
+                   if key[3] == u:
+                       total = total + flow_result[key]
+               print(total,u)    
+               ops_list.append(u)
+               value_list_elec.append(total)
+
+            
+
+
+           total_mrf_flow = 0
+           for key in flow_result:
+            
+            if key[3] == 'vacuum':
+                total_mrf_flow = total_mrf_flow + flow_result[key]
+
+           time = total_mrf_flow/30
+           electricty_df = pd.DataFrame()
+           electricty_df['ops_list'] = ops_list
+           electricty_df['total_flow'] = value_list_elec
+           electricty_df['time'] = time 
+           
+           df_energy = df_energy.merge(electricty_df,left_on=['Equipment'],right_on = ['ops_list'])
+           df_energy['electricity kwh'] = df_energy['Rated motor capacity (kW)']/df_energy['Fraction of equipment capacity utilized ']*df_energy['time']
+           df_energy['region'] = row['State_County']
+           electricity_df_result = pd.concat([electricity_df_result,df_energy])
+           
+                      
+           
                    
                
        df['location'] = loc_list
@@ -123,5 +163,9 @@ if __name__ == '__main__':
        
        
        df.to_csv('./output/bale_output.csv')
+       electricity_df_result.to_csv('./output/electricity_output.csv')
        
+
+import pandas as pd
+
 
