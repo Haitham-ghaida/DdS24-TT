@@ -1,0 +1,778 @@
+@prefix mrf: <https://vocab.example.org/mrf-equipment/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen1_aluminum> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen1_aluminum}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen1 aluminum in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen1_aluminum_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen1 aluminum"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen1_cardboard> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen1_cardboard}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen1 cardboard in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen1_cardboard_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen1 cardboard"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen1_film> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen1_film}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen1 film in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen1_film_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen1 film"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen1_glass> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen1_glass}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen1 glass in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen1_glass_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen1 glass"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen1_hdpe> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen1_hdpe}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen1 hdpe in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen1_hdpe_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen1 hdpe"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen1_iron> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen1_iron}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen1 iron in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen1_iron_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen1 iron"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen1_other> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen1_other}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen1 other in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen1_other_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen1 other"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen1_paper> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen1_paper}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen1 paper in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen1_paper_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen1 paper"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen1_pet> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen1_pet}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen1 pet in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen1_pet_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen1 pet"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen2_aluminum> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen2_aluminum}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen2 aluminum in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen2_aluminum_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen2 aluminum"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen2_cardboard> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen2_cardboard}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen2 cardboard in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen2_cardboard_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen2 cardboard"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen2_film> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen2_film}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen2 film in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen2_film_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen2 film"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen2_glass> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen2_glass}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen2 glass in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen2_glass_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen2 glass"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen2_hdpe> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen2_hdpe}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen2 hdpe in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen2_hdpe_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen2 hdpe"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen2_iron> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen2_iron}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen2 iron in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen2_iron_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen2 iron"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen2_other> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen2_other}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen2 other in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen2_other_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen2 other"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen2_paper> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen2_paper}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen2 paper in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen2_paper_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen2 paper"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/disc_screen2_pet> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{disc_screen2_pet}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for disc screen2 pet in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "disc_screen2_pet_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of disc screen2 pet"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/discreen1_cardboard> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{discreen1_cardboard}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for discreen1 cardboard in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "discreen1_cardboard_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of discreen1 cardboard"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/discreen1_paper> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{discreen1_paper}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for discreen1 paper in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "discreen1_paper_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of discreen1 paper"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/discreen2_cardboard> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{discreen2_cardboard}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for discreen2 cardboard in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "discreen2_cardboard_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of discreen2 cardboard"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/discreen2_film> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{discreen2_film}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for discreen2 film in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "discreen2_film_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of discreen2 film"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/discreen2_paper> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{discreen2_paper}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for discreen2 paper in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "discreen2_paper_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of discreen2 paper"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/eddy_aluminum> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{eddy_aluminum}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for eddy aluminum in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "eddy_aluminum_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of eddy aluminum"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/eddy_cardboard> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{eddy_cardboard}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for eddy cardboard in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "eddy_cardboard_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of eddy cardboard"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/eddy_film> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{eddy_film}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for eddy film in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "eddy_film_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of eddy film"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/eddy_glass> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{eddy_glass}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for eddy glass in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "eddy_glass_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of eddy glass"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/eddy_hdpe> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{eddy_hdpe}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for eddy hdpe in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "eddy_hdpe_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of eddy hdpe"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/eddy_iron> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{eddy_iron}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for eddy iron in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "eddy_iron_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of eddy iron"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/eddy_other> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{eddy_other}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for eddy other in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "eddy_other_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of eddy other"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/eddy_paper> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{eddy_paper}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for eddy paper in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "eddy_paper_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of eddy paper"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/eddy_pet> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{eddy_pet}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for eddy pet in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "eddy_pet_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of eddy pet"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/glass_breaker_aluminum> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{glass_breaker_aluminum}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for glass breaker aluminum in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "glass_breaker_aluminum_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of glass breaker aluminum"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/glass_breaker_cardboard> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{glass_breaker_cardboard}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for glass breaker cardboard in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "glass_breaker_cardboard_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of glass breaker cardboard"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/glass_breaker_film> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{glass_breaker_film}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for glass breaker film in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "glass_breaker_film_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of glass breaker film"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/glass_breaker_glass> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{glass_breaker_glass}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for glass breaker glass in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "glass_breaker_glass_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of glass breaker glass"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/glass_breaker_hdpe> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{glass_breaker_hdpe}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for glass breaker hdpe in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "glass_breaker_hdpe_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of glass breaker hdpe"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/glass_breaker_iron> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{glass_breaker_iron}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for glass breaker iron in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "glass_breaker_iron_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of glass breaker iron"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/glass_breaker_other> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{glass_breaker_other}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for glass breaker other in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "glass_breaker_other_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of glass breaker other"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/glass_breaker_paper> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{glass_breaker_paper}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for glass breaker paper in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "glass_breaker_paper_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of glass breaker paper"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/glass_breaker_pet> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{glass_breaker_pet}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for glass breaker pet in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "glass_breaker_pet_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of glass breaker pet"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/magnet_aluminum> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{magnet_aluminum}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for magnet aluminum in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "magnet_aluminum_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of magnet aluminum"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/magnet_cardboard> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{magnet_cardboard}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for magnet cardboard in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "magnet_cardboard_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of magnet cardboard"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/magnet_film> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{magnet_film}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for magnet film in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "magnet_film_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of magnet film"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/magnet_glass> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{magnet_glass}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for magnet glass in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "magnet_glass_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of magnet glass"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/magnet_hdpe> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{magnet_hdpe}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for magnet hdpe in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "magnet_hdpe_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of magnet hdpe"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/magnet_iron> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{magnet_iron}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for magnet iron in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "magnet_iron_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of magnet iron"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/magnet_other> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{magnet_other}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for magnet other in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "magnet_other_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of magnet other"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/magnet_paper> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{magnet_paper}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for magnet paper in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "magnet_paper_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of magnet paper"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/magnet_pet> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{magnet_pet}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for magnet pet in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "magnet_pet_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of magnet pet"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_hdpe_aluminum> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_hdpe_aluminum}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir hdpe aluminum in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_hdpe_aluminum_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir hdpe aluminum"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_hdpe_cardboard> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_hdpe_cardboard}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir hdpe cardboard in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_hdpe_cardboard_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir hdpe cardboard"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_hdpe_film> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_hdpe_film}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir hdpe film in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_hdpe_film_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir hdpe film"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_hdpe_glass> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_hdpe_glass}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir hdpe glass in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_hdpe_glass_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir hdpe glass"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_hdpe_hdpe> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_hdpe_hdpe}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir hdpe hdpe in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_hdpe_hdpe_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir hdpe hdpe"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_hdpe_iron> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_hdpe_iron}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir hdpe iron in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_hdpe_iron_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir hdpe iron"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_hdpe_other> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_hdpe_other}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir hdpe other in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_hdpe_other_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir hdpe other"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_hdpe_paper> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_hdpe_paper}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir hdpe paper in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_hdpe_paper_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir hdpe paper"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_hdpe_pet> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_hdpe_pet}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir hdpe pet in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_hdpe_pet_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir hdpe pet"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_pet_aluminum> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_pet_aluminum}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir pet aluminum in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_pet_aluminum_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir pet aluminum"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_pet_cardboard> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_pet_cardboard}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir pet cardboard in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_pet_cardboard_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir pet cardboard"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_pet_film> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_pet_film}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir pet film in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_pet_film_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir pet film"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_pet_glass> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_pet_glass}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir pet glass in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_pet_glass_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir pet glass"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_pet_hdpe> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_pet_hdpe}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir pet hdpe in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_pet_hdpe_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir pet hdpe"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_pet_iron> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_pet_iron}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir pet iron in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_pet_iron_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir pet iron"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_pet_other> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_pet_other}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir pet other in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_pet_other_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir pet other"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_pet_paper> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_pet_paper}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir pet paper in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_pet_paper_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir pet paper"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/nir_pet_pet> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{nir_pet_pet}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for nir pet pet in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "nir_pet_pet_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of nir pet pet"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/vacuum_aluminum> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{vacuum_aluminum}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for vacuum aluminum in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "vacuum_aluminum_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of vacuum aluminum"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/vacuum_cardboard> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{vacuum_cardboard}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for vacuum cardboard in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "vacuum_cardboard_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of vacuum cardboard"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/vacuum_film> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{vacuum_film}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for vacuum film in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "vacuum_film_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of vacuum film"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/vacuum_glass> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{vacuum_glass}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for vacuum glass in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "vacuum_glass_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of vacuum glass"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/vacuum_hdpe> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{vacuum_hdpe}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for vacuum hdpe in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "vacuum_hdpe_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of vacuum hdpe"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/vacuum_iron> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{vacuum_iron}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for vacuum iron in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "vacuum_iron_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of vacuum iron"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/vacuum_other> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{vacuum_other}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for vacuum other in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "vacuum_other_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of vacuum other"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/vacuum_paper> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{vacuum_paper}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for vacuum paper in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "vacuum_paper_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of vacuum paper"@en .
+
+<https://vocab.example.org/mrf-equipment/unit/vacuum_pet> a skos:Concept ;
+    qudt:hasQuantityKind <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    qudt:informativeReference "https://en.wikipedia.org/wiki/Material_recovery_facility"^^xsd:anyURI ;
+    qudt:latexSymbol "\\eta_{vacuum_pet}"^^qudt:LatexString ;
+    skos:broader <https://vocab.sentier.dev/units/quantity-kind/Efficiency> ;
+    skos:definition "Ratio of output to input for vacuum pet in Material Recovery Facility"@en ;
+    skos:inScheme mrf: ;
+    skos:notation "vacuum_pet_eff"^^qudt:symbol ;
+    skos:prefLabel "Efficiency of vacuum pet"@en .
+
+mrf: a skos:ConceptScheme ;
+    skos:prefLabel "MRF Equipment Efficiency Units"@en .
+
