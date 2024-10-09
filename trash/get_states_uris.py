@@ -1,10 +1,14 @@
-from utils import ask_geonames
+from utils import ask_geonames,verify_uris
 import os
 import pandas as pd
 
 def main():
+    
+    username = os.getenv('GEONAMES_USERNAME','ups!')
+    if username == 'ups!':
+        raise ValueError('the username of geonames could not be found as env variable')
 
-    username = os.getenv('GEONAMES_USERNAME')
+
     params = {
         'formatted': 'true',
         'country': 'US',
@@ -21,7 +25,11 @@ def main():
 
     states_s = pd.Series(state_dict,name='uri')
     states_s.index.name = 'states'
-    states_s.to_csv('states_uris.csv')
+    csv_name = 'states_uris.csv'
+    states_s.to_csv(csv_name)
+
+    verify_uris(csv_name)
+
 
 if __name__ == "__main__":
     main()
