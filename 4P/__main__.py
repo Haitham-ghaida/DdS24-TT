@@ -18,7 +18,7 @@ if __name__ == '__main__':
               scenario_from_yaml = yaml.safe_load(file)
 
        # read input parameters file, and define mrf_equipment_efficiency from that
-       parameters = pd.read_csv('./input/scenario_files/'+'mechanical_recycling'+'.csv')
+       parameters = pd.read_csv('./input/scenario_files/'+'mrf_equipment_efficiency'+'.csv')
        mrf_equipment_efficiency = parameters[['year','discreen1 cardboard', 'discreen1 paper', 'discreen2 cardboard',
               'discreen2 film', 'discreen2 paper', 'eddy aluminum', 'eddy glass',
               'glass_breaker glass', 'magnet film', 'magnet iron', 'magnet other',

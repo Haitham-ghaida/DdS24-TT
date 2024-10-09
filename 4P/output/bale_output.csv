@@ -1,1441 +1,1441 @@
 ,location,year,bale,material,value
-0,Wyoming_Albany,2020,vacuum,aluminum,34.87763450999999
-1,Wyoming_Albany,2020,vacuum,cardboard,1778.7593600099997
-2,Wyoming_Albany,2020,vacuum,iron,20.926580706
-3,Wyoming_Albany,2020,vacuum,glass,174.38817255
-4,Wyoming_Albany,2020,vacuum,hdpe,209.26580706
-5,Wyoming_Albany,2020,vacuum,paper,706.1137987637787
-6,Wyoming_Albany,2020,vacuum,pet,313.8987105899999
-7,Wyoming_Albany,2020,vacuum,film,23.99094142781142
-8,Wyoming_Albany,2020,vacuum,other,10.463290353
-9,Wyoming_Albany,2020,film_bale,aluminum,0.0
-10,Wyoming_Albany,2020,film_bale,cardboard,35.57518720019999
-11,Wyoming_Albany,2020,film_bale,iron,0.0
-12,Wyoming_Albany,2020,film_bale,glass,0.0
-13,Wyoming_Albany,2020,film_bale,hdpe,0.0
-14,Wyoming_Albany,2020,film_bale,paper,14.122275975275574
-15,Wyoming_Albany,2020,film_bale,pet,0.0
-16,Wyoming_Albany,2020,film_bale,film,23.51112259925519
-17,Wyoming_Albany,2020,film_bale,other,0.0
-18,Wyoming_Albany,2020,cardboard_bale,aluminum,0.0
-19,Wyoming_Albany,2020,cardboard_bale,cardboard,1307.3881296073498
-20,Wyoming_Albany,2020,cardboard_bale,iron,0.0
-21,Wyoming_Albany,2020,cardboard_bale,glass,0.0
-22,Wyoming_Albany,2020,cardboard_bale,hdpe,0.0
-23,Wyoming_Albany,2020,cardboard_bale,paper,13.839830455770064
-24,Wyoming_Albany,2020,cardboard_bale,pet,0.0
-25,Wyoming_Albany,2020,cardboard_bale,film,0.0
-26,Wyoming_Albany,2020,cardboard_bale,other,0.0
-27,Wyoming_Albany,2020,glass_bale,aluminum,0.0
-28,Wyoming_Albany,2020,glass_bale,cardboard,0.0
-29,Wyoming_Albany,2020,glass_bale,iron,0.0
-30,Wyoming_Albany,2020,glass_bale,glass,169.1565273735
-31,Wyoming_Albany,2020,glass_bale,hdpe,0.0
-32,Wyoming_Albany,2020,glass_bale,paper,0.0
-33,Wyoming_Albany,2020,glass_bale,pet,0.0
-34,Wyoming_Albany,2020,glass_bale,film,0.0
-35,Wyoming_Albany,2020,glass_bale,other,0.0
-36,Wyoming_Albany,2020,pet_bale,aluminum,1.0463290352999977
-37,Wyoming_Albany,2020,pet_bale,cardboard,21.35400611692006
-38,Wyoming_Albany,2020,pet_bale,iron,0.0
-39,Wyoming_Albany,2020,pet_bale,glass,0.41853161411999995
-40,Wyoming_Albany,2020,pet_bale,hdpe,20.92658070599998
-41,Wyoming_Albany,2020,pet_bale,paper,2.0344550769982064
-42,Wyoming_Albany,2020,pet_bale,pet,285.64782663689994
-43,Wyoming_Albany,2020,pet_bale,film,0.09404449039702084
-44,Wyoming_Albany,2020,pet_bale,other,0.5231645176500006
-45,Wyoming_Albany,2020,hdpe_bale,aluminum,1.0149391642409995
-46,Wyoming_Albany,2020,hdpe_bale,cardboard,20.286305811074044
-47,Wyoming_Albany,2020,hdpe_bale,iron,0.0
-48,Wyoming_Albany,2020,hdpe_bale,glass,0.3850490849904
-49,Wyoming_Albany,2020,hdpe_bale,hdpe,131.8374584478
-50,Wyoming_Albany,2020,hdpe_bale,paper,1.9327323231482936
-51,Wyoming_Albany,2020,hdpe_bale,pet,0.28250883953100114
-52,Wyoming_Albany,2020,hdpe_bale,film,0.07523559231761667
-53,Wyoming_Albany,2020,hdpe_bale,other,0.4970062917674998
-54,Wyoming_Albany,2020,iron_bale,aluminum,0.0
-55,Wyoming_Albany,2020,iron_bale,cardboard,0.0
-56,Wyoming_Albany,2020,iron_bale,iron,1.0463290353
-57,Wyoming_Albany,2020,iron_bale,glass,0.0
-58,Wyoming_Albany,2020,iron_bale,hdpe,0.0
-59,Wyoming_Albany,2020,iron_bale,paper,0.0
-60,Wyoming_Albany,2020,iron_bale,pet,0.0
-61,Wyoming_Albany,2020,iron_bale,film,0.0030094236927046677
-62,Wyoming_Albany,2020,iron_bale,other,0.0
-63,Wyoming_Albany,2020,aluminum_bale,aluminum,27.065044379759996
-64,Wyoming_Albany,2020,aluminum_bale,cardboard,0.0
-65,Wyoming_Albany,2020,aluminum_bale,iron,0.0
-66,Wyoming_Albany,2020,aluminum_bale,glass,2.4065567811900026
-67,Wyoming_Albany,2020,aluminum_bale,hdpe,0.0
-68,Wyoming_Albany,2020,aluminum_bale,paper,0.0
-69,Wyoming_Albany,2020,aluminum_bale,pet,0.0
-70,Wyoming_Albany,2020,aluminum_bale,film,0.0
-71,Wyoming_Albany,2020,aluminum_bale,other,0.0
-72,Illinois_Kendall,2020,vacuum,aluminum,103.29571284
-73,Illinois_Kendall,2020,vacuum,cardboard,5061.48992916
-74,Illinois_Kendall,2020,vacuum,iron,185.932283112
-75,Illinois_Kendall,2020,vacuum,glass,826.36570272
-76,Illinois_Kendall,2020,vacuum,hdpe,826.36570272
-77,Illinois_Kendall,2020,vacuum,paper,1116.7481945690847
-78,Illinois_Kendall,2020,vacuum,pet,1136.2528412399995
-79,Illinois_Kendall,2020,vacuum,film,12.372686111061954
-80,Illinois_Kendall,2020,vacuum,other,30.988713852
-81,Illinois_Kendall,2020,film_bale,aluminum,0.0
-82,Illinois_Kendall,2020,film_bale,cardboard,101.22979858320001
-83,Illinois_Kendall,2020,film_bale,iron,0.0
-84,Illinois_Kendall,2020,film_bale,glass,0.0
-85,Illinois_Kendall,2020,film_bale,hdpe,0.0
-86,Illinois_Kendall,2020,film_bale,paper,22.334963891381694
-87,Illinois_Kendall,2020,film_bale,pet,0.0
-88,Illinois_Kendall,2020,film_bale,film,12.125232388840715
-89,Illinois_Kendall,2020,film_bale,other,0.0
-90,Illinois_Kendall,2020,cardboard_bale,aluminum,0.0
-91,Illinois_Kendall,2020,cardboard_bale,cardboard,3720.1950979326
-92,Illinois_Kendall,2020,cardboard_bale,iron,0.0
-93,Illinois_Kendall,2020,cardboard_bale,glass,0.0
-94,Illinois_Kendall,2020,cardboard_bale,hdpe,0.0
-95,Illinois_Kendall,2020,cardboard_bale,paper,21.88826461355406
-96,Illinois_Kendall,2020,cardboard_bale,pet,0.0
-97,Illinois_Kendall,2020,cardboard_bale,film,0.0
-98,Illinois_Kendall,2020,cardboard_bale,other,0.0
-99,Illinois_Kendall,2020,glass_bale,aluminum,0.0
-100,Illinois_Kendall,2020,glass_bale,cardboard,0.0
-101,Illinois_Kendall,2020,glass_bale,iron,0.0
-102,Illinois_Kendall,2020,glass_bale,glass,801.5747316384
-103,Illinois_Kendall,2020,glass_bale,hdpe,0.0
-104,Illinois_Kendall,2020,glass_bale,paper,0.0
-105,Illinois_Kendall,2020,glass_bale,pet,0.0
-106,Illinois_Kendall,2020,glass_bale,film,0.0
-107,Illinois_Kendall,2020,glass_bale,other,0.0
-108,Illinois_Kendall,2020,pet_bale,aluminum,3.098871385199999
-109,Illinois_Kendall,2020,pet_bale,cardboard,60.76318659956587
-110,Illinois_Kendall,2020,pet_bale,iron,0.0
-111,Illinois_Kendall,2020,pet_bale,glass,1.9832776865280017
-112,Illinois_Kendall,2020,pet_bale,hdpe,82.63657027199997
-113,Illinois_Kendall,2020,pet_bale,paper,3.217574898192453
-114,Illinois_Kendall,2020,pet_bale,pet,1033.9900855283995
-115,Illinois_Kendall,2020,pet_bale,film,0.04850092955536289
-116,Illinois_Kendall,2020,pet_bale,other,1.549435692600003
-117,Illinois_Kendall,2020,hdpe_bale,aluminum,3.0059052436440084
-118,Illinois_Kendall,2020,hdpe_bale,cardboard,57.7250272695876
-119,Illinois_Kendall,2020,hdpe_bale,iron,0.0
-120,Illinois_Kendall,2020,hdpe_bale,glass,1.8246154716057603
-121,Illinois_Kendall,2020,hdpe_bale,hdpe,520.6103927135999
-122,Illinois_Kendall,2020,hdpe_bale,paper,3.0566961532828287
-123,Illinois_Kendall,2020,hdpe_bale,pet,1.022627557115996
-124,Illinois_Kendall,2020,hdpe_bale,film,0.038800743644290314
-125,Illinois_Kendall,2020,hdpe_bale,other,1.4719639079700002
-126,Illinois_Kendall,2020,iron_bale,aluminum,0.0
-127,Illinois_Kendall,2020,iron_bale,cardboard,0.0
-128,Illinois_Kendall,2020,iron_bale,iron,9.2966141556
-129,Illinois_Kendall,2020,iron_bale,glass,0.0
-130,Illinois_Kendall,2020,iron_bale,hdpe,0.0
-131,Illinois_Kendall,2020,iron_bale,paper,0.0
-132,Illinois_Kendall,2020,iron_bale,pet,0.0
-133,Illinois_Kendall,2020,iron_bale,film,0.0015520297457716128
-134,Illinois_Kendall,2020,iron_bale,other,0.0
-135,Illinois_Kendall,2020,aluminum_bale,aluminum,80.15747316384
-136,Illinois_Kendall,2020,aluminum_bale,cardboard,0.0
-137,Illinois_Kendall,2020,aluminum_bale,iron,0.0
-138,Illinois_Kendall,2020,aluminum_bale,glass,11.403846697536009
-139,Illinois_Kendall,2020,aluminum_bale,hdpe,0.0
-140,Illinois_Kendall,2020,aluminum_bale,paper,0.0
-141,Illinois_Kendall,2020,aluminum_bale,pet,0.0
-142,Illinois_Kendall,2020,aluminum_bale,film,0.0
-143,Illinois_Kendall,2020,aluminum_bale,other,0.0
-144,Indiana_Fayette,2020,vacuum,aluminum,21.06846444
-145,Indiana_Fayette,2020,vacuum,cardboard,948.0808998
-146,Indiana_Fayette,2020,vacuum,iron,37.923235992
-147,Indiana_Fayette,2020,vacuum,glass,231.75310884
-148,Indiana_Fayette,2020,vacuum,hdpe,147.47925108
-149,Indiana_Fayette,2020,vacuum,paper,521.5564952683322
-150,Indiana_Fayette,2020,vacuum,pet,210.6846444
-151,Indiana_Fayette,2020,vacuum,film,16.645061871860424
-152,Indiana_Fayette,2020,vacuum,other,16.854771552
-153,Indiana_Fayette,2020,film_bale,aluminum,0.0
-154,Indiana_Fayette,2020,film_bale,cardboard,18.961617996
-155,Indiana_Fayette,2020,film_bale,iron,0.0
-156,Indiana_Fayette,2020,film_bale,glass,0.0
-157,Indiana_Fayette,2020,film_bale,hdpe,0.0
-158,Indiana_Fayette,2020,film_bale,paper,10.431129905366644
-159,Indiana_Fayette,2020,film_bale,pet,0.0
-160,Indiana_Fayette,2020,film_bale,film,16.312160634423215
-161,Indiana_Fayette,2020,film_bale,other,0.0
-162,Indiana_Fayette,2020,cardboard_bale,aluminum,0.0
-163,Indiana_Fayette,2020,cardboard_bale,cardboard,696.839461353
-164,Indiana_Fayette,2020,cardboard_bale,iron,0.0
-165,Indiana_Fayette,2020,cardboard_bale,glass,0.0
-166,Indiana_Fayette,2020,cardboard_bale,hdpe,0.0
-167,Indiana_Fayette,2020,cardboard_bale,paper,10.222507307259312
-168,Indiana_Fayette,2020,cardboard_bale,pet,0.0
-169,Indiana_Fayette,2020,cardboard_bale,film,0.0
-170,Indiana_Fayette,2020,cardboard_bale,other,0.0
-171,Indiana_Fayette,2020,glass_bale,aluminum,0.0
-172,Indiana_Fayette,2020,glass_bale,cardboard,0.0
-173,Indiana_Fayette,2020,glass_bale,iron,0.0
-174,Indiana_Fayette,2020,glass_bale,glass,224.80051557480002
-175,Indiana_Fayette,2020,glass_bale,hdpe,0.0
-176,Indiana_Fayette,2020,glass_bale,paper,0.0
-177,Indiana_Fayette,2020,glass_bale,pet,0.0
-178,Indiana_Fayette,2020,glass_bale,film,0.0
-179,Indiana_Fayette,2020,glass_bale,other,0.0
-180,Indiana_Fayette,2020,pet_bale,aluminum,0.6320539332000017
-181,Indiana_Fayette,2020,pet_bale,cardboard,11.381711202099012
-182,Indiana_Fayette,2020,pet_bale,iron,0.0
-183,Indiana_Fayette,2020,pet_bale,glass,0.5562074612160002
-184,Indiana_Fayette,2020,pet_bale,hdpe,14.747925108000004
-185,Indiana_Fayette,2020,pet_bale,paper,1.502708574167123
-186,Indiana_Fayette,2020,pet_bale,pet,191.723026404
-187,Indiana_Fayette,2020,pet_bale,film,0.06524864253769291
-188,Indiana_Fayette,2020,pet_bale,other,0.8427385776000023
-189,Indiana_Fayette,2020,hdpe_bale,aluminum,0.6130923152039998
-190,Indiana_Fayette,2020,hdpe_bale,cardboard,10.81262564199406
-191,Indiana_Fayette,2020,hdpe_bale,iron,0.0
-192,Indiana_Fayette,2020,hdpe_bale,glass,0.5117108643187205
-193,Indiana_Fayette,2020,hdpe_bale,hdpe,92.9119281804
-194,Indiana_Fayette,2020,hdpe_bale,paper,1.4275731454587657
-195,Indiana_Fayette,2020,hdpe_bale,pet,0.18961617996000157
-196,Indiana_Fayette,2020,hdpe_bale,film,0.052198914030154336
-197,Indiana_Fayette,2020,hdpe_bale,other,0.8006016487200007
-198,Indiana_Fayette,2020,iron_bale,aluminum,0.0
-199,Indiana_Fayette,2020,iron_bale,cardboard,0.0
-200,Indiana_Fayette,2020,iron_bale,iron,1.8961617996000002
-201,Indiana_Fayette,2020,iron_bale,glass,0.0
-202,Indiana_Fayette,2020,iron_bale,hdpe,0.0
-203,Indiana_Fayette,2020,iron_bale,paper,0.0
-204,Indiana_Fayette,2020,iron_bale,pet,0.0
-205,Indiana_Fayette,2020,iron_bale,film,0.0020879565612061737
-206,Indiana_Fayette,2020,iron_bale,other,0.0
-207,Indiana_Fayette,2020,aluminum_bale,aluminum,16.34912840544
-208,Indiana_Fayette,2020,aluminum_bale,cardboard,0.0
-209,Indiana_Fayette,2020,aluminum_bale,iron,0.0
-210,Indiana_Fayette,2020,aluminum_bale,glass,3.198192901992003
-211,Indiana_Fayette,2020,aluminum_bale,hdpe,0.0
-212,Indiana_Fayette,2020,aluminum_bale,paper,0.0
-213,Indiana_Fayette,2020,aluminum_bale,pet,0.0
-214,Indiana_Fayette,2020,aluminum_bale,film,0.0
-215,Indiana_Fayette,2020,aluminum_bale,other,0.0
-216,Texas_Terrell,2020,vacuum,aluminum,0.7801790999999999
-217,Texas_Terrell,2020,vacuum,cardboard,31.9873431
-218,Texas_Terrell,2020,vacuum,iron,0.9362149199999996
-219,Texas_Terrell,2020,vacuum,glass,2.3405373
-220,Texas_Terrell,2020,vacuum,hdpe,7.021611899999999
-221,Texas_Terrell,2020,vacuum,paper,8.725879174951984
-222,Texas_Terrell,2020,vacuum,pet,7.021611899999999
-223,Texas_Terrell,2020,vacuum,film,0.2774635598365931
-224,Texas_Terrell,2020,vacuum,other,0.6241432799999999
-225,Texas_Terrell,2020,film_bale,aluminum,0.0
-226,Texas_Terrell,2020,film_bale,cardboard,0.639746862
-227,Texas_Terrell,2020,film_bale,iron,0.0
-228,Texas_Terrell,2020,film_bale,glass,0.0
-229,Texas_Terrell,2020,film_bale,hdpe,0.0
-230,Texas_Terrell,2020,film_bale,paper,0.1745175834990397
-231,Texas_Terrell,2020,film_bale,pet,0.0
-232,Texas_Terrell,2020,film_bale,film,0.2719142886398612
-233,Texas_Terrell,2020,film_bale,other,0.0
-234,Texas_Terrell,2020,cardboard_bale,aluminum,0.0
-235,Texas_Terrell,2020,cardboard_bale,cardboard,23.510697178500003
-236,Texas_Terrell,2020,cardboard_bale,iron,0.0
-237,Texas_Terrell,2020,cardboard_bale,glass,0.0
-238,Texas_Terrell,2020,cardboard_bale,hdpe,0.0
-239,Texas_Terrell,2020,cardboard_bale,paper,0.1710272318290589
-240,Texas_Terrell,2020,cardboard_bale,pet,0.0
-241,Texas_Terrell,2020,cardboard_bale,film,0.0
-242,Texas_Terrell,2020,cardboard_bale,other,0.0
-243,Texas_Terrell,2020,glass_bale,aluminum,0.0
-244,Texas_Terrell,2020,glass_bale,cardboard,0.0
-245,Texas_Terrell,2020,glass_bale,iron,0.0
-246,Texas_Terrell,2020,glass_bale,glass,2.270321181
-247,Texas_Terrell,2020,glass_bale,hdpe,0.0
-248,Texas_Terrell,2020,glass_bale,paper,0.0
-249,Texas_Terrell,2020,glass_bale,pet,0.0
-250,Texas_Terrell,2020,glass_bale,film,0.0
-251,Texas_Terrell,2020,glass_bale,other,0.0
-252,Texas_Terrell,2020,pet_bale,aluminum,0.023405373000000007
-253,Texas_Terrell,2020,pet_bale,cardboard,0.3840080539155002
-254,Texas_Terrell,2020,pet_bale,iron,0.0
-255,Texas_Terrell,2020,pet_bale,glass,0.005617289519999999
-256,Texas_Terrell,2020,pet_bale,hdpe,0.70216119
-257,Texas_Terrell,2020,pet_bale,paper,0.025141003078871682
-258,Texas_Terrell,2020,pet_bale,pet,6.389666828999999
-259,Texas_Terrell,2020,pet_bale,film,0.0010876571545594457
-260,Texas_Terrell,2020,pet_bale,other,0.03120716400000001
-261,Texas_Terrell,2020,hdpe_bale,aluminum,0.022703211810000012
-262,Texas_Terrell,2020,hdpe_bale,cardboard,0.36480765121972514
-263,Texas_Terrell,2020,hdpe_bale,iron,0.0
-264,Texas_Terrell,2020,hdpe_bale,glass,0.005167906358400004
-265,Texas_Terrell,2020,hdpe_bale,hdpe,4.423615496999999
-266,Texas_Terrell,2020,hdpe_bale,paper,0.02388395292492812
-267,Texas_Terrell,2020,hdpe_bale,pet,0.006319450709999952
-268,Texas_Terrell,2020,hdpe_bale,film,0.0008701257236475566
-269,Texas_Terrell,2020,hdpe_bale,other,0.02964680580000001
-270,Texas_Terrell,2020,iron_bale,aluminum,0.0
-271,Texas_Terrell,2020,iron_bale,cardboard,0.0
-272,Texas_Terrell,2020,iron_bale,iron,0.046810745999999986
-273,Texas_Terrell,2020,iron_bale,glass,0.0
-274,Texas_Terrell,2020,iron_bale,hdpe,0.0
-275,Texas_Terrell,2020,iron_bale,paper,0.0
-276,Texas_Terrell,2020,iron_bale,pet,0.0
-277,Texas_Terrell,2020,iron_bale,film,3.480502894590227e-05
-278,Texas_Terrell,2020,iron_bale,other,0.0
-279,Texas_Terrell,2020,aluminum_bale,aluminum,0.6054189816
-280,Texas_Terrell,2020,aluminum_bale,cardboard,0.0
-281,Texas_Terrell,2020,aluminum_bale,iron,0.0
-282,Texas_Terrell,2020,aluminum_bale,glass,0.03229941474000003
-283,Texas_Terrell,2020,aluminum_bale,hdpe,0.0
-284,Texas_Terrell,2020,aluminum_bale,paper,0.0
-285,Texas_Terrell,2020,aluminum_bale,pet,0.0
-286,Texas_Terrell,2020,aluminum_bale,film,0.0
-287,Texas_Terrell,2020,aluminum_bale,other,0.0
-288,Kentucky_Harrison,2020,vacuum,aluminum,16.668617189999996
-289,Kentucky_Harrison,2020,vacuum,cardboard,616.7388360299999
-290,Kentucky_Harrison,2020,vacuum,iron,10.001170313999998
-291,Kentucky_Harrison,2020,vacuum,glass,100.01170314
-292,Kentucky_Harrison,2020,vacuum,hdpe,83.34308594999999
-293,Kentucky_Harrison,2020,vacuum,paper,310.30557707989067
-294,Kentucky_Harrison,2020,vacuum,pet,200.02340628
-295,Kentucky_Harrison,2020,vacuum,film,7.052423008356918
-296,Kentucky_Harrison,2020,vacuum,other,5.000585157
-297,Kentucky_Harrison,2020,film_bale,aluminum,0.0
-298,Kentucky_Harrison,2020,film_bale,cardboard,12.334776720599999
-299,Kentucky_Harrison,2020,film_bale,iron,0.0
-300,Kentucky_Harrison,2020,film_bale,glass,0.0
-301,Kentucky_Harrison,2020,film_bale,hdpe,0.0
-302,Kentucky_Harrison,2020,film_bale,paper,6.206111541597814
-303,Kentucky_Harrison,2020,film_bale,pet,0.0
-304,Kentucky_Harrison,2020,film_bale,film,6.911374548189779
-305,Kentucky_Harrison,2020,film_bale,other,0.0
-306,Kentucky_Harrison,2020,cardboard_bale,aluminum,0.0
-307,Kentucky_Harrison,2020,cardboard_bale,cardboard,453.3030444820499
-308,Kentucky_Harrison,2020,cardboard_bale,iron,0.0
-309,Kentucky_Harrison,2020,cardboard_bale,glass,0.0
-310,Kentucky_Harrison,2020,cardboard_bale,hdpe,0.0
-311,Kentucky_Harrison,2020,cardboard_bale,paper,6.081989310765858
-312,Kentucky_Harrison,2020,cardboard_bale,pet,0.0
-313,Kentucky_Harrison,2020,cardboard_bale,film,0.0
-314,Kentucky_Harrison,2020,cardboard_bale,other,0.0
-315,Kentucky_Harrison,2020,glass_bale,aluminum,0.0
-316,Kentucky_Harrison,2020,glass_bale,cardboard,0.0
-317,Kentucky_Harrison,2020,glass_bale,iron,0.0
-318,Kentucky_Harrison,2020,glass_bale,glass,97.0113520458
-319,Kentucky_Harrison,2020,glass_bale,hdpe,0.0
-320,Kentucky_Harrison,2020,glass_bale,paper,0.0
-321,Kentucky_Harrison,2020,glass_bale,pet,0.0
-322,Kentucky_Harrison,2020,glass_bale,film,0.0
-323,Kentucky_Harrison,2020,glass_bale,other,0.0
-324,Kentucky_Harrison,2020,pet_bale,aluminum,0.500058515700001
-325,Kentucky_Harrison,2020,pet_bale,cardboard,7.403949726540162
-326,Kentucky_Harrison,2020,pet_bale,iron,0.0
-327,Kentucky_Harrison,2020,pet_bale,glass,0.2400280875359999
-328,Kentucky_Harrison,2020,pet_bale,hdpe,8.334308594999996
-329,Kentucky_Harrison,2020,pet_bale,paper,0.8940524286825813
-330,Kentucky_Harrison,2020,pet_bale,pet,182.0212997148
-331,Kentucky_Harrison,2020,pet_bale,film,0.027645498192759133
-332,Kentucky_Harrison,2020,pet_bale,other,0.2500292578500005
-333,Kentucky_Harrison,2020,hdpe_bale,aluminum,0.4850567602289999
-334,Kentucky_Harrison,2020,hdpe_bale,cardboard,7.033752240213147
-335,Kentucky_Harrison,2020,hdpe_bale,iron,0.0
-336,Kentucky_Harrison,2020,hdpe_bale,glass,0.22082584053312004
-337,Kentucky_Harrison,2020,hdpe_bale,hdpe,52.50614414849999
-338,Kentucky_Harrison,2020,hdpe_bale,paper,0.8493498072484549
-339,Kentucky_Harrison,2020,hdpe_bale,pet,0.18002106565199938
-340,Kentucky_Harrison,2020,hdpe_bale,film,0.022116398554207314
-341,Kentucky_Harrison,2020,hdpe_bale,other,0.23752779495749987
-342,Kentucky_Harrison,2020,iron_bale,aluminum,0.0
-343,Kentucky_Harrison,2020,iron_bale,cardboard,0.0
-344,Kentucky_Harrison,2020,iron_bale,iron,0.5000585156999999
-345,Kentucky_Harrison,2020,iron_bale,glass,0.0
-346,Kentucky_Harrison,2020,iron_bale,hdpe,0.0
-347,Kentucky_Harrison,2020,iron_bale,paper,0.0
-348,Kentucky_Harrison,2020,iron_bale,pet,0.0
-349,Kentucky_Harrison,2020,iron_bale,film,0.0008846559421682927
-350,Kentucky_Harrison,2020,iron_bale,other,0.0
-351,Kentucky_Harrison,2020,aluminum_bale,aluminum,12.934846939439996
-352,Kentucky_Harrison,2020,aluminum_bale,cardboard,0.0
-353,Kentucky_Harrison,2020,aluminum_bale,iron,0.0
-354,Kentucky_Harrison,2020,aluminum_bale,glass,1.3801615033320014
-355,Kentucky_Harrison,2020,aluminum_bale,hdpe,0.0
-356,Kentucky_Harrison,2020,aluminum_bale,paper,0.0
-357,Kentucky_Harrison,2020,aluminum_bale,pet,0.0
-358,Kentucky_Harrison,2020,aluminum_bale,film,0.0
-359,Kentucky_Harrison,2020,aluminum_bale,other,0.0
-360,South Dakota_Campbell,2020,vacuum,aluminum,1.1049513299999998
-361,South Dakota_Campbell,2020,vacuum,cardboard,54.14261517
-362,South Dakota_Campbell,2020,vacuum,iron,1.3259415959999996
-363,South Dakota_Campbell,2020,vacuum,glass,17.679221279999997
-364,South Dakota_Campbell,2020,vacuum,hdpe,7.734659309999999
-365,South Dakota_Campbell,2020,vacuum,paper,9.072285515490796
-366,South Dakota_Campbell,2020,vacuum,pet,9.94456197
-367,South Dakota_Campbell,2020,vacuum,film,0.470884699702664
-368,South Dakota_Campbell,2020,vacuum,other,0.441980532
-369,South Dakota_Campbell,2020,film_bale,aluminum,0.0
-370,South Dakota_Campbell,2020,film_bale,cardboard,1.0828523034
-371,South Dakota_Campbell,2020,film_bale,iron,0.0
-372,South Dakota_Campbell,2020,film_bale,glass,0.0
-373,South Dakota_Campbell,2020,film_bale,hdpe,0.0
-374,South Dakota_Campbell,2020,film_bale,paper,0.1814457103098159
-375,South Dakota_Campbell,2020,film_bale,pet,0.0
-376,South Dakota_Campbell,2020,film_bale,film,0.4614670057086107
-377,South Dakota_Campbell,2020,film_bale,other,0.0
-378,South Dakota_Campbell,2020,cardboard_bale,aluminum,0.0
-379,South Dakota_Campbell,2020,cardboard_bale,cardboard,39.794822149949994
-380,South Dakota_Campbell,2020,cardboard_bale,iron,0.0
-381,South Dakota_Campbell,2020,cardboard_bale,glass,0.0
-382,South Dakota_Campbell,2020,cardboard_bale,hdpe,0.0
-383,South Dakota_Campbell,2020,cardboard_bale,paper,0.17781679610361958
-384,South Dakota_Campbell,2020,cardboard_bale,pet,0.0
-385,South Dakota_Campbell,2020,cardboard_bale,film,0.0
-386,South Dakota_Campbell,2020,cardboard_bale,other,0.0
-387,South Dakota_Campbell,2020,glass_bale,aluminum,0.0
-388,South Dakota_Campbell,2020,glass_bale,cardboard,0.0
-389,South Dakota_Campbell,2020,glass_bale,iron,0.0
-390,South Dakota_Campbell,2020,glass_bale,glass,17.148844641599997
-391,South Dakota_Campbell,2020,glass_bale,hdpe,0.0
-392,South Dakota_Campbell,2020,glass_bale,paper,0.0
-393,South Dakota_Campbell,2020,glass_bale,pet,0.0
-394,South Dakota_Campbell,2020,glass_bale,film,0.0
-395,South Dakota_Campbell,2020,glass_bale,other,0.0
-396,South Dakota_Campbell,2020,pet_bale,aluminum,0.033148539899999996
-397,South Dakota_Campbell,2020,pet_bale,cardboard,0.6499820951158508
-398,South Dakota_Campbell,2020,pet_bale,iron,0.0
-399,South Dakota_Campbell,2020,pet_bale,glass,0.042430131072
-400,South Dakota_Campbell,2020,pet_bale,hdpe,0.7734659309999996
-401,South Dakota_Campbell,2020,pet_bale,paper,0.02613906902723212
-402,South Dakota_Campbell,2020,pet_bale,pet,9.049551392700002
-403,South Dakota_Campbell,2020,pet_bale,film,0.001845868022834444
-404,South Dakota_Campbell,2020,pet_bale,other,0.022099026600000016
-405,South Dakota_Campbell,2020,hdpe_bale,aluminum,0.0321540837030001
-406,South Dakota_Campbell,2020,hdpe_bale,cardboard,0.6174829903600578
-407,South Dakota_Campbell,2020,hdpe_bale,iron,0.0
-408,South Dakota_Campbell,2020,hdpe_bale,glass,0.03903572058624
-409,South Dakota_Campbell,2020,hdpe_bale,hdpe,4.8728353652999985
-410,South Dakota_Campbell,2020,hdpe_bale,paper,0.024832115575870506
-411,South Dakota_Campbell,2020,hdpe_bale,pet,0.008950105773000039
-412,South Dakota_Campbell,2020,hdpe_bale,film,0.0014766944182675558
-413,South Dakota_Campbell,2020,hdpe_bale,other,0.020994075270000023
-414,South Dakota_Campbell,2020,iron_bale,aluminum,0.0
-415,South Dakota_Campbell,2020,iron_bale,cardboard,0.0
-416,South Dakota_Campbell,2020,iron_bale,iron,0.06629707979999998
-417,South Dakota_Campbell,2020,iron_bale,glass,0.0
-418,South Dakota_Campbell,2020,iron_bale,hdpe,0.0
-419,South Dakota_Campbell,2020,iron_bale,paper,0.0
-420,South Dakota_Campbell,2020,iron_bale,pet,0.0
-421,South Dakota_Campbell,2020,iron_bale,film,5.906777673070223e-05
-422,South Dakota_Campbell,2020,iron_bale,other,0.0
-423,South Dakota_Campbell,2020,aluminum_bale,aluminum,0.8574422320799999
-424,South Dakota_Campbell,2020,aluminum_bale,cardboard,0.0
-425,South Dakota_Campbell,2020,aluminum_bale,iron,0.0
-426,South Dakota_Campbell,2020,aluminum_bale,glass,0.2439732536640002
-427,South Dakota_Campbell,2020,aluminum_bale,hdpe,0.0
-428,South Dakota_Campbell,2020,aluminum_bale,paper,0.0
-429,South Dakota_Campbell,2020,aluminum_bale,pet,0.0
-430,South Dakota_Campbell,2020,aluminum_bale,film,0.0
-431,South Dakota_Campbell,2020,aluminum_bale,other,0.0
-432,North Carolina_Person,2020,vacuum,aluminum,21.909424935
-433,North Carolina_Person,2020,vacuum,cardboard,1643.2068701249998
-434,North Carolina_Person,2020,vacuum,iron,26.291309922
-435,North Carolina_Person,2020,vacuum,glass,219.09424935
-436,North Carolina_Person,2020,vacuum,hdpe,109.54712467499998
-437,North Carolina_Person,2020,vacuum,paper,236.5677983403212
-438,North Carolina_Person,2020,vacuum,pet,219.09424935
-439,North Carolina_Person,2020,vacuum,film,8.279707871921897
-440,North Carolina_Person,2020,vacuum,other,6.572827480500001
-441,North Carolina_Person,2020,film_bale,aluminum,0.0
-442,North Carolina_Person,2020,film_bale,cardboard,32.8641374025
-443,North Carolina_Person,2020,film_bale,iron,0.0
-444,North Carolina_Person,2020,film_bale,glass,0.0
-445,North Carolina_Person,2020,film_bale,hdpe,0.0
-446,North Carolina_Person,2020,film_bale,paper,4.731355966806424
-447,North Carolina_Person,2020,film_bale,pet,0.0
-448,North Carolina_Person,2020,film_bale,film,8.114113714483459
-449,North Carolina_Person,2020,film_bale,other,0.0
-450,North Carolina_Person,2020,cardboard_bale,aluminum,0.0
-451,North Carolina_Person,2020,cardboard_bale,cardboard,1207.7570495418747
-452,North Carolina_Person,2020,cardboard_bale,iron,0.0
-453,North Carolina_Person,2020,cardboard_bale,glass,0.0
-454,North Carolina_Person,2020,cardboard_bale,hdpe,0.0
-455,North Carolina_Person,2020,cardboard_bale,paper,4.6367288474702955
-456,North Carolina_Person,2020,cardboard_bale,pet,0.0
-457,North Carolina_Person,2020,cardboard_bale,film,0.0
-458,North Carolina_Person,2020,cardboard_bale,other,0.0
-459,North Carolina_Person,2020,glass_bale,aluminum,0.0
-460,North Carolina_Person,2020,glass_bale,cardboard,0.0
-461,North Carolina_Person,2020,glass_bale,iron,0.0
-462,North Carolina_Person,2020,glass_bale,glass,212.52142186950002
-463,North Carolina_Person,2020,glass_bale,hdpe,0.0
-464,North Carolina_Person,2020,glass_bale,paper,0.0
-465,North Carolina_Person,2020,glass_bale,pet,0.0
-466,North Carolina_Person,2020,glass_bale,film,0.0
-467,North Carolina_Person,2020,glass_bale,other,0.0
-468,North Carolina_Person,2020,pet_bale,aluminum,0.657282748050001
-469,North Carolina_Person,2020,pet_bale,cardboard,19.72669847585064
-470,North Carolina_Person,2020,pet_bale,iron,0.0
-471,North Carolina_Person,2020,pet_bale,glass,0.5258261984399999
-472,North Carolina_Person,2020,pet_bale,hdpe,10.954712467500002
-473,North Carolina_Person,2020,pet_bale,paper,0.6815991405781343
-474,North Carolina_Person,2020,pet_bale,pet,199.37576690850003
-475,North Carolina_Person,2020,pet_bale,film,0.03245645485793386
-476,North Carolina_Person,2020,pet_bale,other,0.3286413740250005
-477,North Carolina_Person,2020,hdpe_bale,aluminum,0.6375642656084999
-478,North Carolina_Person,2020,hdpe_bale,cardboard,18.740363552058113
-479,North Carolina_Person,2020,hdpe_bale,iron,0.0
-480,North Carolina_Person,2020,hdpe_bale,glass,0.4837601025648004
-481,North Carolina_Person,2020,hdpe_bale,hdpe,69.01468854524998
-482,North Carolina_Person,2020,hdpe_bale,paper,0.6475191835492282
-483,North Carolina_Person,2020,hdpe_bale,pet,0.1971848244150003
-484,North Carolina_Person,2020,hdpe_bale,film,0.025965163886347092
-485,North Carolina_Person,2020,hdpe_bale,other,0.31220930532375046
-486,North Carolina_Person,2020,iron_bale,aluminum,0.0
-487,North Carolina_Person,2020,iron_bale,cardboard,0.0
-488,North Carolina_Person,2020,iron_bale,iron,1.3145654961000002
-489,North Carolina_Person,2020,iron_bale,glass,0.0
-490,North Carolina_Person,2020,iron_bale,hdpe,0.0
-491,North Carolina_Person,2020,iron_bale,paper,0.0
-492,North Carolina_Person,2020,iron_bale,pet,0.0
-493,North Carolina_Person,2020,iron_bale,film,0.0010386065554538837
-494,North Carolina_Person,2020,iron_bale,other,0.0
-495,North Carolina_Person,2020,aluminum_bale,aluminum,17.00171374956
-496,North Carolina_Person,2020,aluminum_bale,cardboard,0.0
-497,North Carolina_Person,2020,aluminum_bale,iron,0.0
-498,North Carolina_Person,2020,aluminum_bale,glass,3.023500641030003
-499,North Carolina_Person,2020,aluminum_bale,hdpe,0.0
-500,North Carolina_Person,2020,aluminum_bale,paper,0.0
-501,North Carolina_Person,2020,aluminum_bale,pet,0.0
-502,North Carolina_Person,2020,aluminum_bale,film,0.0
-503,North Carolina_Person,2020,aluminum_bale,other,0.0
-504,Kentucky_Campbell,2020,vacuum,aluminum,83.293190775
-505,Kentucky_Campbell,2020,vacuum,cardboard,3081.848058675
-506,Kentucky_Campbell,2020,vacuum,iron,49.975914465
-507,Kentucky_Campbell,2020,vacuum,glass,499.75914465
-508,Kentucky_Campbell,2020,vacuum,hdpe,416.465953875
-509,Kentucky_Campbell,2020,vacuum,paper,1550.5990290405014
-510,Kentucky_Campbell,2020,vacuum,pet,999.5182893
-511,Kentucky_Campbell,2020,vacuum,film,35.24100459955864
-512,Kentucky_Campbell,2020,vacuum,other,24.9879572325
-513,Kentucky_Campbell,2020,film_bale,aluminum,0.0
-514,Kentucky_Campbell,2020,film_bale,cardboard,61.636961173500005
-515,Kentucky_Campbell,2020,film_bale,iron,0.0
-516,Kentucky_Campbell,2020,film_bale,glass,0.0
-517,Kentucky_Campbell,2020,film_bale,hdpe,0.0
-518,Kentucky_Campbell,2020,film_bale,paper,31.01198058081003
-519,Kentucky_Campbell,2020,film_bale,pet,0.0
-520,Kentucky_Campbell,2020,film_bale,film,34.53618450756747
-521,Kentucky_Campbell,2020,film_bale,other,0.0
-522,Kentucky_Campbell,2020,cardboard_bale,aluminum,0.0
-523,Kentucky_Campbell,2020,cardboard_bale,cardboard,2265.158323126125
-524,Kentucky_Campbell,2020,cardboard_bale,iron,0.0
-525,Kentucky_Campbell,2020,cardboard_bale,glass,0.0
-526,Kentucky_Campbell,2020,cardboard_bale,hdpe,0.0
-527,Kentucky_Campbell,2020,cardboard_bale,paper,30.391740969193826
-528,Kentucky_Campbell,2020,cardboard_bale,pet,0.0
-529,Kentucky_Campbell,2020,cardboard_bale,film,0.0
-530,Kentucky_Campbell,2020,cardboard_bale,other,0.0
-531,Kentucky_Campbell,2020,glass_bale,aluminum,0.0
-532,Kentucky_Campbell,2020,glass_bale,cardboard,0.0
-533,Kentucky_Campbell,2020,glass_bale,iron,0.0
-534,Kentucky_Campbell,2020,glass_bale,glass,484.7663703105
-535,Kentucky_Campbell,2020,glass_bale,hdpe,0.0
-536,Kentucky_Campbell,2020,glass_bale,paper,0.0
-537,Kentucky_Campbell,2020,glass_bale,pet,0.0
-538,Kentucky_Campbell,2020,glass_bale,film,0.0
-539,Kentucky_Campbell,2020,glass_bale,other,0.0
-540,Kentucky_Campbell,2020,pet_bale,aluminum,2.498795723249998
-541,Kentucky_Campbell,2020,pet_bale,cardboard,36.99758594439345
-542,Kentucky_Campbell,2020,pet_bale,iron,0.0
-543,Kentucky_Campbell,2020,pet_bale,glass,1.1994219471600012
-544,Kentucky_Campbell,2020,pet_bale,hdpe,41.646595387499985
-545,Kentucky_Campbell,2020,pet_bale,paper,4.4675859224715
-546,Kentucky_Campbell,2020,pet_bale,pet,909.5616432630001
-547,Kentucky_Campbell,2020,pet_bale,film,0.13814473803026994
-548,Kentucky_Campbell,2020,pet_bale,other,1.2493978616250025
-549,Kentucky_Campbell,2020,hdpe_bale,aluminum,2.4238318515525066
-550,Kentucky_Campbell,2020,hdpe_bale,cardboard,35.14770664717378
-551,Kentucky_Campbell,2020,hdpe_bale,iron,0.0
-552,Kentucky_Campbell,2020,hdpe_bale,glass,1.1034681913872006
-553,Kentucky_Campbell,2020,hdpe_bale,hdpe,262.37355094125
-554,Kentucky_Campbell,2020,hdpe_bale,paper,4.244206626347918
-555,Kentucky_Campbell,2020,hdpe_bale,pet,0.8995664603699964
-556,Kentucky_Campbell,2020,hdpe_bale,film,0.110515790424216
-557,Kentucky_Campbell,2020,hdpe_bale,other,1.1869279685437526
-558,Kentucky_Campbell,2020,iron_bale,aluminum,0.0
-559,Kentucky_Campbell,2020,iron_bale,cardboard,0.0
-560,Kentucky_Campbell,2020,iron_bale,iron,2.49879572325
-561,Kentucky_Campbell,2020,iron_bale,glass,0.0
-562,Kentucky_Campbell,2020,iron_bale,hdpe,0.0
-563,Kentucky_Campbell,2020,iron_bale,paper,0.0
-564,Kentucky_Campbell,2020,iron_bale,pet,0.0
-565,Kentucky_Campbell,2020,iron_bale,film,0.00442063161696864
-566,Kentucky_Campbell,2020,iron_bale,other,0.0
-567,Kentucky_Campbell,2020,aluminum_bale,aluminum,64.63551604140001
-568,Kentucky_Campbell,2020,aluminum_bale,cardboard,0.0
-569,Kentucky_Campbell,2020,aluminum_bale,iron,0.0
-570,Kentucky_Campbell,2020,aluminum_bale,glass,6.896676196170006
-571,Kentucky_Campbell,2020,aluminum_bale,hdpe,0.0
-572,Kentucky_Campbell,2020,aluminum_bale,paper,0.0
-573,Kentucky_Campbell,2020,aluminum_bale,pet,0.0
-574,Kentucky_Campbell,2020,aluminum_bale,film,0.0
-575,Kentucky_Campbell,2020,aluminum_bale,other,0.0
-576,Tennessee_Coffee,2020,vacuum,aluminum,53.31889118999999
-577,Tennessee_Coffee,2020,vacuum,cardboard,1972.7989740299995
-578,Tennessee_Coffee,2020,vacuum,iron,26.659445595
-579,Tennessee_Coffee,2020,vacuum,glass,106.63778237999998
-580,Tennessee_Coffee,2020,vacuum,hdpe,373.2322383299999
-581,Tennessee_Coffee,2020,vacuum,paper,244.35636413148796
-582,Tennessee_Coffee,2020,vacuum,pet,479.8700207099999
-583,Tennessee_Coffee,2020,vacuum,film,11.732019695676204
-584,Tennessee_Coffee,2020,vacuum,other,15.995667357000002
-585,Tennessee_Coffee,2020,film_bale,aluminum,0.0
-586,Tennessee_Coffee,2020,film_bale,cardboard,39.45597948059999
-587,Tennessee_Coffee,2020,film_bale,iron,0.0
-588,Tennessee_Coffee,2020,film_bale,glass,0.0
-589,Tennessee_Coffee,2020,film_bale,hdpe,0.0
-590,Tennessee_Coffee,2020,film_bale,paper,4.887127282629759
-591,Tennessee_Coffee,2020,film_bale,pet,0.0
-592,Tennessee_Coffee,2020,film_bale,film,11.49737930176268
-593,Tennessee_Coffee,2020,film_bale,other,0.0
-594,Tennessee_Coffee,2020,cardboard_bale,aluminum,0.0
-595,Tennessee_Coffee,2020,cardboard_bale,cardboard,1450.0072459120497
-596,Tennessee_Coffee,2020,cardboard_bale,iron,0.0
-597,Tennessee_Coffee,2020,cardboard_bale,glass,0.0
-598,Tennessee_Coffee,2020,cardboard_bale,hdpe,0.0
-599,Tennessee_Coffee,2020,cardboard_bale,paper,4.789384736977164
-600,Tennessee_Coffee,2020,cardboard_bale,pet,0.0
-601,Tennessee_Coffee,2020,cardboard_bale,film,0.0
-602,Tennessee_Coffee,2020,cardboard_bale,other,0.0
-603,Tennessee_Coffee,2020,glass_bale,aluminum,0.0
-604,Tennessee_Coffee,2020,glass_bale,cardboard,0.0
-605,Tennessee_Coffee,2020,glass_bale,iron,0.0
-606,Tennessee_Coffee,2020,glass_bale,glass,103.43864890859997
-607,Tennessee_Coffee,2020,glass_bale,hdpe,0.0
-608,Tennessee_Coffee,2020,glass_bale,paper,0.0
-609,Tennessee_Coffee,2020,glass_bale,pet,0.0
-610,Tennessee_Coffee,2020,glass_bale,film,0.0
-611,Tennessee_Coffee,2020,glass_bale,other,0.0
-612,Tennessee_Coffee,2020,pet_bale,aluminum,1.5995667357000016
-613,Tennessee_Coffee,2020,pet_bale,cardboard,23.683451683230146
-614,Tennessee_Coffee,2020,pet_bale,iron,0.0
-615,Tennessee_Coffee,2020,pet_bale,glass,0.25593067771200007
-616,Tennessee_Coffee,2020,pet_bale,hdpe,37.323223832999986
-617,Tennessee_Coffee,2020,pet_bale,paper,0.7040395563356441
-618,Tennessee_Coffee,2020,pet_bale,pet,436.6817188460999
-619,Tennessee_Coffee,2020,pet_bale,film,0.045989517207050745
-620,Tennessee_Coffee,2020,pet_bale,other,0.7997833678500008
-621,Tennessee_Coffee,2020,hdpe_bale,aluminum,1.5515797336289978
-622,Tennessee_Coffee,2020,hdpe_bale,cardboard,22.499279099068644
-623,Tennessee_Coffee,2020,hdpe_bale,iron,0.0
-624,Tennessee_Coffee,2020,hdpe_bale,glass,0.23545622349503992
-625,Tennessee_Coffee,2020,hdpe_bale,hdpe,235.13631014789993
-626,Tennessee_Coffee,2020,hdpe_bale,paper,0.6688375785188629
-627,Tennessee_Coffee,2020,hdpe_bale,pet,0.4318830186389988
-628,Tennessee_Coffee,2020,hdpe_bale,film,0.03679161376564061
-629,Tennessee_Coffee,2020,hdpe_bale,other,0.7597941994575006
-630,Tennessee_Coffee,2020,iron_bale,aluminum,0.0
-631,Tennessee_Coffee,2020,iron_bale,cardboard,0.0
-632,Tennessee_Coffee,2020,iron_bale,iron,1.33297227975
-633,Tennessee_Coffee,2020,iron_bale,glass,0.0
-634,Tennessee_Coffee,2020,iron_bale,hdpe,0.0
-635,Tennessee_Coffee,2020,iron_bale,paper,0.0
-636,Tennessee_Coffee,2020,iron_bale,pet,0.0
-637,Tennessee_Coffee,2020,iron_bale,film,0.0014716645506256247
-638,Tennessee_Coffee,2020,iron_bale,other,0.0
-639,Tennessee_Coffee,2020,aluminum_bale,aluminum,41.37545956343999
-640,Tennessee_Coffee,2020,aluminum_bale,cardboard,0.0
-641,Tennessee_Coffee,2020,aluminum_bale,iron,0.0
-642,Tennessee_Coffee,2020,aluminum_bale,glass,1.471601396844001
-643,Tennessee_Coffee,2020,aluminum_bale,hdpe,0.0
-644,Tennessee_Coffee,2020,aluminum_bale,paper,0.0
-645,Tennessee_Coffee,2020,aluminum_bale,pet,0.0
-646,Tennessee_Coffee,2020,aluminum_bale,film,0.0
-647,Tennessee_Coffee,2020,aluminum_bale,other,0.0
-648,Wisconsin_Taylor,2020,vacuum,aluminum,16.257662384999996
-649,Wisconsin_Taylor,2020,vacuum,cardboard,731.5948073249999
-650,Wisconsin_Taylor,2020,vacuum,iron,43.8956884395
-651,Wisconsin_Taylor,2020,vacuum,glass,325.1532477
-652,Wisconsin_Taylor,2020,vacuum,hdpe,97.54597431
-653,Wisconsin_Taylor,2020,vacuum,paper,584.2587248815785
-654,Wisconsin_Taylor,2020,vacuum,pet,162.57662385
-655,Wisconsin_Taylor,2020,vacuum,film,8.241953210441846
-656,Wisconsin_Taylor,2020,vacuum,other,8.1288311925
-657,Wisconsin_Taylor,2020,film_bale,aluminum,0.0
-658,Wisconsin_Taylor,2020,film_bale,cardboard,14.631896146499999
-659,Wisconsin_Taylor,2020,film_bale,iron,0.0
-660,Wisconsin_Taylor,2020,film_bale,glass,0.0
-661,Wisconsin_Taylor,2020,film_bale,hdpe,0.0
-662,Wisconsin_Taylor,2020,film_bale,paper,11.68517449763157
-663,Wisconsin_Taylor,2020,film_bale,pet,0.0
-664,Wisconsin_Taylor,2020,film_bale,film,8.07711414623301
-665,Wisconsin_Taylor,2020,film_bale,other,0.0
-666,Wisconsin_Taylor,2020,cardboard_bale,aluminum,0.0
-667,Wisconsin_Taylor,2020,cardboard_bale,cardboard,537.722183383875
-668,Wisconsin_Taylor,2020,cardboard_bale,iron,0.0
-669,Wisconsin_Taylor,2020,cardboard_bale,glass,0.0
-670,Wisconsin_Taylor,2020,cardboard_bale,hdpe,0.0
-671,Wisconsin_Taylor,2020,cardboard_bale,paper,11.451471007678938
-672,Wisconsin_Taylor,2020,cardboard_bale,pet,0.0
-673,Wisconsin_Taylor,2020,cardboard_bale,film,0.0
-674,Wisconsin_Taylor,2020,cardboard_bale,other,0.0
-675,Wisconsin_Taylor,2020,glass_bale,aluminum,0.0
-676,Wisconsin_Taylor,2020,glass_bale,cardboard,0.0
-677,Wisconsin_Taylor,2020,glass_bale,iron,0.0
-678,Wisconsin_Taylor,2020,glass_bale,glass,315.398650269
-679,Wisconsin_Taylor,2020,glass_bale,hdpe,0.0
-680,Wisconsin_Taylor,2020,glass_bale,paper,0.0
-681,Wisconsin_Taylor,2020,glass_bale,pet,0.0
-682,Wisconsin_Taylor,2020,glass_bale,film,0.0
-683,Wisconsin_Taylor,2020,glass_bale,other,0.0
-684,Wisconsin_Taylor,2020,pet_bale,aluminum,0.48772987155
-685,Wisconsin_Taylor,2020,pet_bale,cardboard,8.782795661936632
-686,Wisconsin_Taylor,2020,pet_bale,iron,0.0
-687,Wisconsin_Taylor,2020,pet_bale,glass,0.78036779448
-688,Wisconsin_Taylor,2020,pet_bale,hdpe,9.754597430999993
-689,Wisconsin_Taylor,2020,pet_bale,paper,1.6833662381288086
-690,Wisconsin_Taylor,2020,pet_bale,pet,147.9447277035
-691,Wisconsin_Taylor,2020,pet_bale,film,0.03230845658493206
-692,Wisconsin_Taylor,2020,pet_bale,other,0.4064415596250006
-693,Wisconsin_Taylor,2020,hdpe_bale,aluminum,0.4730979754035012
-694,Wisconsin_Taylor,2020,hdpe_bale,cardboard,8.343655878839797
-695,Wisconsin_Taylor,2020,hdpe_bale,iron,0.0
-696,Wisconsin_Taylor,2020,hdpe_bale,glass,0.7179383709216012
-697,Wisconsin_Taylor,2020,hdpe_bale,hdpe,61.4539638153
-698,Wisconsin_Taylor,2020,hdpe_bale,paper,1.5991979262223666
-699,Wisconsin_Taylor,2020,hdpe_bale,pet,0.1463189614650009
-700,Wisconsin_Taylor,2020,hdpe_bale,film,0.025846765267945646
-701,Wisconsin_Taylor,2020,hdpe_bale,other,0.38611948164375054
-702,Wisconsin_Taylor,2020,iron_bale,aluminum,0.0
-703,Wisconsin_Taylor,2020,iron_bale,cardboard,0.0
-704,Wisconsin_Taylor,2020,iron_bale,iron,2.194784421975
-705,Wisconsin_Taylor,2020,iron_bale,glass,0.0
-706,Wisconsin_Taylor,2020,iron_bale,hdpe,0.0
-707,Wisconsin_Taylor,2020,iron_bale,paper,0.0
-708,Wisconsin_Taylor,2020,iron_bale,pet,0.0
-709,Wisconsin_Taylor,2020,iron_bale,film,0.0010338706107178262
-710,Wisconsin_Taylor,2020,iron_bale,other,0.0
-711,Wisconsin_Taylor,2020,aluminum_bale,aluminum,12.615946010759998
-712,Wisconsin_Taylor,2020,aluminum_bale,cardboard,0.0
-713,Wisconsin_Taylor,2020,aluminum_bale,iron,0.0
-714,Wisconsin_Taylor,2020,aluminum_bale,glass,4.487114818260005
-715,Wisconsin_Taylor,2020,aluminum_bale,hdpe,0.0
-716,Wisconsin_Taylor,2020,aluminum_bale,paper,0.0
-717,Wisconsin_Taylor,2020,aluminum_bale,pet,0.0
-718,Wisconsin_Taylor,2020,aluminum_bale,film,0.0
-719,Wisconsin_Taylor,2020,aluminum_bale,other,0.0
-720,Indiana_Elkhart,2020,vacuum,aluminum,185.133778875
-721,Indiana_Elkhart,2020,vacuum,cardboard,8331.020049375
-722,Indiana_Elkhart,2020,vacuum,iron,333.24080197499995
-723,Indiana_Elkhart,2020,vacuum,glass,2036.471567625
-724,Indiana_Elkhart,2020,vacuum,hdpe,1295.936452125
-725,Indiana_Elkhart,2020,vacuum,paper,4583.045202027424
-726,Indiana_Elkhart,2020,vacuum,pet,1851.33778875
-727,Indiana_Elkhart,2020,vacuum,film,146.26425256200122
-728,Indiana_Elkhart,2020,vacuum,other,148.10702310000002
-729,Indiana_Elkhart,2020,film_bale,aluminum,0.0
-730,Indiana_Elkhart,2020,film_bale,cardboard,166.6204009875
-731,Indiana_Elkhart,2020,film_bale,iron,0.0
-732,Indiana_Elkhart,2020,film_bale,glass,0.0
-733,Indiana_Elkhart,2020,film_bale,hdpe,0.0
-734,Indiana_Elkhart,2020,film_bale,paper,91.66090404054849
-735,Indiana_Elkhart,2020,film_bale,pet,0.0
-736,Indiana_Elkhart,2020,film_bale,film,143.3389675107612
-737,Indiana_Elkhart,2020,film_bale,other,0.0
-738,Indiana_Elkhart,2020,cardboard_bale,aluminum,0.0
-739,Indiana_Elkhart,2020,cardboard_bale,cardboard,6123.299736290624
-740,Indiana_Elkhart,2020,cardboard_bale,iron,0.0
-741,Indiana_Elkhart,2020,cardboard_bale,glass,0.0
-742,Indiana_Elkhart,2020,cardboard_bale,hdpe,0.0
-743,Indiana_Elkhart,2020,cardboard_bale,paper,89.82768595973752
-744,Indiana_Elkhart,2020,cardboard_bale,pet,0.0
-745,Indiana_Elkhart,2020,cardboard_bale,film,0.0
-746,Indiana_Elkhart,2020,cardboard_bale,other,0.0
-747,Indiana_Elkhart,2020,glass_bale,aluminum,0.0
-748,Indiana_Elkhart,2020,glass_bale,cardboard,0.0
-749,Indiana_Elkhart,2020,glass_bale,iron,0.0
-750,Indiana_Elkhart,2020,glass_bale,glass,1975.37742059625
-751,Indiana_Elkhart,2020,glass_bale,hdpe,0.0
-752,Indiana_Elkhart,2020,glass_bale,paper,0.0
-753,Indiana_Elkhart,2020,glass_bale,pet,0.0
-754,Indiana_Elkhart,2020,glass_bale,film,0.0
-755,Indiana_Elkhart,2020,glass_bale,other,0.0
-756,Indiana_Elkhart,2020,pet_bale,aluminum,5.554013366250018
-757,Indiana_Elkhart,2020,pet_bale,cardboard,100.01389569274693
-758,Indiana_Elkhart,2020,pet_bale,iron,0.0
-759,Indiana_Elkhart,2020,pet_bale,glass,4.8875317623
-760,Indiana_Elkhart,2020,pet_bale,hdpe,129.59364521249995
-761,Indiana_Elkhart,2020,pet_bale,paper,13.20466983608145
-762,Indiana_Elkhart,2020,pet_bale,pet,1684.7173877625
-763,Indiana_Elkhart,2020,pet_bale,film,0.573355870043045
-764,Indiana_Elkhart,2020,pet_bale,other,7.405351155000005
-765,Indiana_Elkhart,2020,hdpe_bale,aluminum,5.3873929652625066
-766,Indiana_Elkhart,2020,hdpe_bale,cardboard,95.01320090810964
-767,Indiana_Elkhart,2020,hdpe_bale,iron,0.0
-768,Indiana_Elkhart,2020,hdpe_bale,glass,4.496529221316003
-769,Indiana_Elkhart,2020,hdpe_bale,hdpe,816.43996483875
-770,Indiana_Elkhart,2020,hdpe_bale,paper,12.544436344277358
-771,Indiana_Elkhart,2020,hdpe_bale,pet,1.6662040098750026
-772,Indiana_Elkhart,2020,hdpe_bale,film,0.4586846960344362
-773,Indiana_Elkhart,2020,hdpe_bale,other,7.035083597250008
-774,Indiana_Elkhart,2020,iron_bale,aluminum,0.0
-775,Indiana_Elkhart,2020,iron_bale,cardboard,0.0
-776,Indiana_Elkhart,2020,iron_bale,iron,16.662040098749998
-777,Indiana_Elkhart,2020,iron_bale,glass,0.0
-778,Indiana_Elkhart,2020,iron_bale,hdpe,0.0
-779,Indiana_Elkhart,2020,iron_bale,paper,0.0
-780,Indiana_Elkhart,2020,iron_bale,pet,0.0
-781,Indiana_Elkhart,2020,iron_bale,film,0.018347387841377454
-782,Indiana_Elkhart,2020,iron_bale,other,0.0
-783,Indiana_Elkhart,2020,aluminum_bale,aluminum,143.663812407
-784,Indiana_Elkhart,2020,aluminum_bale,cardboard,0.0
-785,Indiana_Elkhart,2020,aluminum_bale,iron,0.0
-786,Indiana_Elkhart,2020,aluminum_bale,glass,28.10330763322503
-787,Indiana_Elkhart,2020,aluminum_bale,hdpe,0.0
-788,Indiana_Elkhart,2020,aluminum_bale,paper,0.0
-789,Indiana_Elkhart,2020,aluminum_bale,pet,0.0
-790,Indiana_Elkhart,2020,aluminum_bale,film,0.0
-791,Indiana_Elkhart,2020,aluminum_bale,other,0.0
-792,California_Colusa,2020,vacuum,aluminum,59.136668595
-793,California_Colusa,2020,vacuum,cardboard,1340.43115482
-794,California_Colusa,2020,vacuum,iron,31.539556584000003
-795,California_Colusa,2020,vacuum,glass,413.956680165
-796,California_Colusa,2020,vacuum,hdpe,118.27333719
-797,California_Colusa,2020,vacuum,paper,2813.486081010996
-798,California_Colusa,2020,vacuum,pet,177.41000578499995
-799,California_Colusa,2020,vacuum,film,81.88943550529632
-800,California_Colusa,2020,vacuum,other,29.5683342975
-801,California_Colusa,2020,film_bale,aluminum,0.0
-802,California_Colusa,2020,film_bale,cardboard,26.8086230964
-803,California_Colusa,2020,film_bale,iron,0.0
-804,California_Colusa,2020,film_bale,glass,0.0
-805,California_Colusa,2020,film_bale,hdpe,0.0
-806,California_Colusa,2020,film_bale,paper,56.26972162021992
-807,California_Colusa,2020,film_bale,pet,0.0
-808,California_Colusa,2020,film_bale,film,80.2516467951904
-809,California_Colusa,2020,film_bale,other,0.0
-810,California_Colusa,2020,cardboard_bale,aluminum,0.0
-811,California_Colusa,2020,cardboard_bale,cardboard,985.2168987927
-812,California_Colusa,2020,cardboard_bale,iron,0.0
-813,California_Colusa,2020,cardboard_bale,glass,0.0
-814,California_Colusa,2020,cardboard_bale,hdpe,0.0
-815,California_Colusa,2020,cardboard_bale,paper,55.14432718781552
-816,California_Colusa,2020,cardboard_bale,pet,0.0
-817,California_Colusa,2020,cardboard_bale,film,0.0
-818,California_Colusa,2020,cardboard_bale,other,0.0
-819,California_Colusa,2020,glass_bale,aluminum,0.0
-820,California_Colusa,2020,glass_bale,cardboard,0.0
-821,California_Colusa,2020,glass_bale,iron,0.0
-822,California_Colusa,2020,glass_bale,glass,401.53797976005
-823,California_Colusa,2020,glass_bale,hdpe,0.0
-824,California_Colusa,2020,glass_bale,paper,0.0
-825,California_Colusa,2020,glass_bale,pet,0.0
-826,California_Colusa,2020,glass_bale,film,0.0
-827,California_Colusa,2020,glass_bale,other,0.0
-828,California_Colusa,2020,pet_bale,aluminum,1.7741000578499992
-829,California_Colusa,2020,pet_bale,cardboard,16.091876013614126
-830,California_Colusa,2020,pet_bale,iron,0.0
-831,California_Colusa,2020,pet_bale,glass,0.9934960323960009
-832,California_Colusa,2020,pet_bale,hdpe,11.827333718999995
-833,California_Colusa,2020,pet_bale,paper,8.106216096608904
-834,California_Colusa,2020,pet_bale,pet,161.44310526434995
-835,California_Colusa,2020,pet_bale,film,0.3210065871807617
-836,California_Colusa,2020,pet_bale,other,1.478416714875003
-837,California_Colusa,2020,hdpe_bale,aluminum,1.720877056114503
-838,California_Colusa,2020,hdpe_bale,cardboard,15.287282212933405
-839,California_Colusa,2020,hdpe_bale,iron,0.0
-840,California_Colusa,2020,hdpe_bale,glass,0.9140163498043208
-841,California_Colusa,2020,hdpe_bale,hdpe,74.51220242970001
-842,California_Colusa,2020,hdpe_bale,paper,7.70090529177844
-843,California_Colusa,2020,hdpe_bale,pet,0.1596690052064993
-844,California_Colusa,2020,hdpe_bale,film,0.2568052697446095
-845,California_Colusa,2020,hdpe_bale,other,1.4044958791312503
-846,California_Colusa,2020,iron_bale,aluminum,0.0
-847,California_Colusa,2020,iron_bale,cardboard,0.0
-848,California_Colusa,2020,iron_bale,iron,1.5769778292000003
-849,California_Colusa,2020,iron_bale,glass,0.0
-850,California_Colusa,2020,iron_bale,hdpe,0.0
-851,California_Colusa,2020,iron_bale,paper,0.0
-852,California_Colusa,2020,iron_bale,pet,0.0
-853,California_Colusa,2020,iron_bale,film,0.010272210789784382
-854,California_Colusa,2020,iron_bale,other,0.0
-855,California_Colusa,2020,aluminum_bale,aluminum,45.89005482972001
-856,California_Colusa,2020,aluminum_bale,cardboard,0.0
-857,California_Colusa,2020,aluminum_bale,iron,0.0
-858,California_Colusa,2020,aluminum_bale,glass,5.712602186277006
-859,California_Colusa,2020,aluminum_bale,hdpe,0.0
-860,California_Colusa,2020,aluminum_bale,paper,0.0
-861,California_Colusa,2020,aluminum_bale,pet,0.0
-862,California_Colusa,2020,aluminum_bale,film,0.0
-863,California_Colusa,2020,aluminum_bale,other,0.0
-864,Oklahoma_Major,2020,vacuum,aluminum,6.830195864999999
-865,Oklahoma_Major,2020,vacuum,cardboard,321.019205655
-866,Oklahoma_Major,2020,vacuum,iron,4.098117519
-867,Oklahoma_Major,2020,vacuum,glass,20.490587595
-868,Oklahoma_Major,2020,vacuum,hdpe,40.98117519
-869,Oklahoma_Major,2020,vacuum,paper,135.80248014891797
-870,Oklahoma_Major,2020,vacuum,pet,61.47176278499999
-871,Oklahoma_Major,2020,vacuum,film,0.514026675502294
-872,Oklahoma_Major,2020,vacuum,other,3.4150979325
-873,Oklahoma_Major,2020,film_bale,aluminum,0.0
-874,Oklahoma_Major,2020,film_bale,cardboard,6.4203841131
-875,Oklahoma_Major,2020,film_bale,iron,0.0
-876,Oklahoma_Major,2020,film_bale,glass,0.0
-877,Oklahoma_Major,2020,film_bale,hdpe,0.0
-878,Oklahoma_Major,2020,film_bale,paper,2.716049602978359
-879,Oklahoma_Major,2020,film_bale,pet,0.0
-880,Oklahoma_Major,2020,film_bale,film,0.5037461419922481
-881,Oklahoma_Major,2020,film_bale,other,0.0
-882,Oklahoma_Major,2020,cardboard_bale,aluminum,0.0
-883,Oklahoma_Major,2020,cardboard_bale,cardboard,235.94911615642502
-884,Oklahoma_Major,2020,cardboard_bale,iron,0.0
-885,Oklahoma_Major,2020,cardboard_bale,glass,0.0
-886,Oklahoma_Major,2020,cardboard_bale,hdpe,0.0
-887,Oklahoma_Major,2020,cardboard_bale,paper,2.661728610918792
-888,Oklahoma_Major,2020,cardboard_bale,pet,0.0
-889,Oklahoma_Major,2020,cardboard_bale,film,0.0
-890,Oklahoma_Major,2020,cardboard_bale,other,0.0
-891,Oklahoma_Major,2020,glass_bale,aluminum,0.0
-892,Oklahoma_Major,2020,glass_bale,cardboard,0.0
-893,Oklahoma_Major,2020,glass_bale,iron,0.0
-894,Oklahoma_Major,2020,glass_bale,glass,19.87586996715
-895,Oklahoma_Major,2020,glass_bale,hdpe,0.0
-896,Oklahoma_Major,2020,glass_bale,paper,0.0
-897,Oklahoma_Major,2020,glass_bale,pet,0.0
-898,Oklahoma_Major,2020,glass_bale,film,0.0
-899,Oklahoma_Major,2020,glass_bale,other,0.0
-900,Oklahoma_Major,2020,pet_bale,aluminum,0.20490587594999976
-901,Oklahoma_Major,2020,pet_bale,cardboard,3.853835563888282
-902,Oklahoma_Major,2020,pet_bale,iron,0.0
-903,Oklahoma_Major,2020,pet_bale,glass,0.04917741022800004
-904,Oklahoma_Major,2020,pet_bale,hdpe,4.098117518999999
-905,Oklahoma_Major,2020,pet_bale,paper,0.3912741058050635
-906,Oklahoma_Major,2020,pet_bale,pet,55.93930413434999
-907,Oklahoma_Major,2020,pet_bale,film,0.002014984567968994
-908,Oklahoma_Major,2020,pet_bale,other,0.1707548966250001
-909,Oklahoma_Major,2020,hdpe_bale,aluminum,0.19875869967150006
-910,Oklahoma_Major,2020,hdpe_bale,cardboard,3.6611437856938664
-911,Oklahoma_Major,2020,hdpe_bale,iron,0.0
-912,Oklahoma_Major,2020,hdpe_bale,glass,0.045243217409760006
-913,Oklahoma_Major,2020,hdpe_bale,hdpe,25.8181403697
-914,Oklahoma_Major,2020,hdpe_bale,paper,0.37171040051480997
-915,Oklahoma_Major,2020,hdpe_bale,pet,0.05532458650649996
-916,Oklahoma_Major,2020,hdpe_bale,film,0.0016119876543751951
-917,Oklahoma_Major,2020,hdpe_bale,other,0.16221715179375007
-918,Oklahoma_Major,2020,iron_bale,aluminum,0.0
-919,Oklahoma_Major,2020,iron_bale,cardboard,0.0
-920,Oklahoma_Major,2020,iron_bale,iron,0.20490587594999998
-921,Oklahoma_Major,2020,iron_bale,glass,0.0
-922,Oklahoma_Major,2020,iron_bale,hdpe,0.0
-923,Oklahoma_Major,2020,iron_bale,paper,0.0
-924,Oklahoma_Major,2020,iron_bale,pet,0.0
-925,Oklahoma_Major,2020,iron_bale,film,6.447950617500782e-05
-926,Oklahoma_Major,2020,iron_bale,other,0.0
-927,Oklahoma_Major,2020,aluminum_bale,aluminum,5.30023199124
-928,Oklahoma_Major,2020,aluminum_bale,cardboard,0.0
-929,Oklahoma_Major,2020,aluminum_bale,iron,0.0
-930,Oklahoma_Major,2020,aluminum_bale,glass,0.2827701088110003
-931,Oklahoma_Major,2020,aluminum_bale,hdpe,0.0
-932,Oklahoma_Major,2020,aluminum_bale,paper,0.0
-933,Oklahoma_Major,2020,aluminum_bale,pet,0.0
-934,Oklahoma_Major,2020,aluminum_bale,film,0.0
-935,Oklahoma_Major,2020,aluminum_bale,other,0.0
-936,Arkansas_Prairie,2020,vacuum,aluminum,6.467321865
-937,Arkansas_Prairie,2020,vacuum,cardboard,284.56216205999993
-938,Arkansas_Prairie,2020,vacuum,iron,4.527125305499999
-939,Arkansas_Prairie,2020,vacuum,glass,38.80393118999999
-940,Arkansas_Prairie,2020,vacuum,hdpe,45.271253055
-941,Arkansas_Prairie,2020,vacuum,paper,34.52558180655614
-942,Arkansas_Prairie,2020,vacuum,pet,58.205896785
-943,Arkansas_Prairie,2020,vacuum,film,6.11302598601565
-944,Arkansas_Prairie,2020,vacuum,other,0.6467321865
-945,Arkansas_Prairie,2020,film_bale,aluminum,0.0
-946,Arkansas_Prairie,2020,film_bale,cardboard,5.691243241199999
-947,Arkansas_Prairie,2020,film_bale,iron,0.0
-948,Arkansas_Prairie,2020,film_bale,glass,0.0
-949,Arkansas_Prairie,2020,film_bale,hdpe,0.0
-950,Arkansas_Prairie,2020,film_bale,paper,0.6905116361311228
-951,Arkansas_Prairie,2020,film_bale,pet,0.0
-952,Arkansas_Prairie,2020,film_bale,film,5.990765466295337
-953,Arkansas_Prairie,2020,film_bale,other,0.0
-954,Arkansas_Prairie,2020,cardboard_bale,aluminum,0.0
-955,Arkansas_Prairie,2020,cardboard_bale,cardboard,209.15318911409992
-956,Arkansas_Prairie,2020,cardboard_bale,iron,0.0
-957,Arkansas_Prairie,2020,cardboard_bale,glass,0.0
-958,Arkansas_Prairie,2020,cardboard_bale,hdpe,0.0
-959,Arkansas_Prairie,2020,cardboard_bale,paper,0.6767014034085004
-960,Arkansas_Prairie,2020,cardboard_bale,pet,0.0
-961,Arkansas_Prairie,2020,cardboard_bale,film,0.0
-962,Arkansas_Prairie,2020,cardboard_bale,other,0.0
-963,Arkansas_Prairie,2020,glass_bale,aluminum,0.0
-964,Arkansas_Prairie,2020,glass_bale,cardboard,0.0
-965,Arkansas_Prairie,2020,glass_bale,iron,0.0
-966,Arkansas_Prairie,2020,glass_bale,glass,37.639813254299995
-967,Arkansas_Prairie,2020,glass_bale,hdpe,0.0
-968,Arkansas_Prairie,2020,glass_bale,paper,0.0
-969,Arkansas_Prairie,2020,glass_bale,pet,0.0
-970,Arkansas_Prairie,2020,glass_bale,film,0.0
-971,Arkansas_Prairie,2020,glass_bale,other,0.0
-972,Arkansas_Prairie,2020,pet_bale,aluminum,0.19401965595000004
-973,Arkansas_Prairie,2020,pet_bale,cardboard,3.4161687555303075
-974,Arkansas_Prairie,2020,pet_bale,iron,0.0
-975,Arkansas_Prairie,2020,pet_bale,glass,0.09312943485600012
-976,Arkansas_Prairie,2020,pet_bale,hdpe,4.5271253055
-977,Arkansas_Prairie,2020,pet_bale,paper,0.09947510630104972
-978,Arkansas_Prairie,2020,pet_bale,pet,52.967366074350004
-979,Arkansas_Prairie,2020,pet_bale,film,0.023963061865181365
-980,Arkansas_Prairie,2020,pet_bale,other,0.03233660932500004
-981,Arkansas_Prairie,2020,hdpe_bale,aluminum,0.1881990662715003
-982,Arkansas_Prairie,2020,hdpe_bale,cardboard,3.2453603177537858
-983,Arkansas_Prairie,2020,hdpe_bale,iron,0.0
-984,Arkansas_Prairie,2020,hdpe_bale,glass,0.08567908006752001
-985,Arkansas_Prairie,2020,hdpe_bale,hdpe,28.52088942465
-986,Arkansas_Prairie,2020,hdpe_bale,paper,0.09450135098599732
-987,Arkansas_Prairie,2020,hdpe_bale,pet,0.052385307106500356
-988,Arkansas_Prairie,2020,hdpe_bale,film,0.019170449492145095
-989,Arkansas_Prairie,2020,hdpe_bale,other,0.03071977885874999
-990,Arkansas_Prairie,2020,iron_bale,aluminum,0.0
-991,Arkansas_Prairie,2020,iron_bale,cardboard,0.0
-992,Arkansas_Prairie,2020,iron_bale,iron,0.22635626527499997
-993,Arkansas_Prairie,2020,iron_bale,glass,0.0
-994,Arkansas_Prairie,2020,iron_bale,hdpe,0.0
-995,Arkansas_Prairie,2020,iron_bale,paper,0.0
-996,Arkansas_Prairie,2020,iron_bale,pet,0.0
-997,Arkansas_Prairie,2020,iron_bale,film,0.000766817979685804
-998,Arkansas_Prairie,2020,iron_bale,other,0.0
-999,Arkansas_Prairie,2020,aluminum_bale,aluminum,5.01864176724
-1000,Arkansas_Prairie,2020,aluminum_bale,cardboard,0.0
-1001,Arkansas_Prairie,2020,aluminum_bale,iron,0.0
-1002,Arkansas_Prairie,2020,aluminum_bale,glass,0.5354942504220004
-1003,Arkansas_Prairie,2020,aluminum_bale,hdpe,0.0
-1004,Arkansas_Prairie,2020,aluminum_bale,paper,0.0
-1005,Arkansas_Prairie,2020,aluminum_bale,pet,0.0
-1006,Arkansas_Prairie,2020,aluminum_bale,film,0.0
-1007,Arkansas_Prairie,2020,aluminum_bale,other,0.0
-1008,Kentucky_Powell,2020,vacuum,aluminum,10.95335169
-1009,Kentucky_Powell,2020,vacuum,cardboard,405.27401253
-1010,Kentucky_Powell,2020,vacuum,iron,6.572011014
-1011,Kentucky_Powell,2020,vacuum,glass,65.72011014
-1012,Kentucky_Powell,2020,vacuum,hdpe,54.766758450000005
-1013,Kentucky_Powell,2020,vacuum,paper,203.90930323623604
-1014,Kentucky_Powell,2020,vacuum,pet,131.44022028
-1015,Kentucky_Powell,2020,vacuum,film,4.634317807929762
-1016,Kentucky_Powell,2020,vacuum,other,3.286005507
-1017,Kentucky_Powell,2020,film_bale,aluminum,0.0
-1018,Kentucky_Powell,2020,film_bale,cardboard,8.1054802506
-1019,Kentucky_Powell,2020,film_bale,iron,0.0
-1020,Kentucky_Powell,2020,film_bale,glass,0.0
-1021,Kentucky_Powell,2020,film_bale,hdpe,0.0
-1022,Kentucky_Powell,2020,film_bale,paper,4.078186064724721
-1023,Kentucky_Powell,2020,film_bale,pet,0.0
-1024,Kentucky_Powell,2020,film_bale,film,4.541631451771166
-1025,Kentucky_Powell,2020,film_bale,other,0.0
-1026,Kentucky_Powell,2020,cardboard_bale,aluminum,0.0
-1027,Kentucky_Powell,2020,cardboard_bale,cardboard,297.87639920954996
-1028,Kentucky_Powell,2020,cardboard_bale,iron,0.0
-1029,Kentucky_Powell,2020,cardboard_bale,glass,0.0
-1030,Kentucky_Powell,2020,cardboard_bale,hdpe,0.0
-1031,Kentucky_Powell,2020,cardboard_bale,paper,3.9966223434302264
-1032,Kentucky_Powell,2020,cardboard_bale,pet,0.0
-1033,Kentucky_Powell,2020,cardboard_bale,film,0.0
-1034,Kentucky_Powell,2020,cardboard_bale,other,0.0
-1035,Kentucky_Powell,2020,glass_bale,aluminum,0.0
-1036,Kentucky_Powell,2020,glass_bale,cardboard,0.0
-1037,Kentucky_Powell,2020,glass_bale,iron,0.0
-1038,Kentucky_Powell,2020,glass_bale,glass,63.7485068358
-1039,Kentucky_Powell,2020,glass_bale,hdpe,0.0
-1040,Kentucky_Powell,2020,glass_bale,paper,0.0
-1041,Kentucky_Powell,2020,glass_bale,pet,0.0
-1042,Kentucky_Powell,2020,glass_bale,film,0.0
-1043,Kentucky_Powell,2020,glass_bale,other,0.0
-1044,Kentucky_Powell,2020,pet_bale,aluminum,0.32860055070000094
-1045,Kentucky_Powell,2020,pet_bale,cardboard,4.8653145204226576
-1046,Kentucky_Powell,2020,pet_bale,iron,0.0
-1047,Kentucky_Powell,2020,pet_bale,glass,0.15772826433600007
-1048,Kentucky_Powell,2020,pet_bale,hdpe,5.476675845000003
-1049,Kentucky_Powell,2020,pet_bale,paper,0.5875034844842446
-1050,Kentucky_Powell,2020,pet_bale,pet,119.61060045480001
-1051,Kentucky_Powell,2020,pet_bale,film,0.01816652580708468
-1052,Kentucky_Powell,2020,pet_bale,other,0.16430027535000002
-1053,Kentucky_Powell,2020,hdpe_bale,aluminum,0.318742534179
-1054,Kentucky_Powell,2020,hdpe_bale,cardboard,4.622048794401522
-1055,Kentucky_Powell,2020,hdpe_bale,iron,0.0
-1056,Kentucky_Powell,2020,hdpe_bale,glass,0.14511000318912015
-1057,Kentucky_Powell,2020,hdpe_bale,hdpe,34.5030578235
-1058,Kentucky_Powell,2020,hdpe_bale,paper,0.5581283102600327
-1059,Kentucky_Powell,2020,hdpe_bale,pet,0.11829619825200055
-1060,Kentucky_Powell,2020,hdpe_bale,film,0.014533220645667741
-1061,Kentucky_Powell,2020,hdpe_bale,other,0.15608526158250013
-1062,Kentucky_Powell,2020,iron_bale,aluminum,0.0
-1063,Kentucky_Powell,2020,iron_bale,cardboard,0.0
-1064,Kentucky_Powell,2020,iron_bale,iron,0.32860055070000005
-1065,Kentucky_Powell,2020,iron_bale,glass,0.0
-1066,Kentucky_Powell,2020,iron_bale,hdpe,0.0
-1067,Kentucky_Powell,2020,iron_bale,paper,0.0
-1068,Kentucky_Powell,2020,iron_bale,pet,0.0
-1069,Kentucky_Powell,2020,iron_bale,film,0.00058132882582671
-1070,Kentucky_Powell,2020,iron_bale,other,0.0
-1071,Kentucky_Powell,2020,aluminum_bale,aluminum,8.49980091144
-1072,Kentucky_Powell,2020,aluminum_bale,cardboard,0.0
-1073,Kentucky_Powell,2020,aluminum_bale,iron,0.0
-1074,Kentucky_Powell,2020,aluminum_bale,glass,0.9069375199320009
-1075,Kentucky_Powell,2020,aluminum_bale,hdpe,0.0
-1076,Kentucky_Powell,2020,aluminum_bale,paper,0.0
-1077,Kentucky_Powell,2020,aluminum_bale,pet,0.0
-1078,Kentucky_Powell,2020,aluminum_bale,film,0.0
-1079,Kentucky_Powell,2020,aluminum_bale,other,0.0
-1080,Missouri_Boone,2020,vacuum,aluminum,162.93042599999998
-1081,Missouri_Boone,2020,vacuum,cardboard,10916.338542
-1082,Missouri_Boone,2020,vacuum,iron,260.6886816
-1083,Missouri_Boone,2020,vacuum,glass,2443.95639
-1084,Missouri_Boone,2020,vacuum,hdpe,1140.512982
-1085,Missouri_Boone,2020,vacuum,paper,2226.817214147201
-1086,Missouri_Boone,2020,vacuum,pet,1466.3738339999998
-1087,Missouri_Boone,2020,vacuum,film,101.72256581464676
-1088,Missouri_Boone,2020,vacuum,other,97.75825559999998
-1089,Missouri_Boone,2020,film_bale,aluminum,0.0
-1090,Missouri_Boone,2020,film_bale,cardboard,218.32677084
-1091,Missouri_Boone,2020,film_bale,iron,0.0
-1092,Missouri_Boone,2020,film_bale,glass,0.0
-1093,Missouri_Boone,2020,film_bale,hdpe,0.0
-1094,Missouri_Boone,2020,film_bale,paper,44.53634428294402
-1095,Missouri_Boone,2020,film_bale,pet,0.0
-1096,Missouri_Boone,2020,film_bale,film,99.68811449835383
-1097,Missouri_Boone,2020,film_bale,other,0.0
-1098,Missouri_Boone,2020,cardboard_bale,aluminum,0.0
-1099,Missouri_Boone,2020,cardboard_bale,cardboard,8023.50882837
-1100,Missouri_Boone,2020,cardboard_bale,iron,0.0
-1101,Missouri_Boone,2020,cardboard_bale,glass,0.0
-1102,Missouri_Boone,2020,cardboard_bale,hdpe,0.0
-1103,Missouri_Boone,2020,cardboard_bale,paper,43.64561739728514
-1104,Missouri_Boone,2020,cardboard_bale,pet,0.0
-1105,Missouri_Boone,2020,cardboard_bale,film,0.0
-1106,Missouri_Boone,2020,cardboard_bale,other,0.0
-1107,Missouri_Boone,2020,glass_bale,aluminum,0.0
-1108,Missouri_Boone,2020,glass_bale,cardboard,0.0
-1109,Missouri_Boone,2020,glass_bale,iron,0.0
-1110,Missouri_Boone,2020,glass_bale,glass,2370.6376982999996
-1111,Missouri_Boone,2020,glass_bale,hdpe,0.0
-1112,Missouri_Boone,2020,glass_bale,paper,0.0
-1113,Missouri_Boone,2020,glass_bale,pet,0.0
-1114,Missouri_Boone,2020,glass_bale,film,0.0
-1115,Missouri_Boone,2020,glass_bale,other,0.0
-1116,Missouri_Boone,2020,pet_bale,aluminum,4.8879127799999935
-1117,Missouri_Boone,2020,pet_bale,cardboard,131.05064419670998
-1118,Missouri_Boone,2020,pet_bale,iron,0.0
-1119,Missouri_Boone,2020,pet_bale,glass,5.865495335999995
-1120,Missouri_Boone,2020,pet_bale,hdpe,114.05129820000002
-1121,Missouri_Boone,2020,pet_bale,paper,6.415905757400921
-1122,Missouri_Boone,2020,pet_bale,pet,1334.40018894
-1123,Missouri_Boone,2020,pet_bale,film,0.39875245799341563
-1124,Missouri_Boone,2020,pet_bale,other,4.887912780000008
-1125,Missouri_Boone,2020,hdpe_bale,aluminum,4.7412753966000025
-1126,Missouri_Boone,2020,hdpe_bale,cardboard,124.49811198687439
-1127,Missouri_Boone,2020,hdpe_bale,iron,0.0
-1128,Missouri_Boone,2020,hdpe_bale,glass,5.396255709120005
-1129,Missouri_Boone,2020,hdpe_bale,hdpe,718.52317866
-1130,Missouri_Boone,2020,hdpe_bale,paper,6.09511046953088
-1131,Missouri_Boone,2020,hdpe_bale,pet,1.3197364506000042
-1132,Missouri_Boone,2020,hdpe_bale,film,0.31900196639473233
-1133,Missouri_Boone,2020,hdpe_bale,other,4.643517141000004
-1134,Missouri_Boone,2020,iron_bale,aluminum,0.0
-1135,Missouri_Boone,2020,iron_bale,cardboard,0.0
-1136,Missouri_Boone,2020,iron_bale,iron,13.03443408
-1137,Missouri_Boone,2020,iron_bale,glass,0.0
-1138,Missouri_Boone,2020,iron_bale,hdpe,0.0
-1139,Missouri_Boone,2020,iron_bale,paper,0.0
-1140,Missouri_Boone,2020,iron_bale,pet,0.0
-1141,Missouri_Boone,2020,iron_bale,film,0.012760078655789302
-1142,Missouri_Boone,2020,iron_bale,other,0.0
-1143,Missouri_Boone,2020,aluminum_bale,aluminum,126.43401057599999
-1144,Missouri_Boone,2020,aluminum_bale,cardboard,0.0
-1145,Missouri_Boone,2020,aluminum_bale,iron,0.0
-1146,Missouri_Boone,2020,aluminum_bale,glass,33.72659818200003
-1147,Missouri_Boone,2020,aluminum_bale,hdpe,0.0
-1148,Missouri_Boone,2020,aluminum_bale,paper,0.0
-1149,Missouri_Boone,2020,aluminum_bale,pet,0.0
-1150,Missouri_Boone,2020,aluminum_bale,film,0.0
-1151,Missouri_Boone,2020,aluminum_bale,other,0.0
-1152,Mississippi_Clarke,2020,vacuum,aluminum,13.390957785
-1153,Mississippi_Clarke,2020,vacuum,cardboard,348.1649024099999
-1154,Mississippi_Clarke,2020,vacuum,iron,4.017287335499999
-1155,Mississippi_Clarke,2020,vacuum,glass,40.17287335499999
-1156,Mississippi_Clarke,2020,vacuum,hdpe,80.34574670999997
-1157,Mississippi_Clarke,2020,vacuum,paper,31.60955699439119
-1158,Mississippi_Clarke,2020,vacuum,pet,120.51862006499996
-1159,Mississippi_Clarke,2020,vacuum,film,6.183978837714935
-1160,Mississippi_Clarke,2020,vacuum,other,4.017287335499999
-1161,Mississippi_Clarke,2020,film_bale,aluminum,0.0
-1162,Mississippi_Clarke,2020,film_bale,cardboard,6.963298048199999
-1163,Mississippi_Clarke,2020,film_bale,iron,0.0
-1164,Mississippi_Clarke,2020,film_bale,glass,0.0
-1165,Mississippi_Clarke,2020,film_bale,hdpe,0.0
-1166,Mississippi_Clarke,2020,film_bale,paper,0.6321911398878238
-1167,Mississippi_Clarke,2020,film_bale,pet,0.0
-1168,Mississippi_Clarke,2020,film_bale,film,6.060299260960637
-1169,Mississippi_Clarke,2020,film_bale,other,0.0
-1170,Mississippi_Clarke,2020,cardboard_bale,aluminum,0.0
-1171,Mississippi_Clarke,2020,cardboard_bale,cardboard,255.90120327134994
-1172,Mississippi_Clarke,2020,cardboard_bale,iron,0.0
-1173,Mississippi_Clarke,2020,cardboard_bale,glass,0.0
-1174,Mississippi_Clarke,2020,cardboard_bale,hdpe,0.0
-1175,Mississippi_Clarke,2020,cardboard_bale,paper,0.6195473170900674
-1176,Mississippi_Clarke,2020,cardboard_bale,pet,0.0
-1177,Mississippi_Clarke,2020,cardboard_bale,film,0.0
-1178,Mississippi_Clarke,2020,cardboard_bale,other,0.0
-1179,Mississippi_Clarke,2020,glass_bale,aluminum,0.0
-1180,Mississippi_Clarke,2020,glass_bale,cardboard,0.0
-1181,Mississippi_Clarke,2020,glass_bale,iron,0.0
-1182,Mississippi_Clarke,2020,glass_bale,glass,38.967687154349996
-1183,Mississippi_Clarke,2020,glass_bale,hdpe,0.0
-1184,Mississippi_Clarke,2020,glass_bale,paper,0.0
-1185,Mississippi_Clarke,2020,glass_bale,pet,0.0
-1186,Mississippi_Clarke,2020,glass_bale,film,0.0
-1187,Mississippi_Clarke,2020,glass_bale,other,0.0
-1188,Mississippi_Clarke,2020,pet_bale,aluminum,0.4017287335499997
-1189,Mississippi_Clarke,2020,pet_bale,cardboard,4.179719653432059
-1190,Mississippi_Clarke,2020,pet_bale,iron,0.0
-1191,Mississippi_Clarke,2020,pet_bale,glass,0.09641489605199993
-1192,Mississippi_Clarke,2020,pet_bale,hdpe,8.034574671000001
-1193,Mississippi_Clarke,2020,pet_bale,paper,0.09107345561224012
-1194,Mississippi_Clarke,2020,pet_bale,pet,109.67194425914997
-1195,Mississippi_Clarke,2020,pet_bale,film,0.02424119704384256
-1196,Mississippi_Clarke,2020,pet_bale,other,0.2008643667750003
-1197,Mississippi_Clarke,2020,hdpe_bale,aluminum,0.38967687154350017
-1198,Mississippi_Clarke,2020,hdpe_bale,cardboard,3.9707336707604526
-1199,Mississippi_Clarke,2020,hdpe_bale,iron,0.0
-1200,Mississippi_Clarke,2020,hdpe_bale,glass,0.08870170436783997
-1201,Mississippi_Clarke,2020,hdpe_bale,hdpe,50.617820427299975
-1202,Mississippi_Clarke,2020,hdpe_bale,paper,0.08651978283162798
-1203,Mississippi_Clarke,2020,hdpe_bale,pet,0.10846675805849948
-1204,Mississippi_Clarke,2020,hdpe_bale,film,0.01939295763507405
-1205,Mississippi_Clarke,2020,hdpe_bale,other,0.1908211484362501
-1206,Mississippi_Clarke,2020,iron_bale,aluminum,0.0
-1207,Mississippi_Clarke,2020,iron_bale,cardboard,0.0
-1208,Mississippi_Clarke,2020,iron_bale,iron,0.20086436677499997
-1209,Mississippi_Clarke,2020,iron_bale,glass,0.0
-1210,Mississippi_Clarke,2020,iron_bale,hdpe,0.0
-1211,Mississippi_Clarke,2020,iron_bale,paper,0.0
-1212,Mississippi_Clarke,2020,iron_bale,pet,0.0
-1213,Mississippi_Clarke,2020,iron_bale,film,0.0007757183054029624
-1214,Mississippi_Clarke,2020,iron_bale,other,0.0
-1215,Mississippi_Clarke,2020,aluminum_bale,aluminum,10.39138324116
-1216,Mississippi_Clarke,2020,aluminum_bale,cardboard,0.0
-1217,Mississippi_Clarke,2020,aluminum_bale,iron,0.0
-1218,Mississippi_Clarke,2020,aluminum_bale,glass,0.5543856522990005
-1219,Mississippi_Clarke,2020,aluminum_bale,hdpe,0.0
-1220,Mississippi_Clarke,2020,aluminum_bale,paper,0.0
-1221,Mississippi_Clarke,2020,aluminum_bale,pet,0.0
-1222,Mississippi_Clarke,2020,aluminum_bale,film,0.0
-1223,Mississippi_Clarke,2020,aluminum_bale,other,0.0
-1224,Michigan_Mason,2020,vacuum,aluminum,98.37151266
-1225,Michigan_Mason,2020,vacuum,cardboard,983.7151266
-1226,Michigan_Mason,2020,vacuum,iron,44.26718069699999
-1227,Michigan_Mason,2020,vacuum,glass,393.48605064
-1228,Michigan_Mason,2020,vacuum,hdpe,196.74302532
-1229,Michigan_Mason,2020,vacuum,paper,215.126702852823
-1230,Michigan_Mason,2020,vacuum,pet,196.74302532
-1231,Michigan_Mason,2020,vacuum,film,11.209093502173197
-1232,Michigan_Mason,2020,vacuum,other,14.755726899
-1233,Michigan_Mason,2020,film_bale,aluminum,0.0
-1234,Michigan_Mason,2020,film_bale,cardboard,19.674302532
-1235,Michigan_Mason,2020,film_bale,iron,0.0
-1236,Michigan_Mason,2020,film_bale,glass,0.0
-1237,Michigan_Mason,2020,film_bale,hdpe,0.0
-1238,Michigan_Mason,2020,film_bale,paper,4.3025340570564605
-1239,Michigan_Mason,2020,film_bale,pet,0.0
-1240,Michigan_Mason,2020,film_bale,film,10.984911632129732
-1241,Michigan_Mason,2020,film_bale,other,0.0
-1242,Michigan_Mason,2020,cardboard_bale,aluminum,0.0
-1243,Michigan_Mason,2020,cardboard_bale,cardboard,723.0306180509999
-1244,Michigan_Mason,2020,cardboard_bale,iron,0.0
-1245,Michigan_Mason,2020,cardboard_bale,glass,0.0
-1246,Michigan_Mason,2020,cardboard_bale,hdpe,0.0
-1247,Michigan_Mason,2020,cardboard_bale,paper,4.21648337591533
-1248,Michigan_Mason,2020,cardboard_bale,pet,0.0
-1249,Michigan_Mason,2020,cardboard_bale,film,0.0
-1250,Michigan_Mason,2020,cardboard_bale,other,0.0
-1251,Michigan_Mason,2020,glass_bale,aluminum,0.0
-1252,Michigan_Mason,2020,glass_bale,cardboard,0.0
-1253,Michigan_Mason,2020,glass_bale,iron,0.0
-1254,Michigan_Mason,2020,glass_bale,glass,381.6814691208
-1255,Michigan_Mason,2020,glass_bale,hdpe,0.0
-1256,Michigan_Mason,2020,glass_bale,paper,0.0
-1257,Michigan_Mason,2020,glass_bale,pet,0.0
-1258,Michigan_Mason,2020,glass_bale,film,0.0
-1259,Michigan_Mason,2020,glass_bale,other,0.0
-1260,Michigan_Mason,2020,pet_bale,aluminum,2.9511453797999962
-1261,Michigan_Mason,2020,pet_bale,cardboard,11.809500094832998
-1262,Michigan_Mason,2020,pet_bale,iron,0.0
-1263,Michigan_Mason,2020,pet_bale,glass,0.9443665215360006
-1264,Michigan_Mason,2020,pet_bale,hdpe,19.674302531999984
-1265,Michigan_Mason,2020,pet_bale,paper,0.6198230562595555
-1266,Michigan_Mason,2020,pet_bale,pet,179.0361530412
-1267,Michigan_Mason,2020,pet_bale,film,0.04393964652851895
-1268,Michigan_Mason,2020,pet_bale,other,0.7377863449500008
-1269,Michigan_Mason,2020,hdpe_bale,aluminum,2.8626110184059996
-1270,Michigan_Mason,2020,hdpe_bale,cardboard,11.21902509009135
-1271,Michigan_Mason,2020,hdpe_bale,iron,0.0
-1272,Michigan_Mason,2020,hdpe_bale,glass,0.8688171998131207
-1273,Michigan_Mason,2020,hdpe_bale,hdpe,123.94810595159998
-1274,Michigan_Mason,2020,hdpe_bale,paper,0.588831903446577
-1275,Michigan_Mason,2020,hdpe_bale,pet,0.17706872278800034
-1276,Michigan_Mason,2020,hdpe_bale,film,0.03515171722281518
-1277,Michigan_Mason,2020,hdpe_bale,other,0.7008970277025011
-1278,Michigan_Mason,2020,iron_bale,aluminum,0.0
-1279,Michigan_Mason,2020,iron_bale,cardboard,0.0
-1280,Michigan_Mason,2020,iron_bale,iron,2.21335903485
-1281,Michigan_Mason,2020,iron_bale,glass,0.0
-1282,Michigan_Mason,2020,iron_bale,hdpe,0.0
-1283,Michigan_Mason,2020,iron_bale,paper,0.0
-1284,Michigan_Mason,2020,iron_bale,pet,0.0
-1285,Michigan_Mason,2020,iron_bale,film,0.001406068688912607
-1286,Michigan_Mason,2020,iron_bale,other,0.0
-1287,Michigan_Mason,2020,aluminum_bale,aluminum,76.33629382416
-1288,Michigan_Mason,2020,aluminum_bale,cardboard,0.0
-1289,Michigan_Mason,2020,aluminum_bale,iron,0.0
-1290,Michigan_Mason,2020,aluminum_bale,glass,5.430107498832005
-1291,Michigan_Mason,2020,aluminum_bale,hdpe,0.0
-1292,Michigan_Mason,2020,aluminum_bale,paper,0.0
-1293,Michigan_Mason,2020,aluminum_bale,pet,0.0
-1294,Michigan_Mason,2020,aluminum_bale,film,0.0
-1295,Michigan_Mason,2020,aluminum_bale,other,0.0
-1296,Ohio_Montgomery,2020,vacuum,aluminum,504.350407935
-1297,Ohio_Montgomery,2020,vacuum,cardboard,13113.11060631
-1298,Ohio_Montgomery,2020,vacuum,iron,504.350407935
-1299,Ohio_Montgomery,2020,vacuum,glass,3026.10244761
-1300,Ohio_Montgomery,2020,vacuum,hdpe,2521.752039675
-1301,Ohio_Montgomery,2020,vacuum,paper,2701.7467184174457
-1302,Ohio_Montgomery,2020,vacuum,pet,5043.50407935
-1303,Ohio_Montgomery,2020,vacuum,film,97.97347816753305
-1304,Ohio_Montgomery,2020,vacuum,other,201.740163174
-1305,Ohio_Montgomery,2020,film_bale,aluminum,0.0
-1306,Ohio_Montgomery,2020,film_bale,cardboard,262.2622121262
-1307,Ohio_Montgomery,2020,film_bale,iron,0.0
-1308,Ohio_Montgomery,2020,film_bale,glass,0.0
-1309,Ohio_Montgomery,2020,film_bale,hdpe,0.0
-1310,Ohio_Montgomery,2020,film_bale,paper,54.034934368348914
-1311,Ohio_Montgomery,2020,film_bale,pet,0.0
-1312,Ohio_Montgomery,2020,film_bale,film,96.01400860418238
-1313,Ohio_Montgomery,2020,film_bale,other,0.0
-1314,Ohio_Montgomery,2020,cardboard_bale,aluminum,0.0
-1315,Ohio_Montgomery,2020,cardboard_bale,cardboard,9638.136295637849
-1316,Ohio_Montgomery,2020,cardboard_bale,iron,0.0
-1317,Ohio_Montgomery,2020,cardboard_bale,glass,0.0
-1318,Ohio_Montgomery,2020,cardboard_bale,hdpe,0.0
-1319,Ohio_Montgomery,2020,cardboard_bale,paper,52.95423568098194
-1320,Ohio_Montgomery,2020,cardboard_bale,pet,0.0
-1321,Ohio_Montgomery,2020,cardboard_bale,film,0.0
-1322,Ohio_Montgomery,2020,cardboard_bale,other,0.0
-1323,Ohio_Montgomery,2020,glass_bale,aluminum,0.0
-1324,Ohio_Montgomery,2020,glass_bale,cardboard,0.0
-1325,Ohio_Montgomery,2020,glass_bale,iron,0.0
-1326,Ohio_Montgomery,2020,glass_bale,glass,2935.3193741817
-1327,Ohio_Montgomery,2020,glass_bale,hdpe,0.0
-1328,Ohio_Montgomery,2020,glass_bale,paper,0.0
-1329,Ohio_Montgomery,2020,glass_bale,pet,0.0
-1330,Ohio_Montgomery,2020,glass_bale,film,0.0
-1331,Ohio_Montgomery,2020,glass_bale,other,0.0
-1332,Ohio_Montgomery,2020,pet_bale,aluminum,15.130512238050017
-1333,Ohio_Montgomery,2020,pet_bale,cardboard,157.42289282875163
-1334,Ohio_Montgomery,2020,pet_bale,iron,0.0
-1335,Ohio_Montgomery,2020,pet_bale,glass,7.26264587426401
-1336,Ohio_Montgomery,2020,pet_bale,hdpe,252.17520396749978
-1337,Ohio_Montgomery,2020,pet_bale,paper,7.784272645104352
-1338,Ohio_Montgomery,2020,pet_bale,pet,4589.5887122085005
-1339,Ohio_Montgomery,2020,pet_bale,film,0.38405603441672986
-1340,Ohio_Montgomery,2020,pet_bale,other,10.087008158700002
-1341,Ohio_Montgomery,2020,hdpe_bale,aluminum,14.676596870908497
-1342,Ohio_Montgomery,2020,hdpe_bale,cardboard,149.55174818731393
-1343,Ohio_Montgomery,2020,hdpe_bale,iron,0.0
-1344,Ohio_Montgomery,2020,hdpe_bale,glass,6.681634204322876
-1345,Ohio_Montgomery,2020,hdpe_bale,hdpe,1588.70378499525
-1346,Ohio_Montgomery,2020,hdpe_bale,paper,7.395059012849146
-1347,Ohio_Montgomery,2020,hdpe_bale,pet,4.539153671415022
-1348,Ohio_Montgomery,2020,hdpe_bale,film,0.3072448275333839
-1349,Ohio_Montgomery,2020,hdpe_bale,other,9.582657750765009
-1350,Ohio_Montgomery,2020,iron_bale,aluminum,0.0
-1351,Ohio_Montgomery,2020,iron_bale,cardboard,0.0
-1352,Ohio_Montgomery,2020,iron_bale,iron,25.217520396750004
-1353,Ohio_Montgomery,2020,iron_bale,glass,0.0
-1354,Ohio_Montgomery,2020,iron_bale,hdpe,0.0
-1355,Ohio_Montgomery,2020,iron_bale,paper,0.0
-1356,Ohio_Montgomery,2020,iron_bale,pet,0.0
-1357,Ohio_Montgomery,2020,iron_bale,film,0.012289793101335355
-1358,Ohio_Montgomery,2020,iron_bale,other,0.0
-1359,Ohio_Montgomery,2020,aluminum_bale,aluminum,391.37591655756
-1360,Ohio_Montgomery,2020,aluminum_bale,cardboard,0.0
-1361,Ohio_Montgomery,2020,aluminum_bale,iron,0.0
-1362,Ohio_Montgomery,2020,aluminum_bale,glass,41.76021377701804
-1363,Ohio_Montgomery,2020,aluminum_bale,hdpe,0.0
-1364,Ohio_Montgomery,2020,aluminum_bale,paper,0.0
-1365,Ohio_Montgomery,2020,aluminum_bale,pet,0.0
-1366,Ohio_Montgomery,2020,aluminum_bale,film,0.0
-1367,Ohio_Montgomery,2020,aluminum_bale,other,0.0
-1368,Kansas_Pottawatomie,2020,vacuum,aluminum,19.226878889999995
-1369,Kansas_Pottawatomie,2020,vacuum,cardboard,922.89018672
-1370,Kansas_Pottawatomie,2020,vacuum,iron,24.994942557
-1371,Kansas_Pottawatomie,2020,vacuum,glass,307.6300622399999
-1372,Kansas_Pottawatomie,2020,vacuum,hdpe,153.81503111999996
-1373,Kansas_Pottawatomie,2020,vacuum,paper,1232.4965273517232
-1374,Kansas_Pottawatomie,2020,vacuum,pet,173.04191000999995
-1375,Kansas_Pottawatomie,2020,vacuum,film,16.273277921486578
-1376,Kansas_Pottawatomie,2020,vacuum,other,7.690751556
-1377,Kansas_Pottawatomie,2020,film_bale,aluminum,0.0
-1378,Kansas_Pottawatomie,2020,film_bale,cardboard,18.4578037344
-1379,Kansas_Pottawatomie,2020,film_bale,iron,0.0
-1380,Kansas_Pottawatomie,2020,film_bale,glass,0.0
-1381,Kansas_Pottawatomie,2020,film_bale,hdpe,0.0
-1382,Kansas_Pottawatomie,2020,film_bale,paper,24.649930547034465
-1383,Kansas_Pottawatomie,2020,film_bale,pet,0.0
-1384,Kansas_Pottawatomie,2020,film_bale,film,15.947812363056846
-1385,Kansas_Pottawatomie,2020,film_bale,other,0.0
-1386,Kansas_Pottawatomie,2020,cardboard_bale,aluminum,0.0
-1387,Kansas_Pottawatomie,2020,cardboard_bale,cardboard,678.3242872392
-1388,Kansas_Pottawatomie,2020,cardboard_bale,iron,0.0
-1389,Kansas_Pottawatomie,2020,cardboard_bale,glass,0.0
-1390,Kansas_Pottawatomie,2020,cardboard_bale,hdpe,0.0
-1391,Kansas_Pottawatomie,2020,cardboard_bale,paper,24.156931936093773
-1392,Kansas_Pottawatomie,2020,cardboard_bale,pet,0.0
-1393,Kansas_Pottawatomie,2020,cardboard_bale,film,0.0
-1394,Kansas_Pottawatomie,2020,cardboard_bale,other,0.0
-1395,Kansas_Pottawatomie,2020,glass_bale,aluminum,0.0
-1396,Kansas_Pottawatomie,2020,glass_bale,cardboard,0.0
-1397,Kansas_Pottawatomie,2020,glass_bale,iron,0.0
-1398,Kansas_Pottawatomie,2020,glass_bale,glass,298.4011603727999
-1399,Kansas_Pottawatomie,2020,glass_bale,hdpe,0.0
-1400,Kansas_Pottawatomie,2020,glass_bale,paper,0.0
-1401,Kansas_Pottawatomie,2020,glass_bale,pet,0.0
-1402,Kansas_Pottawatomie,2020,glass_bale,film,0.0
-1403,Kansas_Pottawatomie,2020,glass_bale,other,0.0
-1404,Kansas_Pottawatomie,2020,pet_bale,aluminum,0.5768063667000014
-1405,Kansas_Pottawatomie,2020,pet_bale,cardboard,11.079296691573603
-1406,Kansas_Pottawatomie,2020,pet_bale,iron,0.0
-1407,Kansas_Pottawatomie,2020,pet_bale,glass,0.7383121493760001
-1408,Kansas_Pottawatomie,2020,pet_bale,hdpe,15.38150311199999
-1409,Kansas_Pottawatomie,2020,pet_bale,paper,3.551068994605785
-1410,Kansas_Pottawatomie,2020,pet_bale,pet,157.46813810909995
-1411,Kansas_Pottawatomie,2020,pet_bale,film,0.06379124945222742
-1412,Kansas_Pottawatomie,2020,pet_bale,other,0.38453757780000064
-1413,Kansas_Pottawatomie,2020,hdpe_bale,aluminum,0.5595021756989986
-1414,Kansas_Pottawatomie,2020,hdpe_bale,cardboard,10.525331856994939
-1415,Kansas_Pottawatomie,2020,hdpe_bale,iron,0.0
-1416,Kansas_Pottawatomie,2020,hdpe_bale,glass,0.6792471774259203
-1417,Kansas_Pottawatomie,2020,hdpe_bale,hdpe,96.90346960559998
-1418,Kansas_Pottawatomie,2020,hdpe_bale,paper,3.3735155448755023
-1419,Kansas_Pottawatomie,2020,hdpe_bale,pet,0.15573771900900013
-1420,Kansas_Pottawatomie,2020,hdpe_bale,film,0.05103299956178195
-1421,Kansas_Pottawatomie,2020,hdpe_bale,other,0.3653106989100001
-1422,Kansas_Pottawatomie,2020,iron_bale,aluminum,0.0
-1423,Kansas_Pottawatomie,2020,iron_bale,cardboard,0.0
-1424,Kansas_Pottawatomie,2020,iron_bale,iron,1.24974712785
-1425,Kansas_Pottawatomie,2020,iron_bale,glass,0.0
-1426,Kansas_Pottawatomie,2020,iron_bale,hdpe,0.0
-1427,Kansas_Pottawatomie,2020,iron_bale,paper,0.0
-1428,Kansas_Pottawatomie,2020,iron_bale,pet,0.0
-1429,Kansas_Pottawatomie,2020,iron_bale,film,0.002041319982471278
-1430,Kansas_Pottawatomie,2020,iron_bale,other,0.0
-1431,Kansas_Pottawatomie,2020,aluminum_bale,aluminum,14.920058018639995
-1432,Kansas_Pottawatomie,2020,aluminum_bale,cardboard,0.0
-1433,Kansas_Pottawatomie,2020,aluminum_bale,iron,0.0
-1434,Kansas_Pottawatomie,2020,aluminum_bale,glass,4.245294858912003
-1435,Kansas_Pottawatomie,2020,aluminum_bale,hdpe,0.0
-1436,Kansas_Pottawatomie,2020,aluminum_bale,paper,0.0
-1437,Kansas_Pottawatomie,2020,aluminum_bale,pet,0.0
-1438,Kansas_Pottawatomie,2020,aluminum_bale,film,0.0
-1439,Kansas_Pottawatomie,2020,aluminum_bale,other,0.0
+0,Virginia_Southampton,2020,vacuum,aluminum,11.959419854999998
+1,Virginia_Southampton,2020,vacuum,cardboard,574.05215304
+2,Virginia_Southampton,2020,vacuum,iron,23.91883971
+3,Virginia_Southampton,2020,vacuum,glass,131.55361840499998
+4,Virginia_Southampton,2020,vacuum,hdpe,95.67535884
+5,Virginia_Southampton,2020,vacuum,paper,116.1201719508346
+6,Virginia_Southampton,2020,vacuum,pet,131.55361840499998
+7,Virginia_Southampton,2020,vacuum,film,1.575059852456968
+8,Virginia_Southampton,2020,vacuum,other,3.5878259565
+9,Virginia_Southampton,2020,film_bale,aluminum,0.0
+10,Virginia_Southampton,2020,film_bale,cardboard,11.481043060800001
+11,Virginia_Southampton,2020,film_bale,iron,0.0
+12,Virginia_Southampton,2020,film_bale,glass,0.0
+13,Virginia_Southampton,2020,film_bale,hdpe,0.0
+14,Virginia_Southampton,2020,film_bale,paper,2.3224034390166923
+15,Virginia_Southampton,2020,film_bale,pet,0.0
+16,Virginia_Southampton,2020,film_bale,film,1.5435586554078284
+17,Virginia_Southampton,2020,film_bale,other,0.0
+18,Virginia_Southampton,2020,cardboard_bale,aluminum,0.0
+19,Virginia_Southampton,2020,cardboard_bale,cardboard,421.92833248439996
+20,Virginia_Southampton,2020,cardboard_bale,iron,0.0
+21,Virginia_Southampton,2020,cardboard_bale,glass,0.0
+22,Virginia_Southampton,2020,cardboard_bale,hdpe,0.0
+23,Virginia_Southampton,2020,cardboard_bale,paper,2.275955370236358
+24,Virginia_Southampton,2020,cardboard_bale,pet,0.0
+25,Virginia_Southampton,2020,cardboard_bale,film,0.0
+26,Virginia_Southampton,2020,cardboard_bale,other,0.0
+27,Virginia_Southampton,2020,glass_bale,aluminum,0.0
+28,Virginia_Southampton,2020,glass_bale,cardboard,0.0
+29,Virginia_Southampton,2020,glass_bale,iron,0.0
+30,Virginia_Southampton,2020,glass_bale,glass,127.60700985284998
+31,Virginia_Southampton,2020,glass_bale,hdpe,0.0
+32,Virginia_Southampton,2020,glass_bale,paper,0.0
+33,Virginia_Southampton,2020,glass_bale,pet,0.0
+34,Virginia_Southampton,2020,glass_bale,film,0.0
+35,Virginia_Southampton,2020,glass_bale,other,0.0
+36,Virginia_Southampton,2020,pet_bale,aluminum,0.35878259565000015
+37,Virginia_Southampton,2020,pet_bale,cardboard,6.891496097245209
+38,Virginia_Southampton,2020,pet_bale,iron,0.0
+39,Virginia_Southampton,2020,pet_bale,glass,0.31572868417199995
+40,Virginia_Southampton,2020,pet_bale,hdpe,9.567535883999994
+41,Virginia_Southampton,2020,pet_bale,paper,0.33456543942474504
+42,Virginia_Southampton,2020,pet_bale,pet,119.71379274854999
+43,Virginia_Southampton,2020,pet_bale,film,0.00617423462163132
+44,Virginia_Southampton,2020,pet_bale,other,0.17939129782500007
+45,Virginia_Southampton,2020,hdpe_bale,aluminum,0.34801911778050076
+46,Virginia_Southampton,2020,hdpe_bale,cardboard,6.546921292382947
+47,Virginia_Southampton,2020,hdpe_bale,iron,0.0
+48,Virginia_Southampton,2020,hdpe_bale,glass,0.2904703894382399
+49,Virginia_Southampton,2020,hdpe_bale,hdpe,60.275476069199996
+50,Virginia_Southampton,2020,hdpe_bale,paper,0.3178371674535079
+51,Virginia_Southampton,2020,hdpe_bale,pet,0.11839825656450031
+52,Virginia_Southampton,2020,hdpe_bale,film,0.004939387697305054
+53,Virginia_Southampton,2020,hdpe_bale,other,0.1704217329337503
+54,Virginia_Southampton,2020,iron_bale,aluminum,0.0
+55,Virginia_Southampton,2020,iron_bale,cardboard,0.0
+56,Virginia_Southampton,2020,iron_bale,iron,1.1959419855
+57,Virginia_Southampton,2020,iron_bale,glass,0.0
+58,Virginia_Southampton,2020,iron_bale,hdpe,0.0
+59,Virginia_Southampton,2020,iron_bale,paper,0.0
+60,Virginia_Southampton,2020,iron_bale,pet,0.0
+61,Virginia_Southampton,2020,iron_bale,film,0.00019757550789220227
+62,Virginia_Southampton,2020,iron_bale,other,0.0
+63,Virginia_Southampton,2020,aluminum_bale,aluminum,9.28050980748
+64,Virginia_Southampton,2020,aluminum_bale,cardboard,0.0
+65,Virginia_Southampton,2020,aluminum_bale,iron,0.0
+66,Virginia_Southampton,2020,aluminum_bale,glass,1.8154399339890015
+67,Virginia_Southampton,2020,aluminum_bale,hdpe,0.0
+68,Virginia_Southampton,2020,aluminum_bale,paper,0.0
+69,Virginia_Southampton,2020,aluminum_bale,pet,0.0
+70,Virginia_Southampton,2020,aluminum_bale,film,0.0
+71,Virginia_Southampton,2020,aluminum_bale,other,0.0
+72,Nebraska_Sherman,2020,vacuum,aluminum,2.584570065
+73,Nebraska_Sherman,2020,vacuum,cardboard,193.842754875
+74,Nebraska_Sherman,2020,vacuum,iron,2.8430270715000003
+75,Nebraska_Sherman,2020,vacuum,glass,12.922850325
+76,Nebraska_Sherman,2020,vacuum,hdpe,20.67656052
+77,Nebraska_Sherman,2020,vacuum,paper,44.1964663754578
+78,Nebraska_Sherman,2020,vacuum,pet,23.261130585
+79,Nebraska_Sherman,2020,vacuum,film,0.9445013430842508
+80,Nebraska_Sherman,2020,vacuum,other,2.067656052
+81,Nebraska_Sherman,2020,film_bale,aluminum,0.0
+82,Nebraska_Sherman,2020,film_bale,cardboard,3.8768550975
+83,Nebraska_Sherman,2020,film_bale,iron,0.0
+84,Nebraska_Sherman,2020,film_bale,glass,0.0
+85,Nebraska_Sherman,2020,film_bale,hdpe,0.0
+86,Nebraska_Sherman,2020,film_bale,paper,0.8839293275091561
+87,Nebraska_Sherman,2020,film_bale,pet,0.0
+88,Nebraska_Sherman,2020,film_bale,film,0.9256113162225658
+89,Nebraska_Sherman,2020,film_bale,other,0.0
+90,Nebraska_Sherman,2020,cardboard_bale,aluminum,0.0
+91,Nebraska_Sherman,2020,cardboard_bale,cardboard,142.474424833125
+92,Nebraska_Sherman,2020,cardboard_bale,iron,0.0
+93,Nebraska_Sherman,2020,cardboard_bale,glass,0.0
+94,Nebraska_Sherman,2020,cardboard_bale,hdpe,0.0
+95,Nebraska_Sherman,2020,cardboard_bale,paper,0.8662507409589729
+96,Nebraska_Sherman,2020,cardboard_bale,pet,0.0
+97,Nebraska_Sherman,2020,cardboard_bale,film,0.0
+98,Nebraska_Sherman,2020,cardboard_bale,other,0.0
+99,Nebraska_Sherman,2020,glass_bale,aluminum,0.0
+100,Nebraska_Sherman,2020,glass_bale,cardboard,0.0
+101,Nebraska_Sherman,2020,glass_bale,iron,0.0
+102,Nebraska_Sherman,2020,glass_bale,glass,12.53516481525
+103,Nebraska_Sherman,2020,glass_bale,hdpe,0.0
+104,Nebraska_Sherman,2020,glass_bale,paper,0.0
+105,Nebraska_Sherman,2020,glass_bale,pet,0.0
+106,Nebraska_Sherman,2020,glass_bale,film,0.0
+107,Nebraska_Sherman,2020,glass_bale,other,0.0
+108,Nebraska_Sherman,2020,pet_bale,aluminum,0.07753710194999996
+109,Nebraska_Sherman,2020,pet_bale,cardboard,2.3270822722743745
+110,Nebraska_Sherman,2020,pet_bale,iron,0.0
+111,Nebraska_Sherman,2020,pet_bale,glass,0.031014840779999997
+112,Nebraska_Sherman,2020,pet_bale,hdpe,2.0676560520000002
+113,Nebraska_Sherman,2020,pet_bale,paper,0.1273388589209694
+114,Nebraska_Sherman,2020,pet_bale,pet,21.16762883235
+115,Nebraska_Sherman,2020,pet_bale,film,0.0037024452648902664
+116,Nebraska_Sherman,2020,pet_bale,other,0.1033828026000001
+117,Nebraska_Sherman,2020,hdpe_bale,aluminum,0.07521098889150002
+118,Nebraska_Sherman,2020,hdpe_bale,cardboard,2.2107281586606575
+119,Nebraska_Sherman,2020,hdpe_bale,iron,0.0
+120,Nebraska_Sherman,2020,hdpe_bale,glass,0.02853365351760001
+121,Nebraska_Sherman,2020,hdpe_bale,hdpe,13.026233127599998
+122,Nebraska_Sherman,2020,hdpe_bale,paper,0.12097191597492074
+123,Nebraska_Sherman,2020,hdpe_bale,pet,0.020935017526499955
+124,Nebraska_Sherman,2020,hdpe_bale,film,0.0029619562119122134
+125,Nebraska_Sherman,2020,hdpe_bale,other,0.09821366247000007
+126,Nebraska_Sherman,2020,iron_bale,aluminum,0.0
+127,Nebraska_Sherman,2020,iron_bale,cardboard,0.0
+128,Nebraska_Sherman,2020,iron_bale,iron,0.14215135357500003
+129,Nebraska_Sherman,2020,iron_bale,glass,0.0
+130,Nebraska_Sherman,2020,iron_bale,hdpe,0.0
+131,Nebraska_Sherman,2020,iron_bale,paper,0.0
+132,Nebraska_Sherman,2020,iron_bale,pet,0.0
+133,Nebraska_Sherman,2020,iron_bale,film,0.00011847824847648854
+134,Nebraska_Sherman,2020,iron_bale,other,0.0
+135,Nebraska_Sherman,2020,aluminum_bale,aluminum,2.00562637044
+136,Nebraska_Sherman,2020,aluminum_bale,cardboard,0.0
+137,Nebraska_Sherman,2020,aluminum_bale,iron,0.0
+138,Nebraska_Sherman,2020,aluminum_bale,glass,0.1783353344850002
+139,Nebraska_Sherman,2020,aluminum_bale,hdpe,0.0
+140,Nebraska_Sherman,2020,aluminum_bale,paper,0.0
+141,Nebraska_Sherman,2020,aluminum_bale,pet,0.0
+142,Nebraska_Sherman,2020,aluminum_bale,film,0.0
+143,Nebraska_Sherman,2020,aluminum_bale,other,0.0
+144,Alabama_Tuscaloosa,2020,vacuum,aluminum,176.50644952499997
+145,Alabama_Tuscaloosa,2020,vacuum,cardboard,6177.725733374999
+146,Alabama_Tuscaloosa,2020,vacuum,iron,88.25322476249998
+147,Alabama_Tuscaloosa,2020,vacuum,glass,706.0257980999999
+148,Alabama_Tuscaloosa,2020,vacuum,hdpe,1059.0386971500002
+149,Alabama_Tuscaloosa,2020,vacuum,paper,3021.408770092707
+150,Alabama_Tuscaloosa,2020,vacuum,pet,1588.5580457249996
+151,Alabama_Tuscaloosa,2020,vacuum,film,13.35724082651591
+152,Alabama_Tuscaloosa,2020,vacuum,other,52.95193485749999
+153,Alabama_Tuscaloosa,2020,film_bale,aluminum,0.0
+154,Alabama_Tuscaloosa,2020,film_bale,cardboard,123.55451466749999
+155,Alabama_Tuscaloosa,2020,film_bale,iron,0.0
+156,Alabama_Tuscaloosa,2020,film_bale,glass,0.0
+157,Alabama_Tuscaloosa,2020,film_bale,hdpe,0.0
+158,Alabama_Tuscaloosa,2020,film_bale,paper,60.42817540185414
+159,Alabama_Tuscaloosa,2020,film_bale,pet,0.0
+160,Alabama_Tuscaloosa,2020,film_bale,film,13.090096009985592
+161,Alabama_Tuscaloosa,2020,film_bale,other,0.0
+162,Alabama_Tuscaloosa,2020,cardboard_bale,aluminum,0.0
+163,Alabama_Tuscaloosa,2020,cardboard_bale,cardboard,4540.628414030624
+164,Alabama_Tuscaloosa,2020,cardboard_bale,iron,0.0
+165,Alabama_Tuscaloosa,2020,cardboard_bale,glass,0.0
+166,Alabama_Tuscaloosa,2020,cardboard_bale,hdpe,0.0
+167,Alabama_Tuscaloosa,2020,cardboard_bale,paper,59.21961189381705
+168,Alabama_Tuscaloosa,2020,cardboard_bale,pet,0.0
+169,Alabama_Tuscaloosa,2020,cardboard_bale,film,0.0
+170,Alabama_Tuscaloosa,2020,cardboard_bale,other,0.0
+171,Alabama_Tuscaloosa,2020,glass_bale,aluminum,0.0
+172,Alabama_Tuscaloosa,2020,glass_bale,cardboard,0.0
+173,Alabama_Tuscaloosa,2020,glass_bale,iron,0.0
+174,Alabama_Tuscaloosa,2020,glass_bale,glass,684.8450241569999
+175,Alabama_Tuscaloosa,2020,glass_bale,hdpe,0.0
+176,Alabama_Tuscaloosa,2020,glass_bale,paper,0.0
+177,Alabama_Tuscaloosa,2020,glass_bale,pet,0.0
+178,Alabama_Tuscaloosa,2020,glass_bale,film,0.0
+179,Alabama_Tuscaloosa,2020,glass_bale,other,0.0
+180,Alabama_Tuscaloosa,2020,pet_bale,aluminum,5.295193485749991
+181,Alabama_Tuscaloosa,2020,pet_bale,cardboard,74.16359742916688
+182,Alabama_Tuscaloosa,2020,pet_bale,iron,0.0
+183,Alabama_Tuscaloosa,2020,pet_bale,glass,1.6944619154400016
+184,Alabama_Tuscaloosa,2020,pet_bale,hdpe,105.90386971500004
+185,Alabama_Tuscaloosa,2020,pet_bale,paper,8.70528294839113
+186,Alabama_Tuscaloosa,2020,pet_bale,pet,1445.5878216097497
+187,Alabama_Tuscaloosa,2020,pet_bale,film,0.05236038403994242
+188,Alabama_Tuscaloosa,2020,pet_bale,other,2.6475967428750025
+189,Alabama_Tuscaloosa,2020,hdpe_bale,aluminum,5.136337681177508
+190,Alabama_Tuscaloosa,2020,hdpe_bale,cardboard,70.45541755770864
+191,Alabama_Tuscaloosa,2020,hdpe_bale,iron,0.0
+192,Alabama_Tuscaloosa,2020,hdpe_bale,glass,1.5589049622047995
+193,Alabama_Tuscaloosa,2020,hdpe_bale,hdpe,667.1943792045001
+194,Alabama_Tuscaloosa,2020,hdpe_bale,paper,8.27001880097157
+195,Alabama_Tuscaloosa,2020,hdpe_bale,pet,1.429702241152512
+196,Alabama_Tuscaloosa,2020,hdpe_bale,film,0.041888307231953914
+197,Alabama_Tuscaloosa,2020,hdpe_bale,other,2.5152169057312506
+198,Alabama_Tuscaloosa,2020,iron_bale,aluminum,0.0
+199,Alabama_Tuscaloosa,2020,iron_bale,cardboard,0.0
+200,Alabama_Tuscaloosa,2020,iron_bale,iron,4.412661238125
+201,Alabama_Tuscaloosa,2020,iron_bale,glass,0.0
+202,Alabama_Tuscaloosa,2020,iron_bale,hdpe,0.0
+203,Alabama_Tuscaloosa,2020,iron_bale,paper,0.0
+204,Alabama_Tuscaloosa,2020,iron_bale,pet,0.0
+205,Alabama_Tuscaloosa,2020,iron_bale,film,0.0016755322892781576
+206,Alabama_Tuscaloosa,2020,iron_bale,other,0.0
+207,Alabama_Tuscaloosa,2020,aluminum_bale,aluminum,136.96900483139999
+208,Alabama_Tuscaloosa,2020,aluminum_bale,cardboard,0.0
+209,Alabama_Tuscaloosa,2020,aluminum_bale,iron,0.0
+210,Alabama_Tuscaloosa,2020,aluminum_bale,glass,9.743156013780007
+211,Alabama_Tuscaloosa,2020,aluminum_bale,hdpe,0.0
+212,Alabama_Tuscaloosa,2020,aluminum_bale,paper,0.0
+213,Alabama_Tuscaloosa,2020,aluminum_bale,pet,0.0
+214,Alabama_Tuscaloosa,2020,aluminum_bale,film,0.0
+215,Alabama_Tuscaloosa,2020,aluminum_bale,other,0.0
+216,Arkansas_St. Francis,2020,vacuum,aluminum,24.52302492
+217,Arkansas_St. Francis,2020,vacuum,cardboard,1079.0130964799998
+218,Arkansas_St. Francis,2020,vacuum,iron,17.166117444
+219,Arkansas_St. Francis,2020,vacuum,glass,147.13814952
+220,Arkansas_St. Francis,2020,vacuum,hdpe,171.66117444
+221,Arkansas_St. Francis,2020,vacuum,paper,130.91534961352582
+222,Arkansas_St. Francis,2020,vacuum,pet,220.70722428
+223,Arkansas_St. Francis,2020,vacuum,film,23.1795929939648
+224,Arkansas_St. Francis,2020,vacuum,other,2.4523024920000003
+225,Arkansas_St. Francis,2020,film_bale,aluminum,0.0
+226,Arkansas_St. Francis,2020,film_bale,cardboard,21.580261929599995
+227,Arkansas_St. Francis,2020,film_bale,iron,0.0
+228,Arkansas_St. Francis,2020,film_bale,glass,0.0
+229,Arkansas_St. Francis,2020,film_bale,hdpe,0.0
+230,Arkansas_St. Francis,2020,film_bale,paper,2.6183069922705164
+231,Arkansas_St. Francis,2020,film_bale,pet,0.0
+232,Arkansas_St. Francis,2020,film_bale,film,22.716001134085502
+233,Arkansas_St. Francis,2020,film_bale,other,0.0
+234,Arkansas_St. Francis,2020,cardboard_bale,aluminum,0.0
+235,Arkansas_St. Francis,2020,cardboard_bale,cardboard,793.0746259127998
+236,Arkansas_St. Francis,2020,cardboard_bale,iron,0.0
+237,Arkansas_St. Francis,2020,cardboard_bale,glass,0.0
+238,Arkansas_St. Francis,2020,cardboard_bale,hdpe,0.0
+239,Arkansas_St. Francis,2020,cardboard_bale,paper,2.565940852425106
+240,Arkansas_St. Francis,2020,cardboard_bale,pet,0.0
+241,Arkansas_St. Francis,2020,cardboard_bale,film,0.0
+242,Arkansas_St. Francis,2020,cardboard_bale,other,0.0
+243,Arkansas_St. Francis,2020,glass_bale,aluminum,0.0
+244,Arkansas_St. Francis,2020,glass_bale,cardboard,0.0
+245,Arkansas_St. Francis,2020,glass_bale,iron,0.0
+246,Arkansas_St. Francis,2020,glass_bale,glass,142.72400503440002
+247,Arkansas_St. Francis,2020,glass_bale,hdpe,0.0
+248,Arkansas_St. Francis,2020,glass_bale,paper,0.0
+249,Arkansas_St. Francis,2020,glass_bale,pet,0.0
+250,Arkansas_St. Francis,2020,glass_bale,film,0.0
+251,Arkansas_St. Francis,2020,glass_bale,other,0.0
+252,Arkansas_St. Francis,2020,pet_bale,aluminum,0.7356907475999996
+253,Arkansas_St. Francis,2020,pet_bale,cardboard,12.953552223242411
+254,Arkansas_St. Francis,2020,pet_bale,iron,0.0
+255,Arkansas_St. Francis,2020,pet_bale,glass,0.3531315588480002
+256,Arkansas_St. Francis,2020,pet_bale,hdpe,17.166117444000008
+257,Arkansas_St. Francis,2020,pet_bale,paper,0.3771933053064913
+258,Arkansas_St. Francis,2020,pet_bale,pet,200.8435740948
+259,Arkansas_St. Francis,2020,pet_bale,film,0.09086400453634208
+260,Arkansas_St. Francis,2020,pet_bale,other,0.12261512460000024
+261,Arkansas_St. Francis,2020,hdpe_bale,aluminum,0.713620025172002
+262,Arkansas_St. Francis,2020,hdpe_bale,cardboard,12.305874612080288
+263,Arkansas_St. Francis,2020,hdpe_bale,iron,0.0
+264,Arkansas_St. Francis,2020,hdpe_bale,glass,0.32488103414016
+265,Arkansas_St. Francis,2020,hdpe_bale,hdpe,108.14653989719999
+266,Arkansas_St. Francis,2020,hdpe_bale,paper,0.35833364004116675
+267,Arkansas_St. Francis,2020,hdpe_bale,pet,0.19863650185200044
+268,Arkansas_St. Francis,2020,hdpe_bale,film,0.07269120362907366
+269,Arkansas_St. Francis,2020,hdpe_bale,other,0.11648436837000009
+270,Arkansas_St. Francis,2020,iron_bale,aluminum,0.0
+271,Arkansas_St. Francis,2020,iron_bale,cardboard,0.0
+272,Arkansas_St. Francis,2020,iron_bale,iron,0.8583058722000001
+273,Arkansas_St. Francis,2020,iron_bale,glass,0.0
+274,Arkansas_St. Francis,2020,iron_bale,hdpe,0.0
+275,Arkansas_St. Francis,2020,iron_bale,paper,0.0
+276,Arkansas_St. Francis,2020,iron_bale,pet,0.0
+277,Arkansas_St. Francis,2020,iron_bale,film,0.0029076481451629473
+278,Arkansas_St. Francis,2020,iron_bale,other,0.0
+279,Arkansas_St. Francis,2020,aluminum_bale,aluminum,19.029867337920003
+280,Arkansas_St. Francis,2020,aluminum_bale,cardboard,0.0
+281,Arkansas_St. Francis,2020,aluminum_bale,iron,0.0
+282,Arkansas_St. Francis,2020,aluminum_bale,glass,2.030506463376002
+283,Arkansas_St. Francis,2020,aluminum_bale,hdpe,0.0
+284,Arkansas_St. Francis,2020,aluminum_bale,paper,0.0
+285,Arkansas_St. Francis,2020,aluminum_bale,pet,0.0
+286,Arkansas_St. Francis,2020,aluminum_bale,film,0.0
+287,Arkansas_St. Francis,2020,aluminum_bale,other,0.0
+288,Kentucky_Cumberland,2020,vacuum,aluminum,5.997400035
+289,Kentucky_Cumberland,2020,vacuum,cardboard,221.903801295
+290,Kentucky_Cumberland,2020,vacuum,iron,3.598440021
+291,Kentucky_Cumberland,2020,vacuum,glass,35.98440021
+292,Kentucky_Cumberland,2020,vacuum,hdpe,29.987000175
+293,Kentucky_Cumberland,2020,vacuum,paper,111.64853434609546
+294,Kentucky_Cumberland,2020,vacuum,pet,71.96880042
+295,Kentucky_Cumberland,2020,vacuum,film,2.537475155559356
+296,Kentucky_Cumberland,2020,vacuum,other,1.7992200104999996
+297,Kentucky_Cumberland,2020,film_bale,aluminum,0.0
+298,Kentucky_Cumberland,2020,film_bale,cardboard,4.4380760259
+299,Kentucky_Cumberland,2020,film_bale,iron,0.0
+300,Kentucky_Cumberland,2020,film_bale,glass,0.0
+301,Kentucky_Cumberland,2020,film_bale,hdpe,0.0
+302,Kentucky_Cumberland,2020,film_bale,paper,2.232970686921909
+303,Kentucky_Cumberland,2020,film_bale,pet,0.0
+304,Kentucky_Cumberland,2020,film_bale,film,2.486725652448169
+305,Kentucky_Cumberland,2020,film_bale,other,0.0
+306,Kentucky_Cumberland,2020,cardboard_bale,aluminum,0.0
+307,Kentucky_Cumberland,2020,cardboard_bale,cardboard,163.099293951825
+308,Kentucky_Cumberland,2020,cardboard_bale,iron,0.0
+309,Kentucky_Cumberland,2020,cardboard_bale,glass,0.0
+310,Kentucky_Cumberland,2020,cardboard_bale,hdpe,0.0
+311,Kentucky_Cumberland,2020,cardboard_bale,paper,2.188311273183471
+312,Kentucky_Cumberland,2020,cardboard_bale,pet,0.0
+313,Kentucky_Cumberland,2020,cardboard_bale,film,0.0
+314,Kentucky_Cumberland,2020,cardboard_bale,other,0.0
+315,Kentucky_Cumberland,2020,glass_bale,aluminum,0.0
+316,Kentucky_Cumberland,2020,glass_bale,cardboard,0.0
+317,Kentucky_Cumberland,2020,glass_bale,iron,0.0
+318,Kentucky_Cumberland,2020,glass_bale,glass,34.9048682037
+319,Kentucky_Cumberland,2020,glass_bale,hdpe,0.0
+320,Kentucky_Cumberland,2020,glass_bale,paper,0.0
+321,Kentucky_Cumberland,2020,glass_bale,pet,0.0
+322,Kentucky_Cumberland,2020,glass_bale,film,0.0
+323,Kentucky_Cumberland,2020,glass_bale,other,0.0
+324,Kentucky_Cumberland,2020,pet_bale,aluminum,0.17992200105000045
+325,Kentucky_Cumberland,2020,pet_bale,cardboard,2.6639551345464767
+326,Kentucky_Cumberland,2020,pet_bale,iron,0.0
+327,Kentucky_Cumberland,2020,pet_bale,glass,0.08636256050400004
+328,Kentucky_Cumberland,2020,pet_bale,hdpe,2.998700017499999
+329,Kentucky_Cumberland,2020,pet_bale,paper,0.32168175715797087
+330,Kentucky_Cumberland,2020,pet_bale,pet,65.4916083822
+331,Kentucky_Cumberland,2020,pet_bale,film,0.009946902609792682
+332,Kentucky_Cumberland,2020,pet_bale,other,0.089961000525
+333,Kentucky_Cumberland,2020,hdpe_bale,aluminum,0.17452434101850045
+334,Kentucky_Cumberland,2020,hdpe_bale,cardboard,2.5307573778191497
+335,Kentucky_Cumberland,2020,hdpe_bale,iron,0.0
+336,Kentucky_Cumberland,2020,hdpe_bale,glass,0.07945355566368006
+337,Kentucky_Cumberland,2020,hdpe_bale,hdpe,18.89181011025
+338,Kentucky_Cumberland,2020,hdpe_bale,paper,0.30559766930007193
+339,Kentucky_Cumberland,2020,hdpe_bale,pet,0.06477192037799995
+340,Kentucky_Cumberland,2020,hdpe_bale,film,0.007957522087834144
+341,Kentucky_Cumberland,2020,hdpe_bale,other,0.08546295049875008
+342,Kentucky_Cumberland,2020,iron_bale,aluminum,0.0
+343,Kentucky_Cumberland,2020,iron_bale,cardboard,0.0
+344,Kentucky_Cumberland,2020,iron_bale,iron,0.17992200105
+345,Kentucky_Cumberland,2020,iron_bale,glass,0.0
+346,Kentucky_Cumberland,2020,iron_bale,hdpe,0.0
+347,Kentucky_Cumberland,2020,iron_bale,paper,0.0
+348,Kentucky_Cumberland,2020,iron_bale,pet,0.0
+349,Kentucky_Cumberland,2020,iron_bale,film,0.00031830088351336597
+350,Kentucky_Cumberland,2020,iron_bale,other,0.0
+351,Kentucky_Cumberland,2020,aluminum_bale,aluminum,4.65398242716
+352,Kentucky_Cumberland,2020,aluminum_bale,cardboard,0.0
+353,Kentucky_Cumberland,2020,aluminum_bale,iron,0.0
+354,Kentucky_Cumberland,2020,aluminum_bale,glass,0.49658472289800043
+355,Kentucky_Cumberland,2020,aluminum_bale,hdpe,0.0
+356,Kentucky_Cumberland,2020,aluminum_bale,paper,0.0
+357,Kentucky_Cumberland,2020,aluminum_bale,pet,0.0
+358,Kentucky_Cumberland,2020,aluminum_bale,film,0.0
+359,Kentucky_Cumberland,2020,aluminum_bale,other,0.0
+360,Washington_Kittitas,2020,vacuum,aluminum,41.227022325
+361,Washington_Kittitas,2020,vacuum,cardboard,2308.7132502
+362,Washington_Kittitas,2020,vacuum,iron,74.208640185
+363,Washington_Kittitas,2020,vacuum,glass,742.0864018499999
+364,Washington_Kittitas,2020,vacuum,hdpe,206.135111625
+365,Washington_Kittitas,2020,vacuum,paper,3126.7051643168197
+366,Washington_Kittitas,2020,vacuum,pet,247.36213395
+367,Washington_Kittitas,2020,vacuum,film,66.40591111957681
+368,Washington_Kittitas,2020,vacuum,other,24.736213395
+369,Washington_Kittitas,2020,film_bale,aluminum,0.0
+370,Washington_Kittitas,2020,film_bale,cardboard,46.174265004
+371,Washington_Kittitas,2020,film_bale,iron,0.0
+372,Washington_Kittitas,2020,film_bale,glass,0.0
+373,Washington_Kittitas,2020,film_bale,hdpe,0.0
+374,Washington_Kittitas,2020,film_bale,paper,62.534103286336396
+375,Washington_Kittitas,2020,film_bale,pet,0.0
+376,Washington_Kittitas,2020,film_bale,film,65.07779289718528
+377,Washington_Kittitas,2020,film_bale,other,0.0
+378,Washington_Kittitas,2020,cardboard_bale,aluminum,0.0
+379,Washington_Kittitas,2020,cardboard_bale,cardboard,1696.904238897
+380,Washington_Kittitas,2020,cardboard_bale,iron,0.0
+381,Washington_Kittitas,2020,cardboard_bale,glass,0.0
+382,Washington_Kittitas,2020,cardboard_bale,hdpe,0.0
+383,Washington_Kittitas,2020,cardboard_bale,paper,61.28342122060966
+384,Washington_Kittitas,2020,cardboard_bale,pet,0.0
+385,Washington_Kittitas,2020,cardboard_bale,film,0.0
+386,Washington_Kittitas,2020,cardboard_bale,other,0.0
+387,Washington_Kittitas,2020,glass_bale,aluminum,0.0
+388,Washington_Kittitas,2020,glass_bale,cardboard,0.0
+389,Washington_Kittitas,2020,glass_bale,iron,0.0
+390,Washington_Kittitas,2020,glass_bale,glass,719.8238097944999
+391,Washington_Kittitas,2020,glass_bale,hdpe,0.0
+392,Washington_Kittitas,2020,glass_bale,paper,0.0
+393,Washington_Kittitas,2020,glass_bale,pet,0.0
+394,Washington_Kittitas,2020,glass_bale,film,0.0
+395,Washington_Kittitas,2020,glass_bale,other,0.0
+396,Washington_Kittitas,2020,pet_bale,aluminum,1.2368106697499996
+397,Washington_Kittitas,2020,pet_bale,cardboard,27.716102568650967
+398,Washington_Kittitas,2020,pet_bale,iron,0.0
+399,Washington_Kittitas,2020,pet_bale,glass,1.7810073644400006
+400,Washington_Kittitas,2020,pet_bale,hdpe,20.613511162500004
+401,Washington_Kittitas,2020,pet_bale,paper,9.00866291942964
+402,Washington_Kittitas,2020,pet_bale,pet,225.0995418945
+403,Washington_Kittitas,2020,pet_bale,film,0.2603111715887414
+404,Washington_Kittitas,2020,pet_bale,other,1.2368106697499996
+405,Washington_Kittitas,2020,hdpe_bale,aluminum,1.1997063496575038
+406,Washington_Kittitas,2020,hdpe_bale,cardboard,26.330297440218487
+407,Washington_Kittitas,2020,hdpe_bale,iron,0.0
+408,Washington_Kittitas,2020,hdpe_bale,glass,1.6385267752848023
+409,Washington_Kittitas,2020,hdpe_bale,hdpe,129.86512032374998
+410,Washington_Kittitas,2020,hdpe_bale,paper,8.558229773458152
+411,Washington_Kittitas,2020,hdpe_bale,pet,0.22262592055500008
+412,Washington_Kittitas,2020,hdpe_bale,film,0.20824893727099303
+413,Washington_Kittitas,2020,hdpe_bale,other,1.1749701362625018
+414,Washington_Kittitas,2020,iron_bale,aluminum,0.0
+415,Washington_Kittitas,2020,iron_bale,cardboard,0.0
+416,Washington_Kittitas,2020,iron_bale,iron,3.71043200925
+417,Washington_Kittitas,2020,iron_bale,glass,0.0
+418,Washington_Kittitas,2020,iron_bale,hdpe,0.0
+419,Washington_Kittitas,2020,iron_bale,paper,0.0
+420,Washington_Kittitas,2020,iron_bale,pet,0.0
+421,Washington_Kittitas,2020,iron_bale,film,0.008329957490839724
+422,Washington_Kittitas,2020,iron_bale,other,0.0
+423,Washington_Kittitas,2020,aluminum_bale,aluminum,31.992169324200002
+424,Washington_Kittitas,2020,aluminum_bale,cardboard,0.0
+425,Washington_Kittitas,2020,aluminum_bale,iron,0.0
+426,Washington_Kittitas,2020,aluminum_bale,glass,10.240792345530009
+427,Washington_Kittitas,2020,aluminum_bale,hdpe,0.0
+428,Washington_Kittitas,2020,aluminum_bale,paper,0.0
+429,Washington_Kittitas,2020,aluminum_bale,pet,0.0
+430,Washington_Kittitas,2020,aluminum_bale,film,0.0
+431,Washington_Kittitas,2020,aluminum_bale,other,0.0
+432,Pennsylvania_Bucks,2020,vacuum,aluminum,1115.76678957
+433,Pennsylvania_Bucks,2020,vacuum,cardboard,50209.50553065
+434,Pennsylvania_Bucks,2020,vacuum,iron,1841.0152027905
+435,Pennsylvania_Bucks,2020,vacuum,glass,7810.367526989999
+436,Pennsylvania_Bucks,2020,vacuum,hdpe,3905.183763495
+437,Pennsylvania_Bucks,2020,vacuum,paper,17912.19546319769
+438,Pennsylvania_Bucks,2020,vacuum,pet,6136.717342634999
+439,Pennsylvania_Bucks,2020,vacuum,film,969.0468631775534
+440,Pennsylvania_Bucks,2020,vacuum,other,725.2484132205
+441,Pennsylvania_Bucks,2020,film_bale,aluminum,0.0
+442,Pennsylvania_Bucks,2020,film_bale,cardboard,1004.190110613
+443,Pennsylvania_Bucks,2020,film_bale,iron,0.0
+444,Pennsylvania_Bucks,2020,film_bale,glass,0.0
+445,Pennsylvania_Bucks,2020,film_bale,hdpe,0.0
+446,Pennsylvania_Bucks,2020,film_bale,paper,358.2439092639538
+447,Pennsylvania_Bucks,2020,film_bale,pet,0.0
+448,Pennsylvania_Bucks,2020,film_bale,film,949.6659259140023
+449,Pennsylvania_Bucks,2020,film_bale,other,0.0
+450,Pennsylvania_Bucks,2020,cardboard_bale,aluminum,0.0
+451,Pennsylvania_Bucks,2020,cardboard_bale,cardboard,36903.98656502775
+452,Pennsylvania_Bucks,2020,cardboard_bale,iron,0.0
+453,Pennsylvania_Bucks,2020,cardboard_bale,glass,0.0
+454,Pennsylvania_Bucks,2020,cardboard_bale,hdpe,0.0
+455,Pennsylvania_Bucks,2020,cardboard_bale,paper,351.07903107867475
+456,Pennsylvania_Bucks,2020,cardboard_bale,pet,0.0
+457,Pennsylvania_Bucks,2020,cardboard_bale,film,0.0
+458,Pennsylvania_Bucks,2020,cardboard_bale,other,0.0
+459,Pennsylvania_Bucks,2020,glass_bale,aluminum,0.0
+460,Pennsylvania_Bucks,2020,glass_bale,cardboard,0.0
+461,Pennsylvania_Bucks,2020,glass_bale,iron,0.0
+462,Pennsylvania_Bucks,2020,glass_bale,glass,7576.056501180298
+463,Pennsylvania_Bucks,2020,glass_bale,hdpe,0.0
+464,Pennsylvania_Bucks,2020,glass_bale,paper,0.0
+465,Pennsylvania_Bucks,2020,glass_bale,pet,0.0
+466,Pennsylvania_Bucks,2020,glass_bale,film,0.0
+467,Pennsylvania_Bucks,2020,glass_bale,other,0.0
+468,Pennsylvania_Bucks,2020,pet_bale,aluminum,33.47300368710012
+469,Pennsylvania_Bucks,2020,pet_bale,cardboard,602.7651138954534
+470,Pennsylvania_Bucks,2020,pet_bale,iron,0.0
+471,Pennsylvania_Bucks,2020,pet_bale,glass,18.744882064775993
+472,Pennsylvania_Bucks,2020,pet_bale,hdpe,390.51837634950016
+473,Pennsylvania_Bucks,2020,pet_bale,paper,51.60861756856525
+474,Pennsylvania_Bucks,2020,pet_bale,pet,5584.41278179785
+475,Pennsylvania_Bucks,2020,pet_bale,film,3.798663703656011
+476,Pennsylvania_Bucks,2020,pet_bale,other,36.262420661024976
+477,Pennsylvania_Bucks,2020,hdpe_bale,aluminum,32.46881357648704
+478,Pennsylvania_Bucks,2020,hdpe_bale,cardboard,572.6268582006815
+479,Pennsylvania_Bucks,2020,hdpe_bale,iron,0.0
+480,Pennsylvania_Bucks,2020,hdpe_bale,glass,17.245291499593918
+481,Pennsylvania_Bucks,2020,hdpe_bale,hdpe,2460.26577100185
+482,Pennsylvania_Bucks,2020,hdpe_bale,paper,49.02818669013698
+483,Pennsylvania_Bucks,2020,hdpe_bale,pet,5.52304560837149
+484,Pennsylvania_Bucks,2020,hdpe_bale,film,3.038930962924809
+485,Pennsylvania_Bucks,2020,hdpe_bale,other,34.4492996279738
+486,Pennsylvania_Bucks,2020,iron_bale,aluminum,0.0
+487,Pennsylvania_Bucks,2020,iron_bale,cardboard,0.0
+488,Pennsylvania_Bucks,2020,iron_bale,iron,92.05076013952501
+489,Pennsylvania_Bucks,2020,iron_bale,glass,0.0
+490,Pennsylvania_Bucks,2020,iron_bale,hdpe,0.0
+491,Pennsylvania_Bucks,2020,iron_bale,paper,0.0
+492,Pennsylvania_Bucks,2020,iron_bale,pet,0.0
+493,Pennsylvania_Bucks,2020,iron_bale,film,0.12155723851699243
+494,Pennsylvania_Bucks,2020,iron_bale,other,0.0
+495,Pennsylvania_Bucks,2020,aluminum_bale,aluminum,865.8350287063199
+496,Pennsylvania_Bucks,2020,aluminum_bale,cardboard,0.0
+497,Pennsylvania_Bucks,2020,aluminum_bale,iron,0.0
+498,Pennsylvania_Bucks,2020,aluminum_bale,glass,107.78307187246209
+499,Pennsylvania_Bucks,2020,aluminum_bale,hdpe,0.0
+500,Pennsylvania_Bucks,2020,aluminum_bale,paper,0.0
+501,Pennsylvania_Bucks,2020,aluminum_bale,pet,0.0
+502,Pennsylvania_Bucks,2020,aluminum_bale,film,0.0
+503,Pennsylvania_Bucks,2020,aluminum_bale,other,0.0
+504,Vermont_Lamoille,2020,vacuum,aluminum,95.91848442
+505,Vermont_Lamoille,2020,vacuum,cardboard,983.164465305
+506,Vermont_Lamoille,2020,vacuum,iron,79.13274964649999
+507,Vermont_Lamoille,2020,vacuum,glass,1055.1033286199995
+508,Vermont_Lamoille,2020,vacuum,hdpe,167.857347735
+509,Vermont_Lamoille,2020,vacuum,paper,5009.300347354054
+510,Vermont_Lamoille,2020,vacuum,pet,215.816589945
+511,Vermont_Lamoille,2020,vacuum,film,168.7777587308543
+512,Vermont_Lamoille,2020,vacuum,other,16.7857347735
+513,Vermont_Lamoille,2020,film_bale,aluminum,0.0
+514,Vermont_Lamoille,2020,film_bale,cardboard,19.6632893061
+515,Vermont_Lamoille,2020,film_bale,iron,0.0
+516,Vermont_Lamoille,2020,film_bale,glass,0.0
+517,Vermont_Lamoille,2020,film_bale,hdpe,0.0
+518,Vermont_Lamoille,2020,film_bale,paper,100.18600694708108
+519,Vermont_Lamoille,2020,film_bale,pet,0.0
+520,Vermont_Lamoille,2020,film_bale,film,165.4022035562372
+521,Vermont_Lamoille,2020,film_bale,other,0.0
+522,Vermont_Lamoille,2020,cardboard_bale,aluminum,0.0
+523,Vermont_Lamoille,2020,cardboard_bale,cardboard,722.6258819991749
+524,Vermont_Lamoille,2020,cardboard_bale,iron,0.0
+525,Vermont_Lamoille,2020,cardboard_bale,glass,0.0
+526,Vermont_Lamoille,2020,cardboard_bale,hdpe,0.0
+527,Vermont_Lamoille,2020,cardboard_bale,paper,98.18228680813945
+528,Vermont_Lamoille,2020,cardboard_bale,pet,0.0
+529,Vermont_Lamoille,2020,cardboard_bale,film,0.0
+530,Vermont_Lamoille,2020,cardboard_bale,other,0.0
+531,Vermont_Lamoille,2020,glass_bale,aluminum,0.0
+532,Vermont_Lamoille,2020,glass_bale,cardboard,0.0
+533,Vermont_Lamoille,2020,glass_bale,iron,0.0
+534,Vermont_Lamoille,2020,glass_bale,glass,1023.4502287613994
+535,Vermont_Lamoille,2020,glass_bale,hdpe,0.0
+536,Vermont_Lamoille,2020,glass_bale,paper,0.0
+537,Vermont_Lamoille,2020,glass_bale,pet,0.0
+538,Vermont_Lamoille,2020,glass_bale,film,0.0
+539,Vermont_Lamoille,2020,glass_bale,other,0.0
+540,Vermont_Lamoille,2020,pet_bale,aluminum,2.8775545326000014
+541,Vermont_Lamoille,2020,pet_bale,cardboard,11.802889405986548
+542,Vermont_Lamoille,2020,pet_bale,iron,0.0
+543,Vermont_Lamoille,2020,pet_bale,glass,2.532247988687999
+544,Vermont_Lamoille,2020,pet_bale,hdpe,16.785734773499996
+545,Vermont_Lamoille,2020,pet_bale,paper,14.4327961607965
+546,Vermont_Lamoille,2020,pet_bale,pet,196.39309684995
+547,Vermont_Lamoille,2020,pet_bale,film,0.661608814224949
+548,Vermont_Lamoille,2020,pet_bale,other,0.8392867386750016
+549,Vermont_Lamoille,2020,hdpe_bale,aluminum,2.7912278966220043
+550,Vermont_Lamoille,2020,hdpe_bale,cardboard,11.212744935687198
+551,Vermont_Lamoille,2020,hdpe_bale,iron,0.0
+552,Vermont_Lamoille,2020,hdpe_bale,glass,2.3296681495929583
+553,Vermont_Lamoille,2020,hdpe_bale,hdpe,105.75012907304999
+554,Vermont_Lamoille,2020,hdpe_bale,paper,13.711156352756689
+555,Vermont_Lamoille,2020,hdpe_bale,pet,0.19423493095050048
+556,Vermont_Lamoille,2020,hdpe_bale,film,0.5292870513799595
+557,Vermont_Lamoille,2020,hdpe_bale,other,0.7973224017412512
+558,Vermont_Lamoille,2020,iron_bale,aluminum,0.0
+559,Vermont_Lamoille,2020,iron_bale,cardboard,0.0
+560,Vermont_Lamoille,2020,iron_bale,iron,3.9566374823249997
+561,Vermont_Lamoille,2020,iron_bale,glass,0.0
+562,Vermont_Lamoille,2020,iron_bale,hdpe,0.0
+563,Vermont_Lamoille,2020,iron_bale,paper,0.0
+564,Vermont_Lamoille,2020,iron_bale,pet,0.0
+565,Vermont_Lamoille,2020,iron_bale,film,0.021171482055198382
+566,Vermont_Lamoille,2020,iron_bale,other,0.0
+567,Vermont_Lamoille,2020,aluminum_bale,aluminum,74.43274390992
+568,Vermont_Lamoille,2020,aluminum_bale,cardboard,0.0
+569,Vermont_Lamoille,2020,aluminum_bale,iron,0.0
+570,Vermont_Lamoille,2020,aluminum_bale,glass,14.560425934956006
+571,Vermont_Lamoille,2020,aluminum_bale,hdpe,0.0
+572,Vermont_Lamoille,2020,aluminum_bale,paper,0.0
+573,Vermont_Lamoille,2020,aluminum_bale,pet,0.0
+574,Vermont_Lamoille,2020,aluminum_bale,film,0.0
+575,Vermont_Lamoille,2020,aluminum_bale,other,0.0
+576,Nebraska_Howard,2020,vacuum,aluminum,5.532014129999999
+577,Nebraska_Howard,2020,vacuum,cardboard,414.90105975
+578,Nebraska_Howard,2020,vacuum,iron,6.085215543
+579,Nebraska_Howard,2020,vacuum,glass,27.66007065
+580,Nebraska_Howard,2020,vacuum,hdpe,44.25611304
+581,Nebraska_Howard,2020,vacuum,paper,94.59812283521995
+582,Nebraska_Howard,2020,vacuum,pet,49.78812717
+583,Nebraska_Howard,2020,vacuum,film,2.021610807345652
+584,Nebraska_Howard,2020,vacuum,other,4.425611304
+585,Nebraska_Howard,2020,film_bale,aluminum,0.0
+586,Nebraska_Howard,2020,film_bale,cardboard,8.298021195
+587,Nebraska_Howard,2020,film_bale,iron,0.0
+588,Nebraska_Howard,2020,film_bale,glass,0.0
+589,Nebraska_Howard,2020,film_bale,hdpe,0.0
+590,Nebraska_Howard,2020,film_bale,paper,1.891962456704399
+591,Nebraska_Howard,2020,film_bale,pet,0.0
+592,Nebraska_Howard,2020,film_bale,film,1.981178591198739
+593,Nebraska_Howard,2020,film_bale,other,0.0
+594,Nebraska_Howard,2020,cardboard_bale,aluminum,0.0
+595,Nebraska_Howard,2020,cardboard_bale,cardboard,304.95227891625
+596,Nebraska_Howard,2020,cardboard_bale,iron,0.0
+597,Nebraska_Howard,2020,cardboard_bale,glass,0.0
+598,Nebraska_Howard,2020,cardboard_bale,hdpe,0.0
+599,Nebraska_Howard,2020,cardboard_bale,paper,1.854123207570311
+600,Nebraska_Howard,2020,cardboard_bale,pet,0.0
+601,Nebraska_Howard,2020,cardboard_bale,film,0.0
+602,Nebraska_Howard,2020,cardboard_bale,other,0.0
+603,Nebraska_Howard,2020,glass_bale,aluminum,0.0
+604,Nebraska_Howard,2020,glass_bale,cardboard,0.0
+605,Nebraska_Howard,2020,glass_bale,iron,0.0
+606,Nebraska_Howard,2020,glass_bale,glass,26.8302685305
+607,Nebraska_Howard,2020,glass_bale,hdpe,0.0
+608,Nebraska_Howard,2020,glass_bale,paper,0.0
+609,Nebraska_Howard,2020,glass_bale,pet,0.0
+610,Nebraska_Howard,2020,glass_bale,film,0.0
+611,Nebraska_Howard,2020,glass_bale,other,0.0
+612,Nebraska_Howard,2020,pet_bale,aluminum,0.16596042390000054
+613,Nebraska_Howard,2020,pet_bale,cardboard,4.980887222298762
+614,Nebraska_Howard,2020,pet_bale,iron,0.0
+615,Nebraska_Howard,2020,pet_bale,glass,0.06638416956000004
+616,Nebraska_Howard,2020,pet_bale,hdpe,4.425611304
+617,Nebraska_Howard,2020,pet_bale,paper,0.2725561115128361
+618,Nebraska_Howard,2020,pet_bale,pet,45.3071957247
+619,Nebraska_Howard,2020,pet_bale,film,0.007924714364794964
+620,Nebraska_Howard,2020,pet_bale,other,0.22128056519999983
+621,Nebraska_Howard,2020,hdpe_bale,aluminum,0.1609816111829998
+622,Nebraska_Howard,2020,hdpe_bale,cardboard,4.7318428611838215
+623,Nebraska_Howard,2020,hdpe_bale,iron,0.0
+624,Nebraska_Howard,2020,hdpe_bale,glass,0.06107343599519999
+625,Nebraska_Howard,2020,hdpe_bale,hdpe,27.8813512152
+626,Nebraska_Howard,2020,hdpe_bale,paper,0.25892830593719474
+627,Nebraska_Howard,2020,hdpe_bale,pet,0.044809314453000404
+628,Nebraska_Howard,2020,hdpe_bale,film,0.006339771491835969
+629,Nebraska_Howard,2020,hdpe_bale,other,0.21021653694000042
+630,Nebraska_Howard,2020,iron_bale,aluminum,0.0
+631,Nebraska_Howard,2020,iron_bale,cardboard,0.0
+632,Nebraska_Howard,2020,iron_bale,iron,0.30426077715000005
+633,Nebraska_Howard,2020,iron_bale,glass,0.0
+634,Nebraska_Howard,2020,iron_bale,hdpe,0.0
+635,Nebraska_Howard,2020,iron_bale,paper,0.0
+636,Nebraska_Howard,2020,iron_bale,pet,0.0
+637,Nebraska_Howard,2020,iron_bale,film,0.0002535908596734388
+638,Nebraska_Howard,2020,iron_bale,other,0.0
+639,Nebraska_Howard,2020,aluminum_bale,aluminum,4.292842964879999
+640,Nebraska_Howard,2020,aluminum_bale,cardboard,0.0
+641,Nebraska_Howard,2020,aluminum_bale,iron,0.0
+642,Nebraska_Howard,2020,aluminum_bale,glass,0.3817089749700004
+643,Nebraska_Howard,2020,aluminum_bale,hdpe,0.0
+644,Nebraska_Howard,2020,aluminum_bale,paper,0.0
+645,Nebraska_Howard,2020,aluminum_bale,pet,0.0
+646,Nebraska_Howard,2020,aluminum_bale,film,0.0
+647,Nebraska_Howard,2020,aluminum_bale,other,0.0
+648,Mississippi_Sharkey,2020,vacuum,aluminum,4.210245585
+649,Mississippi_Sharkey,2020,vacuum,cardboard,109.46638521
+650,Mississippi_Sharkey,2020,vacuum,iron,1.2630736754999998
+651,Mississippi_Sharkey,2020,vacuum,glass,12.630736755
+652,Mississippi_Sharkey,2020,vacuum,hdpe,25.26147351
+653,Mississippi_Sharkey,2020,vacuum,paper,9.938347944649385
+654,Mississippi_Sharkey,2020,vacuum,pet,37.892210265
+655,Mississippi_Sharkey,2020,vacuum,film,1.9443022685343143
+656,Mississippi_Sharkey,2020,vacuum,other,1.2630736754999998
+657,Mississippi_Sharkey,2020,film_bale,aluminum,0.0
+658,Mississippi_Sharkey,2020,film_bale,cardboard,2.1893277042
+659,Mississippi_Sharkey,2020,film_bale,iron,0.0
+660,Mississippi_Sharkey,2020,film_bale,glass,0.0
+661,Mississippi_Sharkey,2020,film_bale,hdpe,0.0
+662,Mississippi_Sharkey,2020,film_bale,paper,0.1987669588929877
+663,Mississippi_Sharkey,2020,film_bale,pet,0.0
+664,Mississippi_Sharkey,2020,film_bale,film,1.905416223163628
+665,Mississippi_Sharkey,2020,film_bale,other,0.0
+666,Mississippi_Sharkey,2020,cardboard_bale,aluminum,0.0
+667,Mississippi_Sharkey,2020,cardboard_bale,cardboard,80.45779312935
+668,Mississippi_Sharkey,2020,cardboard_bale,iron,0.0
+669,Mississippi_Sharkey,2020,cardboard_bale,glass,0.0
+670,Mississippi_Sharkey,2020,cardboard_bale,hdpe,0.0
+671,Mississippi_Sharkey,2020,cardboard_bale,paper,0.19479161971512796
+672,Mississippi_Sharkey,2020,cardboard_bale,pet,0.0
+673,Mississippi_Sharkey,2020,cardboard_bale,film,0.0
+674,Mississippi_Sharkey,2020,cardboard_bale,other,0.0
+675,Mississippi_Sharkey,2020,glass_bale,aluminum,0.0
+676,Mississippi_Sharkey,2020,glass_bale,cardboard,0.0
+677,Mississippi_Sharkey,2020,glass_bale,iron,0.0
+678,Mississippi_Sharkey,2020,glass_bale,glass,12.25181465235
+679,Mississippi_Sharkey,2020,glass_bale,hdpe,0.0
+680,Mississippi_Sharkey,2020,glass_bale,paper,0.0
+681,Mississippi_Sharkey,2020,glass_bale,pet,0.0
+682,Mississippi_Sharkey,2020,glass_bale,film,0.0
+683,Mississippi_Sharkey,2020,glass_bale,other,0.0
+684,Mississippi_Sharkey,2020,pet_bale,aluminum,0.12630736754999994
+685,Mississippi_Sharkey,2020,pet_bale,cardboard,1.3141439544460525
+686,Mississippi_Sharkey,2020,pet_bale,iron,0.0
+687,Mississippi_Sharkey,2020,pet_bale,glass,0.030313768211999992
+688,Mississippi_Sharkey,2020,pet_bale,hdpe,2.5261473509999988
+689,Mississippi_Sharkey,2020,pet_bale,paper,0.028634368098123808
+690,Mississippi_Sharkey,2020,pet_bale,pet,34.48191134115
+691,Mississippi_Sharkey,2020,pet_bale,film,0.0076216648926545165
+692,Mississippi_Sharkey,2020,pet_bale,other,0.06315368377499997
+693,Mississippi_Sharkey,2020,hdpe_bale,aluminum,0.1225181465234999
+694,Mississippi_Sharkey,2020,hdpe_bale,cardboard,1.2484367567237484
+695,Mississippi_Sharkey,2020,hdpe_bale,iron,0.0
+696,Mississippi_Sharkey,2020,hdpe_bale,glass,0.027888666755040037
+697,Mississippi_Sharkey,2020,hdpe_bale,hdpe,15.9147283113
+698,Mississippi_Sharkey,2020,hdpe_bale,paper,0.027202649693217618
+699,Mississippi_Sharkey,2020,hdpe_bale,pet,0.03410298923849986
+700,Mississippi_Sharkey,2020,hdpe_bale,film,0.006097331914123615
+701,Mississippi_Sharkey,2020,hdpe_bale,other,0.059995999586250015
+702,Mississippi_Sharkey,2020,iron_bale,aluminum,0.0
+703,Mississippi_Sharkey,2020,iron_bale,cardboard,0.0
+704,Mississippi_Sharkey,2020,iron_bale,iron,0.063153683775
+705,Mississippi_Sharkey,2020,iron_bale,glass,0.0
+706,Mississippi_Sharkey,2020,iron_bale,hdpe,0.0
+707,Mississippi_Sharkey,2020,iron_bale,paper,0.0
+708,Mississippi_Sharkey,2020,iron_bale,pet,0.0
+709,Mississippi_Sharkey,2020,iron_bale,film,0.00024389327656494463
+710,Mississippi_Sharkey,2020,iron_bale,other,0.0
+711,Mississippi_Sharkey,2020,aluminum_bale,aluminum,3.2671505739600004
+712,Mississippi_Sharkey,2020,aluminum_bale,cardboard,0.0
+713,Mississippi_Sharkey,2020,aluminum_bale,iron,0.0
+714,Mississippi_Sharkey,2020,aluminum_bale,glass,0.17430416721900016
+715,Mississippi_Sharkey,2020,aluminum_bale,hdpe,0.0
+716,Mississippi_Sharkey,2020,aluminum_bale,paper,0.0
+717,Mississippi_Sharkey,2020,aluminum_bale,pet,0.0
+718,Mississippi_Sharkey,2020,aluminum_bale,film,0.0
+719,Mississippi_Sharkey,2020,aluminum_bale,other,0.0
+720,Indiana_Adams,2020,vacuum,aluminum,31.45573269
+721,Indiana_Adams,2020,vacuum,cardboard,1415.50797105
+722,Indiana_Adams,2020,vacuum,iron,56.620318842
+723,Indiana_Adams,2020,vacuum,glass,346.01305958999995
+724,Indiana_Adams,2020,vacuum,hdpe,220.19012883
+725,Indiana_Adams,2020,vacuum,paper,778.6966033815947
+726,Indiana_Adams,2020,vacuum,pet,314.5573269
+727,Indiana_Adams,2020,vacuum,film,24.85148447058596
+728,Indiana_Adams,2020,vacuum,other,25.164586152
+729,Indiana_Adams,2020,film_bale,aluminum,0.0
+730,Indiana_Adams,2020,film_bale,cardboard,28.310159420999998
+731,Indiana_Adams,2020,film_bale,iron,0.0
+732,Indiana_Adams,2020,film_bale,glass,0.0
+733,Indiana_Adams,2020,film_bale,hdpe,0.0
+734,Indiana_Adams,2020,film_bale,paper,15.573932067631896
+735,Indiana_Adams,2020,film_bale,pet,0.0
+736,Indiana_Adams,2020,film_bale,film,24.35445478117424
+737,Indiana_Adams,2020,film_bale,other,0.0
+738,Indiana_Adams,2020,cardboard_bale,aluminum,0.0
+739,Indiana_Adams,2020,cardboard_bale,cardboard,1040.39835872175
+740,Indiana_Adams,2020,cardboard_bale,iron,0.0
+741,Indiana_Adams,2020,cardboard_bale,glass,0.0
+742,Indiana_Adams,2020,cardboard_bale,hdpe,0.0
+743,Indiana_Adams,2020,cardboard_bale,paper,15.262453426279258
+744,Indiana_Adams,2020,cardboard_bale,pet,0.0
+745,Indiana_Adams,2020,cardboard_bale,film,0.0
+746,Indiana_Adams,2020,cardboard_bale,other,0.0
+747,Indiana_Adams,2020,glass_bale,aluminum,0.0
+748,Indiana_Adams,2020,glass_bale,cardboard,0.0
+749,Indiana_Adams,2020,glass_bale,iron,0.0
+750,Indiana_Adams,2020,glass_bale,glass,335.6326678022999
+751,Indiana_Adams,2020,glass_bale,hdpe,0.0
+752,Indiana_Adams,2020,glass_bale,paper,0.0
+753,Indiana_Adams,2020,glass_bale,pet,0.0
+754,Indiana_Adams,2020,glass_bale,film,0.0
+755,Indiana_Adams,2020,glass_bale,other,0.0
+756,Indiana_Adams,2020,pet_bale,aluminum,0.9436719806999996
+757,Indiana_Adams,2020,pet_bale,cardboard,16.993173192455288
+758,Indiana_Adams,2020,pet_bale,iron,0.0
+759,Indiana_Adams,2020,pet_bale,glass,0.8304313430160004
+760,Indiana_Adams,2020,pet_bale,hdpe,22.019012882999988
+761,Indiana_Adams,2020,pet_bale,paper,2.2435806536630523
+762,Indiana_Adams,2020,pet_bale,pet,286.24716747900004
+763,Indiana_Adams,2020,pet_bale,film,0.09741781912469699
+764,Indiana_Adams,2020,pet_bale,other,1.2582293076000006
+765,Indiana_Adams,2020,hdpe_bale,aluminum,0.9153618212789993
+766,Indiana_Adams,2020,hdpe_bale,cardboard,16.143514532832512
+767,Indiana_Adams,2020,hdpe_bale,iron,0.0
+768,Indiana_Adams,2020,hdpe_bale,glass,0.7639968355747211
+769,Indiana_Adams,2020,hdpe_bale,hdpe,138.7197811629
+770,Indiana_Adams,2020,hdpe_bale,paper,2.1314016209799007
+771,Indiana_Adams,2020,hdpe_bale,pet,0.2831015942099988
+772,Indiana_Adams,2020,hdpe_bale,film,0.07793425529975762
+773,Indiana_Adams,2020,hdpe_bale,other,1.1953178422199997
+774,Indiana_Adams,2020,iron_bale,aluminum,0.0
+775,Indiana_Adams,2020,iron_bale,cardboard,0.0
+776,Indiana_Adams,2020,iron_bale,iron,2.8310159421000005
+777,Indiana_Adams,2020,iron_bale,glass,0.0
+778,Indiana_Adams,2020,iron_bale,hdpe,0.0
+779,Indiana_Adams,2020,iron_bale,paper,0.0
+780,Indiana_Adams,2020,iron_bale,pet,0.0
+781,Indiana_Adams,2020,iron_bale,film,0.003117370211990306
+782,Indiana_Adams,2020,iron_bale,other,0.0
+783,Indiana_Adams,2020,aluminum_bale,aluminum,24.40964856744
+784,Indiana_Adams,2020,aluminum_bale,cardboard,0.0
+785,Indiana_Adams,2020,aluminum_bale,iron,0.0
+786,Indiana_Adams,2020,aluminum_bale,glass,4.774980222342004
+787,Indiana_Adams,2020,aluminum_bale,hdpe,0.0
+788,Indiana_Adams,2020,aluminum_bale,paper,0.0
+789,Indiana_Adams,2020,aluminum_bale,pet,0.0
+790,Indiana_Adams,2020,aluminum_bale,film,0.0
+791,Indiana_Adams,2020,aluminum_bale,other,0.0
+792,Texas_Harris,2020,vacuum,aluminum,4401.143617365
+793,Texas_Harris,2020,vacuum,cardboard,180446.88831196493
+794,Texas_Harris,2020,vacuum,iron,5281.372340837999
+795,Texas_Harris,2020,vacuum,glass,13203.430852094998
+796,Texas_Harris,2020,vacuum,hdpe,39610.29255628499
+797,Texas_Harris,2020,vacuum,paper,49224.39916262574
+798,Texas_Harris,2020,vacuum,pet,39610.29255628499
+799,Texas_Harris,2020,vacuum,film,1565.2264658540505
+800,Texas_Harris,2020,vacuum,other,3520.914893892
+801,Texas_Harris,2020,film_bale,aluminum,0.0
+802,Texas_Harris,2020,film_bale,cardboard,3608.9377662392985
+803,Texas_Harris,2020,film_bale,iron,0.0
+804,Texas_Harris,2020,film_bale,glass,0.0
+805,Texas_Harris,2020,film_bale,hdpe,0.0
+806,Texas_Harris,2020,film_bale,paper,984.4879832525148
+807,Texas_Harris,2020,film_bale,pet,0.0
+808,Texas_Harris,2020,film_bale,film,1533.9219365369695
+809,Texas_Harris,2020,film_bale,other,0.0
+810,Texas_Harris,2020,cardboard_bale,aluminum,0.0
+811,Texas_Harris,2020,cardboard_bale,cardboard,132628.4629092942
+812,Texas_Harris,2020,cardboard_bale,iron,0.0
+813,Texas_Harris,2020,cardboard_bale,glass,0.0
+814,Texas_Harris,2020,cardboard_bale,hdpe,0.0
+815,Texas_Harris,2020,cardboard_bale,paper,964.7982235874645
+816,Texas_Harris,2020,cardboard_bale,pet,0.0
+817,Texas_Harris,2020,cardboard_bale,film,0.0
+818,Texas_Harris,2020,cardboard_bale,other,0.0
+819,Texas_Harris,2020,glass_bale,aluminum,0.0
+820,Texas_Harris,2020,glass_bale,cardboard,0.0
+821,Texas_Harris,2020,glass_bale,iron,0.0
+822,Texas_Harris,2020,glass_bale,glass,12807.327926532147
+823,Texas_Harris,2020,glass_bale,hdpe,0.0
+824,Texas_Harris,2020,glass_bale,paper,0.0
+825,Texas_Harris,2020,glass_bale,pet,0.0
+826,Texas_Harris,2020,glass_bale,film,0.0
+827,Texas_Harris,2020,glass_bale,other,0.0
+828,Texas_Harris,2020,pet_bale,aluminum,132.0343085209497
+829,Texas_Harris,2020,pet_bale,cardboard,2166.264894185144
+830,Texas_Harris,2020,pet_bale,iron,0.0
+831,Texas_Harris,2020,pet_bale,glass,31.688234045028025
+832,Texas_Harris,2020,pet_bale,hdpe,3961.0292556284985
+833,Texas_Harris,2020,pet_bale,paper,141.82533886735746
+834,Texas_Harris,2020,pet_bale,pet,36045.36622621935
+835,Texas_Harris,2020,pet_bale,film,6.13568774614788
+836,Texas_Harris,2020,pet_bale,other,176.04574469460022
+837,Texas_Harris,2020,hdpe_bale,aluminum,128.07327926532162
+838,Texas_Harris,2020,hdpe_bale,cardboard,2057.9516494758864
+839,Texas_Harris,2020,hdpe_bale,iron,0.0
+840,Texas_Harris,2020,hdpe_bale,glass,29.15317532142575
+841,Texas_Harris,2020,hdpe_bale,hdpe,24954.484310459542
+842,Texas_Harris,2020,hdpe_bale,paper,134.73407192398963
+843,Texas_Harris,2020,hdpe_bale,pet,35.64926330065646
+844,Texas_Harris,2020,hdpe_bale,film,4.908550196918306
+845,Texas_Harris,2020,hdpe_bale,other,167.24345745987011
+846,Texas_Harris,2020,iron_bale,aluminum,0.0
+847,Texas_Harris,2020,iron_bale,cardboard,0.0
+848,Texas_Harris,2020,iron_bale,iron,264.0686170419
+849,Texas_Harris,2020,iron_bale,glass,0.0
+850,Texas_Harris,2020,iron_bale,hdpe,0.0
+851,Texas_Harris,2020,iron_bale,paper,0.0
+852,Texas_Harris,2020,iron_bale,pet,0.0
+853,Texas_Harris,2020,iron_bale,film,0.1963420078767323
+854,Texas_Harris,2020,iron_bale,other,0.0
+855,Texas_Harris,2020,aluminum_bale,aluminum,3415.2874470752404
+856,Texas_Harris,2020,aluminum_bale,cardboard,0.0
+857,Texas_Harris,2020,aluminum_bale,iron,0.0
+858,Texas_Harris,2020,aluminum_bale,glass,182.20734575891115
+859,Texas_Harris,2020,aluminum_bale,hdpe,0.0
+860,Texas_Harris,2020,aluminum_bale,paper,0.0
+861,Texas_Harris,2020,aluminum_bale,pet,0.0
+862,Texas_Harris,2020,aluminum_bale,film,0.0
+863,Texas_Harris,2020,aluminum_bale,other,0.0
+864,Kentucky_Ohio,2020,vacuum,aluminum,19.74215997
+865,Kentucky_Ohio,2020,vacuum,cardboard,730.4599188899999
+866,Kentucky_Ohio,2020,vacuum,iron,11.845295981999998
+867,Kentucky_Ohio,2020,vacuum,glass,118.45295982
+868,Kentucky_Ohio,2020,vacuum,hdpe,98.71079985
+869,Kentucky_Ohio,2020,vacuum,paper,367.5231287913673
+870,Kentucky_Ohio,2020,vacuum,pet,236.90591964
+871,Kentucky_Ohio,2020,vacuum,film,8.352826249475525
+872,Kentucky_Ohio,2020,vacuum,other,5.922647991
+873,Kentucky_Ohio,2020,film_bale,aluminum,0.0
+874,Kentucky_Ohio,2020,film_bale,cardboard,14.609198377799999
+875,Kentucky_Ohio,2020,film_bale,iron,0.0
+876,Kentucky_Ohio,2020,film_bale,glass,0.0
+877,Kentucky_Ohio,2020,film_bale,hdpe,0.0
+878,Kentucky_Ohio,2020,film_bale,paper,7.350462575827346
+879,Kentucky_Ohio,2020,film_bale,pet,0.0
+880,Kentucky_Ohio,2020,film_bale,film,8.185769724486015
+881,Kentucky_Ohio,2020,film_bale,other,0.0
+882,Kentucky_Ohio,2020,cardboard_bale,aluminum,0.0
+883,Kentucky_Ohio,2020,cardboard_bale,cardboard,536.8880403841499
+884,Kentucky_Ohio,2020,cardboard_bale,iron,0.0
+885,Kentucky_Ohio,2020,cardboard_bale,glass,0.0
+886,Kentucky_Ohio,2020,cardboard_bale,hdpe,0.0
+887,Kentucky_Ohio,2020,cardboard_bale,paper,7.203453324310799
+888,Kentucky_Ohio,2020,cardboard_bale,pet,0.0
+889,Kentucky_Ohio,2020,cardboard_bale,film,0.0
+890,Kentucky_Ohio,2020,cardboard_bale,other,0.0
+891,Kentucky_Ohio,2020,glass_bale,aluminum,0.0
+892,Kentucky_Ohio,2020,glass_bale,cardboard,0.0
+893,Kentucky_Ohio,2020,glass_bale,iron,0.0
+894,Kentucky_Ohio,2020,glass_bale,glass,114.8993710254
+895,Kentucky_Ohio,2020,glass_bale,hdpe,0.0
+896,Kentucky_Ohio,2020,glass_bale,paper,0.0
+897,Kentucky_Ohio,2020,glass_bale,pet,0.0
+898,Kentucky_Ohio,2020,glass_bale,film,0.0
+899,Kentucky_Ohio,2020,glass_bale,other,0.0
+900,Kentucky_Ohio,2020,pet_bale,aluminum,0.5922647991000005
+901,Kentucky_Ohio,2020,pet_bale,cardboard,8.76917132627446
+902,Kentucky_Ohio,2020,pet_bale,iron,0.0
+903,Kentucky_Ohio,2020,pet_bale,glass,0.2842871035679999
+904,Kentucky_Ohio,2020,pet_bale,hdpe,9.871079984999994
+905,Kentucky_Ohio,2020,pet_bale,paper,1.0589076386736878
+906,Kentucky_Ohio,2020,pet_bale,pet,215.58438687240002
+907,Kentucky_Ohio,2020,pet_bale,film,0.03274307889794409
+908,Kentucky_Ohio,2020,pet_bale,other,0.29613239955000026
+909,Kentucky_Ohio,2020,hdpe_bale,aluminum,0.574496855127002
+910,Kentucky_Ohio,2020,hdpe_bale,cardboard,8.330712759960733
+911,Kentucky_Ohio,2020,hdpe_bale,iron,0.0
+912,Kentucky_Ohio,2020,hdpe_bale,glass,0.26154413528256004
+913,Kentucky_Ohio,2020,hdpe_bale,hdpe,62.187803905500004
+914,Kentucky_Ohio,2020,hdpe_bale,paper,1.0059622567400055
+915,Kentucky_Ohio,2020,hdpe_bale,pet,0.21321532767600004
+916,Kentucky_Ohio,2020,hdpe_bale,film,0.02619446311835527
+917,Kentucky_Ohio,2020,hdpe_bale,other,0.2813257795725006
+918,Kentucky_Ohio,2020,iron_bale,aluminum,0.0
+919,Kentucky_Ohio,2020,iron_bale,cardboard,0.0
+920,Kentucky_Ohio,2020,iron_bale,iron,0.5922647991
+921,Kentucky_Ohio,2020,iron_bale,glass,0.0
+922,Kentucky_Ohio,2020,iron_bale,hdpe,0.0
+923,Kentucky_Ohio,2020,iron_bale,paper,0.0
+924,Kentucky_Ohio,2020,iron_bale,pet,0.0
+925,Kentucky_Ohio,2020,iron_bale,film,0.0010477785247342108
+926,Kentucky_Ohio,2020,iron_bale,other,0.0
+927,Kentucky_Ohio,2020,aluminum_bale,aluminum,15.31991613672
+928,Kentucky_Ohio,2020,aluminum_bale,cardboard,0.0
+929,Kentucky_Ohio,2020,aluminum_bale,iron,0.0
+930,Kentucky_Ohio,2020,aluminum_bale,glass,1.6346508455160016
+931,Kentucky_Ohio,2020,aluminum_bale,hdpe,0.0
+932,Kentucky_Ohio,2020,aluminum_bale,paper,0.0
+933,Kentucky_Ohio,2020,aluminum_bale,pet,0.0
+934,Kentucky_Ohio,2020,aluminum_bale,film,0.0
+935,Kentucky_Ohio,2020,aluminum_bale,other,0.0
+936,Georgia_Worth,2020,vacuum,aluminum,15.15361824
+937,Georgia_Worth,2020,vacuum,cardboard,894.0634761599998
+938,Georgia_Worth,2020,vacuum,iron,19.699703712
+939,Georgia_Worth,2020,vacuum,glass,106.07532768
+940,Georgia_Worth,2020,vacuum,hdpe,121.22894592
+941,Georgia_Worth,2020,vacuum,paper,130.6874100634828
+942,Georgia_Worth,2020,vacuum,pet,166.68980064
+943,Georgia_Worth,2020,vacuum,film,7.871315068640836
+944,Georgia_Worth,2020,vacuum,other,7.57680912
+945,Georgia_Worth,2020,film_bale,aluminum,0.0
+946,Georgia_Worth,2020,film_bale,cardboard,17.881269523199997
+947,Georgia_Worth,2020,film_bale,iron,0.0
+948,Georgia_Worth,2020,film_bale,glass,0.0
+949,Georgia_Worth,2020,film_bale,hdpe,0.0
+950,Georgia_Worth,2020,film_bale,paper,2.613748201269656
+951,Georgia_Worth,2020,film_bale,pet,0.0
+952,Georgia_Worth,2020,film_bale,film,7.71388876726802
+953,Georgia_Worth,2020,film_bale,other,0.0
+954,Georgia_Worth,2020,cardboard_bale,aluminum,0.0
+955,Georgia_Worth,2020,cardboard_bale,cardboard,657.1366549775998
+956,Georgia_Worth,2020,cardboard_bale,iron,0.0
+957,Georgia_Worth,2020,cardboard_bale,glass,0.0
+958,Georgia_Worth,2020,cardboard_bale,hdpe,0.0
+959,Georgia_Worth,2020,cardboard_bale,paper,2.561473237244263
+960,Georgia_Worth,2020,cardboard_bale,pet,0.0
+961,Georgia_Worth,2020,cardboard_bale,film,0.0
+962,Georgia_Worth,2020,cardboard_bale,other,0.0
+963,Georgia_Worth,2020,glass_bale,aluminum,0.0
+964,Georgia_Worth,2020,glass_bale,cardboard,0.0
+965,Georgia_Worth,2020,glass_bale,iron,0.0
+966,Georgia_Worth,2020,glass_bale,glass,102.8930678496
+967,Georgia_Worth,2020,glass_bale,hdpe,0.0
+968,Georgia_Worth,2020,glass_bale,paper,0.0
+969,Georgia_Worth,2020,glass_bale,pet,0.0
+970,Georgia_Worth,2020,glass_bale,film,0.0
+971,Georgia_Worth,2020,glass_bale,other,0.0
+972,Georgia_Worth,2020,pet_bale,aluminum,0.4546085472000012
+973,Georgia_Worth,2020,pet_bale,cardboard,10.733232031300815
+974,Georgia_Worth,2020,pet_bale,iron,0.0
+975,Georgia_Worth,2020,pet_bale,glass,0.2545807864320002
+976,Georgia_Worth,2020,pet_bale,hdpe,12.122894591999994
+977,Georgia_Worth,2020,pet_bale,paper,0.3765365658749076
+978,Georgia_Worth,2020,pet_bale,pet,151.68771858239998
+979,Georgia_Worth,2020,pet_bale,film,0.030855555069072102
+980,Georgia_Worth,2020,pet_bale,other,0.3788404560000007
+981,Georgia_Worth,2020,hdpe_bale,aluminum,0.44097029078399963
+982,Georgia_Worth,2020,hdpe_bale,cardboard,10.196570429735772
+983,Georgia_Worth,2020,hdpe_bale,iron,0.0
+984,Georgia_Worth,2020,hdpe_bale,glass,0.2342143235174401
+985,Georgia_Worth,2020,hdpe_bale,hdpe,76.37423592959999
+986,Georgia_Worth,2020,hdpe_bale,paper,0.3577097375811622
+987,Georgia_Worth,2020,hdpe_bale,pet,0.15002082057599964
+988,Georgia_Worth,2020,hdpe_bale,film,0.024684444055257673
+989,Georgia_Worth,2020,hdpe_bale,other,0.3598984332000006
+990,Georgia_Worth,2020,iron_bale,aluminum,0.0
+991,Georgia_Worth,2020,iron_bale,cardboard,0.0
+992,Georgia_Worth,2020,iron_bale,iron,0.9849851856000001
+993,Georgia_Worth,2020,iron_bale,glass,0.0
+994,Georgia_Worth,2020,iron_bale,hdpe,0.0
+995,Georgia_Worth,2020,iron_bale,paper,0.0
+996,Georgia_Worth,2020,iron_bale,pet,0.0
+997,Georgia_Worth,2020,iron_bale,film,0.0009873777622103075
+998,Georgia_Worth,2020,iron_bale,other,0.0
+999,Georgia_Worth,2020,aluminum_bale,aluminum,11.75920775424
+1000,Georgia_Worth,2020,aluminum_bale,cardboard,0.0
+1001,Georgia_Worth,2020,aluminum_bale,iron,0.0
+1002,Georgia_Worth,2020,aluminum_bale,glass,1.4638395219840012
+1003,Georgia_Worth,2020,aluminum_bale,hdpe,0.0
+1004,Georgia_Worth,2020,aluminum_bale,paper,0.0
+1005,Georgia_Worth,2020,aluminum_bale,pet,0.0
+1006,Georgia_Worth,2020,aluminum_bale,film,0.0
+1007,Georgia_Worth,2020,aluminum_bale,other,0.0
+1008,North Carolina_Wilson,2020,vacuum,aluminum,73.918340985
+1009,North Carolina_Wilson,2020,vacuum,cardboard,5543.875573875
+1010,North Carolina_Wilson,2020,vacuum,iron,88.702009182
+1011,North Carolina_Wilson,2020,vacuum,glass,739.1834098500001
+1012,North Carolina_Wilson,2020,vacuum,hdpe,369.591704925
+1013,North Carolina_Wilson,2020,vacuum,paper,798.1359271486775
+1014,North Carolina_Wilson,2020,vacuum,pet,739.1834098500001
+1015,North Carolina_Wilson,2020,vacuum,film,27.934200534639064
+1016,North Carolina_Wilson,2020,vacuum,other,22.175502295500003
+1017,North Carolina_Wilson,2020,film_bale,aluminum,0.0
+1018,North Carolina_Wilson,2020,film_bale,cardboard,110.8775114775
+1019,North Carolina_Wilson,2020,film_bale,iron,0.0
+1020,North Carolina_Wilson,2020,film_bale,glass,0.0
+1021,North Carolina_Wilson,2020,film_bale,hdpe,0.0
+1022,North Carolina_Wilson,2020,film_bale,paper,15.962718542973551
+1023,North Carolina_Wilson,2020,film_bale,pet,0.0
+1024,North Carolina_Wilson,2020,film_bale,film,27.37551652394628
+1025,North Carolina_Wilson,2020,film_bale,other,0.0
+1026,North Carolina_Wilson,2020,cardboard_bale,aluminum,0.0
+1027,North Carolina_Wilson,2020,cardboard_bale,cardboard,4074.748546798125
+1028,North Carolina_Wilson,2020,cardboard_bale,iron,0.0
+1029,North Carolina_Wilson,2020,cardboard_bale,glass,0.0
+1030,North Carolina_Wilson,2020,cardboard_bale,hdpe,0.0
+1031,North Carolina_Wilson,2020,cardboard_bale,paper,15.64346417211408
+1032,North Carolina_Wilson,2020,cardboard_bale,pet,0.0
+1033,North Carolina_Wilson,2020,cardboard_bale,film,0.0
+1034,North Carolina_Wilson,2020,cardboard_bale,other,0.0
+1035,North Carolina_Wilson,2020,glass_bale,aluminum,0.0
+1036,North Carolina_Wilson,2020,glass_bale,cardboard,0.0
+1037,North Carolina_Wilson,2020,glass_bale,iron,0.0
+1038,North Carolina_Wilson,2020,glass_bale,glass,717.0079075545001
+1039,North Carolina_Wilson,2020,glass_bale,hdpe,0.0
+1040,North Carolina_Wilson,2020,glass_bale,paper,0.0
+1041,North Carolina_Wilson,2020,glass_bale,pet,0.0
+1042,North Carolina_Wilson,2020,glass_bale,film,0.0
+1043,North Carolina_Wilson,2020,glass_bale,other,0.0
+1044,North Carolina_Wilson,2020,pet_bale,aluminum,2.2175502295499996
+1045,North Carolina_Wilson,2020,pet_bale,cardboard,66.55422626436939
+1046,North Carolina_Wilson,2020,pet_bale,iron,0.0
+1047,North Carolina_Wilson,2020,pet_bale,glass,1.7740401836400004
+1048,North Carolina_Wilson,2020,pet_bale,hdpe,36.95917049249999
+1049,North Carolina_Wilson,2020,pet_bale,paper,2.2995892333007717
+1050,North Carolina_Wilson,2020,pet_bale,pet,672.6569029635001
+1051,North Carolina_Wilson,2020,pet_bale,film,0.10950206609578517
+1052,North Carolina_Wilson,2020,pet_bale,other,1.1087751147749998
+1053,North Carolina_Wilson,2020,hdpe_bale,aluminum,2.1510237226634956
+1054,North Carolina_Wilson,2020,hdpe_bale,cardboard,63.226514951150875
+1055,North Carolina_Wilson,2020,hdpe_bale,iron,0.0
+1056,North Carolina_Wilson,2020,hdpe_bale,glass,1.6321169689488002
+1057,North Carolina_Wilson,2020,hdpe_bale,hdpe,232.84277410274998
+1058,North Carolina_Wilson,2020,hdpe_bale,paper,2.184609771635735
+1059,North Carolina_Wilson,2020,hdpe_bale,pet,0.665265068864997
+1060,North Carolina_Wilson,2020,hdpe_bale,film,0.08760165287662813
+1061,North Carolina_Wilson,2020,hdpe_bale,other,1.0533363590362512
+1062,North Carolina_Wilson,2020,iron_bale,aluminum,0.0
+1063,North Carolina_Wilson,2020,iron_bale,cardboard,0.0
+1064,North Carolina_Wilson,2020,iron_bale,iron,4.4351004591
+1065,North Carolina_Wilson,2020,iron_bale,glass,0.0
+1066,North Carolina_Wilson,2020,iron_bale,hdpe,0.0
+1067,North Carolina_Wilson,2020,iron_bale,paper,0.0
+1068,North Carolina_Wilson,2020,iron_bale,pet,0.0
+1069,North Carolina_Wilson,2020,iron_bale,film,0.0035040661150651277
+1070,North Carolina_Wilson,2020,iron_bale,other,0.0
+1071,North Carolina_Wilson,2020,aluminum_bale,aluminum,57.360632604360006
+1072,North Carolina_Wilson,2020,aluminum_bale,cardboard,0.0
+1073,North Carolina_Wilson,2020,aluminum_bale,iron,0.0
+1074,North Carolina_Wilson,2020,aluminum_bale,glass,10.20073105593001
+1075,North Carolina_Wilson,2020,aluminum_bale,hdpe,0.0
+1076,North Carolina_Wilson,2020,aluminum_bale,paper,0.0
+1077,North Carolina_Wilson,2020,aluminum_bale,pet,0.0
+1078,North Carolina_Wilson,2020,aluminum_bale,film,0.0
+1079,North Carolina_Wilson,2020,aluminum_bale,other,0.0
+1080,Minnesota_Norman,2020,vacuum,aluminum,5.66990625
+1081,Minnesota_Norman,2020,vacuum,cardboard,391.22353125
+1082,Minnesota_Norman,2020,vacuum,iron,14.174765624999996
+1083,Minnesota_Norman,2020,vacuum,glass,153.08746874999997
+1084,Minnesota_Norman,2020,vacuum,hdpe,34.019437499999995
+1085,Minnesota_Norman,2020,vacuum,paper,79.98753445021968
+1086,Minnesota_Norman,2020,vacuum,pet,28.349531249999995
+1087,Minnesota_Norman,2020,vacuum,film,2.0400648480313124
+1088,Minnesota_Norman,2020,vacuum,other,1.1339812499999995
+1089,Minnesota_Norman,2020,film_bale,aluminum,0.0
+1090,Minnesota_Norman,2020,film_bale,cardboard,7.824470625
+1091,Minnesota_Norman,2020,film_bale,iron,0.0
+1092,Minnesota_Norman,2020,film_bale,glass,0.0
+1093,Minnesota_Norman,2020,film_bale,hdpe,0.0
+1094,Minnesota_Norman,2020,film_bale,paper,1.5997506890043938
+1095,Minnesota_Norman,2020,film_bale,pet,0.0
+1096,Minnesota_Norman,2020,film_bale,film,1.9992635510706862
+1097,Minnesota_Norman,2020,film_bale,other,0.0
+1098,Minnesota_Norman,2020,cardboard_bale,aluminum,0.0
+1099,Minnesota_Norman,2020,cardboard_bale,cardboard,287.54929546875
+1100,Minnesota_Norman,2020,cardboard_bale,iron,0.0
+1101,Minnesota_Norman,2020,cardboard_bale,glass,0.0
+1102,Minnesota_Norman,2020,cardboard_bale,hdpe,0.0
+1103,Minnesota_Norman,2020,cardboard_bale,paper,1.5677556752243058
+1104,Minnesota_Norman,2020,cardboard_bale,pet,0.0
+1105,Minnesota_Norman,2020,cardboard_bale,film,0.0
+1106,Minnesota_Norman,2020,cardboard_bale,other,0.0
+1107,Minnesota_Norman,2020,glass_bale,aluminum,0.0
+1108,Minnesota_Norman,2020,glass_bale,cardboard,0.0
+1109,Minnesota_Norman,2020,glass_bale,iron,0.0
+1110,Minnesota_Norman,2020,glass_bale,glass,148.49484468749998
+1111,Minnesota_Norman,2020,glass_bale,hdpe,0.0
+1112,Minnesota_Norman,2020,glass_bale,paper,0.0
+1113,Minnesota_Norman,2020,glass_bale,pet,0.0
+1114,Minnesota_Norman,2020,glass_bale,film,0.0
+1115,Minnesota_Norman,2020,glass_bale,other,0.0
+1116,Minnesota_Norman,2020,pet_bale,aluminum,0.17009718750000058
+1117,Minnesota_Norman,2020,pet_bale,cardboard,4.696638492656248
+1118,Minnesota_Norman,2020,pet_bale,iron,0.0
+1119,Minnesota_Norman,2020,pet_bale,glass,0.36740992500000047
+1120,Minnesota_Norman,2020,pet_bale,hdpe,3.4019437499999974
+1121,Minnesota_Norman,2020,pet_bale,paper,0.23046008425797293
+1122,Minnesota_Norman,2020,pet_bale,pet,25.798073437499998
+1123,Minnesota_Norman,2020,pet_bale,film,0.007997054204282747
+1124,Minnesota_Norman,2020,pet_bale,other,0.05669906250000012
+1125,Minnesota_Norman,2020,hdpe_bale,aluminum,0.16499427187499993
+1126,Minnesota_Norman,2020,hdpe_bale,cardboard,4.461806568023448
+1127,Minnesota_Norman,2020,hdpe_bale,iron,0.0
+1128,Minnesota_Norman,2020,hdpe_bale,glass,0.33801713099999997
+1129,Minnesota_Norman,2020,hdpe_bale,hdpe,21.432245624999997
+1130,Minnesota_Norman,2020,hdpe_bale,paper,0.21893708004507495
+1131,Minnesota_Norman,2020,hdpe_bale,pet,0.02551457812500013
+1132,Minnesota_Norman,2020,hdpe_bale,film,0.0063976433634262
+1133,Minnesota_Norman,2020,hdpe_bale,other,0.05386410937500008
+1134,Minnesota_Norman,2020,iron_bale,aluminum,0.0
+1135,Minnesota_Norman,2020,iron_bale,cardboard,0.0
+1136,Minnesota_Norman,2020,iron_bale,iron,0.7087382812499998
+1137,Minnesota_Norman,2020,iron_bale,glass,0.0
+1138,Minnesota_Norman,2020,iron_bale,hdpe,0.0
+1139,Minnesota_Norman,2020,iron_bale,paper,0.0
+1140,Minnesota_Norman,2020,iron_bale,pet,0.0
+1141,Minnesota_Norman,2020,iron_bale,film,0.0002559057345370481
+1142,Minnesota_Norman,2020,iron_bale,other,0.0
+1143,Minnesota_Norman,2020,aluminum_bale,aluminum,4.39984725
+1144,Minnesota_Norman,2020,aluminum_bale,cardboard,0.0
+1145,Minnesota_Norman,2020,aluminum_bale,iron,0.0
+1146,Minnesota_Norman,2020,aluminum_bale,glass,2.1126070687500014
+1147,Minnesota_Norman,2020,aluminum_bale,hdpe,0.0
+1148,Minnesota_Norman,2020,aluminum_bale,paper,0.0
+1149,Minnesota_Norman,2020,aluminum_bale,pet,0.0
+1150,Minnesota_Norman,2020,aluminum_bale,film,0.0
+1151,Minnesota_Norman,2020,aluminum_bale,other,0.0
+1152,South Dakota_Stanley,2020,vacuum,aluminum,2.795036985
+1153,South Dakota_Stanley,2020,vacuum,cardboard,136.956812265
+1154,South Dakota_Stanley,2020,vacuum,iron,3.354044382
+1155,South Dakota_Stanley,2020,vacuum,glass,44.72059176
+1156,South Dakota_Stanley,2020,vacuum,hdpe,19.565258895
+1157,South Dakota_Stanley,2020,vacuum,paper,22.948860158642976
+1158,South Dakota_Stanley,2020,vacuum,pet,25.155332865
+1159,South Dakota_Stanley,2020,vacuum,film,1.1911295236321084
+1160,South Dakota_Stanley,2020,vacuum,other,1.118014794
+1161,South Dakota_Stanley,2020,film_bale,aluminum,0.0
+1162,South Dakota_Stanley,2020,film_bale,cardboard,2.7391362453
+1163,South Dakota_Stanley,2020,film_bale,iron,0.0
+1164,South Dakota_Stanley,2020,film_bale,glass,0.0
+1165,South Dakota_Stanley,2020,film_bale,hdpe,0.0
+1166,South Dakota_Stanley,2020,film_bale,paper,0.4589772031728595
+1167,South Dakota_Stanley,2020,film_bale,pet,0.0
+1168,South Dakota_Stanley,2020,film_bale,film,1.1673069331594663
+1169,South Dakota_Stanley,2020,film_bale,other,0.0
+1170,South Dakota_Stanley,2020,cardboard_bale,aluminum,0.0
+1171,South Dakota_Stanley,2020,cardboard_bale,cardboard,100.66325701477501
+1172,South Dakota_Stanley,2020,cardboard_bale,iron,0.0
+1173,South Dakota_Stanley,2020,cardboard_bale,glass,0.0
+1174,South Dakota_Stanley,2020,cardboard_bale,hdpe,0.0
+1175,South Dakota_Stanley,2020,cardboard_bale,paper,0.44979765910940234
+1176,South Dakota_Stanley,2020,cardboard_bale,pet,0.0
+1177,South Dakota_Stanley,2020,cardboard_bale,film,0.0
+1178,South Dakota_Stanley,2020,cardboard_bale,other,0.0
+1179,South Dakota_Stanley,2020,glass_bale,aluminum,0.0
+1180,South Dakota_Stanley,2020,glass_bale,cardboard,0.0
+1181,South Dakota_Stanley,2020,glass_bale,iron,0.0
+1182,South Dakota_Stanley,2020,glass_bale,glass,43.3789740072
+1183,South Dakota_Stanley,2020,glass_bale,hdpe,0.0
+1184,South Dakota_Stanley,2020,glass_bale,paper,0.0
+1185,South Dakota_Stanley,2020,glass_bale,pet,0.0
+1186,South Dakota_Stanley,2020,glass_bale,film,0.0
+1187,South Dakota_Stanley,2020,glass_bale,other,0.0
+1188,South Dakota_Stanley,2020,pet_bale,aluminum,0.08385110954999986
+1189,South Dakota_Stanley,2020,pet_bale,cardboard,1.644166531241325
+1190,South Dakota_Stanley,2020,pet_bale,iron,0.0
+1191,South Dakota_Stanley,2020,pet_bale,glass,0.10732942022400005
+1192,South Dakota_Stanley,2020,pet_bale,hdpe,1.9565258895
+1193,South Dakota_Stanley,2020,pet_bale,paper,0.06612025588908232
+1194,South Dakota_Stanley,2020,pet_bale,pet,22.89135290715
+1195,South Dakota_Stanley,2020,pet_bale,film,0.0046692277326378685
+1196,South Dakota_Stanley,2020,pet_bale,other,0.05590073969999998
+1197,South Dakota_Stanley,2020,hdpe_bale,aluminum,0.08133557626350019
+1198,South Dakota_Stanley,2020,hdpe_bale,cardboard,1.5619582046792608
+1199,South Dakota_Stanley,2020,hdpe_bale,iron,0.0
+1200,South Dakota_Stanley,2020,hdpe_bale,glass,0.09874306660608001
+1201,South Dakota_Stanley,2020,hdpe_bale,hdpe,12.326113103849998
+1202,South Dakota_Stanley,2020,hdpe_bale,paper,0.06281424309462813
+1203,South Dakota_Stanley,2020,hdpe_bale,pet,0.022639799578500153
+1204,South Dakota_Stanley,2020,hdpe_bale,film,0.0037353821861102945
+1205,South Dakota_Stanley,2020,hdpe_bale,other,0.05310570271500015
+1206,South Dakota_Stanley,2020,iron_bale,aluminum,0.0
+1207,South Dakota_Stanley,2020,iron_bale,cardboard,0.0
+1208,South Dakota_Stanley,2020,iron_bale,iron,0.16770221910000002
+1209,South Dakota_Stanley,2020,iron_bale,glass,0.0
+1210,South Dakota_Stanley,2020,iron_bale,hdpe,0.0
+1211,South Dakota_Stanley,2020,iron_bale,paper,0.0
+1212,South Dakota_Stanley,2020,iron_bale,pet,0.0
+1213,South Dakota_Stanley,2020,iron_bale,film,0.00014941528744441182
+1214,South Dakota_Stanley,2020,iron_bale,other,0.0
+1215,South Dakota_Stanley,2020,aluminum_bale,aluminum,2.16894870036
+1216,South Dakota_Stanley,2020,aluminum_bale,cardboard,0.0
+1217,South Dakota_Stanley,2020,aluminum_bale,iron,0.0
+1218,South Dakota_Stanley,2020,aluminum_bale,glass,0.6171441662880005
+1219,South Dakota_Stanley,2020,aluminum_bale,hdpe,0.0
+1220,South Dakota_Stanley,2020,aluminum_bale,paper,0.0
+1221,South Dakota_Stanley,2020,aluminum_bale,pet,0.0
+1222,South Dakota_Stanley,2020,aluminum_bale,film,0.0
+1223,South Dakota_Stanley,2020,aluminum_bale,other,0.0
+1224,Oklahoma_Rogers,2020,vacuum,aluminum,52.61310125999999
+1225,Oklahoma_Rogers,2020,vacuum,cardboard,2472.81575922
+1226,Oklahoma_Rogers,2020,vacuum,iron,31.567860755999995
+1227,Oklahoma_Rogers,2020,vacuum,glass,157.83930378
+1228,Oklahoma_Rogers,2020,vacuum,hdpe,315.67860756
+1229,Oklahoma_Rogers,2020,vacuum,paper,1046.0885427967387
+1230,Oklahoma_Rogers,2020,vacuum,pet,473.51791134
+1231,Oklahoma_Rogers,2020,vacuum,film,3.959555196232041
+1232,Oklahoma_Rogers,2020,vacuum,other,26.30655063
+1233,Oklahoma_Rogers,2020,film_bale,aluminum,0.0
+1234,Oklahoma_Rogers,2020,film_bale,cardboard,49.456315184400005
+1235,Oklahoma_Rogers,2020,film_bale,iron,0.0
+1236,Oklahoma_Rogers,2020,film_bale,glass,0.0
+1237,Oklahoma_Rogers,2020,film_bale,hdpe,0.0
+1238,Oklahoma_Rogers,2020,film_bale,paper,20.921770855934774
+1239,Oklahoma_Rogers,2020,film_bale,pet,0.0
+1240,Oklahoma_Rogers,2020,film_bale,film,3.8803640923074005
+1241,Oklahoma_Rogers,2020,film_bale,other,0.0
+1242,Oklahoma_Rogers,2020,cardboard_bale,aluminum,0.0
+1243,Oklahoma_Rogers,2020,cardboard_bale,cardboard,1817.5195830267
+1244,Oklahoma_Rogers,2020,cardboard_bale,iron,0.0
+1245,Oklahoma_Rogers,2020,cardboard_bale,glass,0.0
+1246,Oklahoma_Rogers,2020,cardboard_bale,hdpe,0.0
+1247,Oklahoma_Rogers,2020,cardboard_bale,paper,20.50333543881608
+1248,Oklahoma_Rogers,2020,cardboard_bale,pet,0.0
+1249,Oklahoma_Rogers,2020,cardboard_bale,film,0.0
+1250,Oklahoma_Rogers,2020,cardboard_bale,other,0.0
+1251,Oklahoma_Rogers,2020,glass_bale,aluminum,0.0
+1252,Oklahoma_Rogers,2020,glass_bale,cardboard,0.0
+1253,Oklahoma_Rogers,2020,glass_bale,iron,0.0
+1254,Oklahoma_Rogers,2020,glass_bale,glass,153.1041246666
+1255,Oklahoma_Rogers,2020,glass_bale,hdpe,0.0
+1256,Oklahoma_Rogers,2020,glass_bale,paper,0.0
+1257,Oklahoma_Rogers,2020,glass_bale,pet,0.0
+1258,Oklahoma_Rogers,2020,glass_bale,film,0.0
+1259,Oklahoma_Rogers,2020,glass_bale,other,0.0
+1260,Oklahoma_Rogers,2020,pet_bale,aluminum,1.578393037799998
+1261,Oklahoma_Rogers,2020,pet_bale,cardboard,29.68615318943614
+1262,Oklahoma_Rogers,2020,pet_bale,iron,0.0
+1263,Oklahoma_Rogers,2020,pet_bale,glass,0.3788143290720001
+1264,Oklahoma_Rogers,2020,pet_bale,hdpe,31.567860756000016
+1265,Oklahoma_Rogers,2020,pet_bale,paper,3.013990309505971
+1266,Oklahoma_Rogers,2020,pet_bale,pet,430.90129931940004
+1267,Oklahoma_Rogers,2020,pet_bale,film,0.015521456369229608
+1268,Oklahoma_Rogers,2020,pet_bale,other,1.3153275314999995
+1269,Oklahoma_Rogers,2020,hdpe_bale,aluminum,1.5310412466659997
+1270,Oklahoma_Rogers,2020,hdpe_bale,cardboard,28.201845529964316
+1271,Oklahoma_Rogers,2020,hdpe_bale,iron,0.0
+1272,Oklahoma_Rogers,2020,hdpe_bale,glass,0.3485091827462403
+1273,Oklahoma_Rogers,2020,hdpe_bale,hdpe,198.87752276279997
+1274,Oklahoma_Rogers,2020,hdpe_bale,paper,2.863290794030668
+1275,Oklahoma_Rogers,2020,hdpe_bale,pet,0.4261661202059983
+1276,Oklahoma_Rogers,2020,hdpe_bale,film,0.012417165095383688
+1277,Oklahoma_Rogers,2020,hdpe_bale,other,1.2495611549250007
+1278,Oklahoma_Rogers,2020,iron_bale,aluminum,0.0
+1279,Oklahoma_Rogers,2020,iron_bale,cardboard,0.0
+1280,Oklahoma_Rogers,2020,iron_bale,iron,1.5783930377999997
+1281,Oklahoma_Rogers,2020,iron_bale,glass,0.0
+1282,Oklahoma_Rogers,2020,iron_bale,hdpe,0.0
+1283,Oklahoma_Rogers,2020,iron_bale,paper,0.0
+1284,Oklahoma_Rogers,2020,iron_bale,pet,0.0
+1285,Oklahoma_Rogers,2020,iron_bale,film,0.0004966866038153477
+1286,Oklahoma_Rogers,2020,iron_bale,other,0.0
+1287,Oklahoma_Rogers,2020,aluminum_bale,aluminum,40.82776657776
+1288,Oklahoma_Rogers,2020,aluminum_bale,cardboard,0.0
+1289,Oklahoma_Rogers,2020,aluminum_bale,iron,0.0
+1290,Oklahoma_Rogers,2020,aluminum_bale,glass,2.178182392164002
+1291,Oklahoma_Rogers,2020,aluminum_bale,hdpe,0.0
+1292,Oklahoma_Rogers,2020,aluminum_bale,paper,0.0
+1293,Oklahoma_Rogers,2020,aluminum_bale,pet,0.0
+1294,Oklahoma_Rogers,2020,aluminum_bale,film,0.0
+1295,Oklahoma_Rogers,2020,aluminum_bale,other,0.0
+1296,Colorado_Clear Creek,2020,vacuum,aluminum,5.053927634999999
+1297,Colorado_Clear Creek,2020,vacuum,cardboard,212.26496067
+1298,Colorado_Clear Creek,2020,vacuum,iron,8.591676979499999
+1299,Colorado_Clear Creek,2020,vacuum,glass,45.48534871499999
+1300,Colorado_Clear Creek,2020,vacuum,hdpe,55.593203985
+1301,Colorado_Clear Creek,2020,vacuum,paper,62.33873431621394
+1302,Colorado_Clear Creek,2020,vacuum,pet,65.701059255
+1303,Colorado_Clear Creek,2020,vacuum,film,2.108266487479652
+1304,Colorado_Clear Creek,2020,vacuum,other,1.5161782905
+1305,Colorado_Clear Creek,2020,film_bale,aluminum,0.0
+1306,Colorado_Clear Creek,2020,film_bale,cardboard,4.2452992134
+1307,Colorado_Clear Creek,2020,film_bale,iron,0.0
+1308,Colorado_Clear Creek,2020,film_bale,glass,0.0
+1309,Colorado_Clear Creek,2020,film_bale,hdpe,0.0
+1310,Colorado_Clear Creek,2020,film_bale,paper,1.2467746863242788
+1311,Colorado_Clear Creek,2020,film_bale,pet,0.0
+1312,Colorado_Clear Creek,2020,film_bale,film,2.066101157730059
+1313,Colorado_Clear Creek,2020,film_bale,other,0.0
+1314,Colorado_Clear Creek,2020,cardboard_bale,aluminum,0.0
+1315,Colorado_Clear Creek,2020,cardboard_bale,cardboard,156.01474609244997
+1316,Colorado_Clear Creek,2020,cardboard_bale,iron,0.0
+1317,Colorado_Clear Creek,2020,cardboard_bale,glass,0.0
+1318,Colorado_Clear Creek,2020,cardboard_bale,hdpe,0.0
+1319,Colorado_Clear Creek,2020,cardboard_bale,paper,1.2218391925977932
+1320,Colorado_Clear Creek,2020,cardboard_bale,pet,0.0
+1321,Colorado_Clear Creek,2020,cardboard_bale,film,0.0
+1322,Colorado_Clear Creek,2020,cardboard_bale,other,0.0
+1323,Colorado_Clear Creek,2020,glass_bale,aluminum,0.0
+1324,Colorado_Clear Creek,2020,glass_bale,cardboard,0.0
+1325,Colorado_Clear Creek,2020,glass_bale,iron,0.0
+1326,Colorado_Clear Creek,2020,glass_bale,glass,44.12078825354999
+1327,Colorado_Clear Creek,2020,glass_bale,hdpe,0.0
+1328,Colorado_Clear Creek,2020,glass_bale,paper,0.0
+1329,Colorado_Clear Creek,2020,glass_bale,pet,0.0
+1330,Colorado_Clear Creek,2020,glass_bale,film,0.0
+1331,Colorado_Clear Creek,2020,glass_bale,other,0.0
+1332,Colorado_Clear Creek,2020,pet_bale,aluminum,0.1516178290500001
+1333,Colorado_Clear Creek,2020,pet_bale,cardboard,2.5482408528433496
+1334,Colorado_Clear Creek,2020,pet_bale,iron,0.0
+1335,Colorado_Clear Creek,2020,pet_bale,glass,0.1091648369160001
+1336,Colorado_Clear Creek,2020,pet_bale,hdpe,5.559320398499999
+1337,Colorado_Clear Creek,2020,pet_bale,paper,0.1796103613118758
+1338,Colorado_Clear Creek,2020,pet_bale,pet,59.787963922050004
+1339,Colorado_Clear Creek,2020,pet_bale,film,0.008264404630920243
+1340,Colorado_Clear Creek,2020,pet_bale,other,0.07580891452500005
+1341,Colorado_Clear Creek,2020,hdpe_bale,aluminum,0.14706929417850034
+1342,Colorado_Clear Creek,2020,hdpe_bale,cardboard,2.4208288102011863
+1343,Colorado_Clear Creek,2020,hdpe_bale,iron,0.0
+1344,Colorado_Clear Creek,2020,hdpe_bale,glass,0.10043164996272003
+1345,Colorado_Clear Creek,2020,hdpe_bale,hdpe,35.02371851055
+1346,Colorado_Clear Creek,2020,hdpe_bale,paper,0.17062984324628205
+1347,Colorado_Clear Creek,2020,hdpe_bale,pet,0.05913095332950036
+1348,Colorado_Clear Creek,2020,hdpe_bale,film,0.006611523704736194
+1349,Colorado_Clear Creek,2020,hdpe_bale,other,0.07201846879874996
+1350,Colorado_Clear Creek,2020,iron_bale,aluminum,0.0
+1351,Colorado_Clear Creek,2020,iron_bale,cardboard,0.0
+1352,Colorado_Clear Creek,2020,iron_bale,iron,0.42958384897499996
+1353,Colorado_Clear Creek,2020,iron_bale,glass,0.0
+1354,Colorado_Clear Creek,2020,iron_bale,hdpe,0.0
+1355,Colorado_Clear Creek,2020,iron_bale,paper,0.0
+1356,Colorado_Clear Creek,2020,iron_bale,pet,0.0
+1357,Colorado_Clear Creek,2020,iron_bale,film,0.00026446094818944786
+1358,Colorado_Clear Creek,2020,iron_bale,other,0.0
+1359,Colorado_Clear Creek,2020,aluminum_bale,aluminum,3.9218478447599994
+1360,Colorado_Clear Creek,2020,aluminum_bale,cardboard,0.0
+1361,Colorado_Clear Creek,2020,aluminum_bale,iron,0.0
+1362,Colorado_Clear Creek,2020,aluminum_bale,glass,0.6276978122670005
+1363,Colorado_Clear Creek,2020,aluminum_bale,hdpe,0.0
+1364,Colorado_Clear Creek,2020,aluminum_bale,paper,0.0
+1365,Colorado_Clear Creek,2020,aluminum_bale,pet,0.0
+1366,Colorado_Clear Creek,2020,aluminum_bale,film,0.0
+1367,Colorado_Clear Creek,2020,aluminum_bale,other,0.0
+1368,Illinois_Warren,2020,vacuum,aluminum,14.26276257
+1369,Illinois_Warren,2020,vacuum,cardboard,698.8753659299999
+1370,Illinois_Warren,2020,vacuum,iron,25.672972626
+1371,Illinois_Warren,2020,vacuum,glass,114.10210056
+1372,Illinois_Warren,2020,vacuum,hdpe,114.10210056
+1373,Illinois_Warren,2020,vacuum,paper,154.1972450907675
+1374,Illinois_Warren,2020,vacuum,pet,156.89038826999996
+1375,Illinois_Warren,2020,vacuum,film,1.7083834314455495
+1376,Illinois_Warren,2020,vacuum,other,4.278828771000001
+1377,Illinois_Warren,2020,film_bale,aluminum,0.0
+1378,Illinois_Warren,2020,film_bale,cardboard,13.977507318599999
+1379,Illinois_Warren,2020,film_bale,iron,0.0
+1380,Illinois_Warren,2020,film_bale,glass,0.0
+1381,Illinois_Warren,2020,film_bale,hdpe,0.0
+1382,Illinois_Warren,2020,film_bale,paper,3.08394490181535
+1383,Illinois_Warren,2020,film_bale,pet,0.0
+1384,Illinois_Warren,2020,film_bale,film,1.6742157628166385
+1385,Illinois_Warren,2020,film_bale,other,0.0
+1386,Illinois_Warren,2020,cardboard_bale,aluminum,0.0
+1387,Illinois_Warren,2020,cardboard_bale,cardboard,513.6733939585499
+1388,Illinois_Warren,2020,cardboard_bale,iron,0.0
+1389,Illinois_Warren,2020,cardboard_bale,glass,0.0
+1390,Illinois_Warren,2020,cardboard_bale,hdpe,0.0
+1391,Illinois_Warren,2020,cardboard_bale,paper,3.022266003779043
+1392,Illinois_Warren,2020,cardboard_bale,pet,0.0
+1393,Illinois_Warren,2020,cardboard_bale,film,0.0
+1394,Illinois_Warren,2020,cardboard_bale,other,0.0
+1395,Illinois_Warren,2020,glass_bale,aluminum,0.0
+1396,Illinois_Warren,2020,glass_bale,cardboard,0.0
+1397,Illinois_Warren,2020,glass_bale,iron,0.0
+1398,Illinois_Warren,2020,glass_bale,glass,110.6790375432
+1399,Illinois_Warren,2020,glass_bale,hdpe,0.0
+1400,Illinois_Warren,2020,glass_bale,paper,0.0
+1401,Illinois_Warren,2020,glass_bale,pet,0.0
+1402,Illinois_Warren,2020,glass_bale,film,0.0
+1403,Illinois_Warren,2020,glass_bale,other,0.0
+1404,Illinois_Warren,2020,pet_bale,aluminum,0.42788287710000006
+1405,Illinois_Warren,2020,pet_bale,cardboard,8.389998767989653
+1406,Illinois_Warren,2020,pet_bale,iron,0.0
+1407,Illinois_Warren,2020,pet_bale,glass,0.2738450413439999
+1408,Illinois_Warren,2020,pet_bale,hdpe,11.410210055999997
+1409,Illinois_Warren,2020,pet_bale,paper,0.44427310255552044
+1410,Illinois_Warren,2020,pet_bale,pet,142.77025332569997
+1411,Illinois_Warren,2020,pet_bale,film,0.006696863051266558
+1412,Illinois_Warren,2020,pet_bale,other,0.21394143855000003
+1413,Illinois_Warren,2020,hdpe_bale,aluminum,0.41504639078700123
+1414,Illinois_Warren,2020,hdpe_bale,cardboard,7.970498829590184
+1415,Illinois_Warren,2020,hdpe_bale,iron,0.0
+1416,Illinois_Warren,2020,hdpe_bale,glass,0.2519374380364803
+1417,Illinois_Warren,2020,hdpe_bale,hdpe,71.8843233528
+1418,Illinois_Warren,2020,hdpe_bale,paper,0.4220594474277437
+1419,Illinois_Warren,2020,hdpe_bale,pet,0.14120134944299956
+1420,Illinois_Warren,2020,hdpe_bale,film,0.005357490441013246
+1421,Illinois_Warren,2020,hdpe_bale,other,0.20324436662250012
+1422,Illinois_Warren,2020,iron_bale,aluminum,0.0
+1423,Illinois_Warren,2020,iron_bale,cardboard,0.0
+1424,Illinois_Warren,2020,iron_bale,iron,1.2836486313000002
+1425,Illinois_Warren,2020,iron_bale,glass,0.0
+1426,Illinois_Warren,2020,iron_bale,hdpe,0.0
+1427,Illinois_Warren,2020,iron_bale,paper,0.0
+1428,Illinois_Warren,2020,iron_bale,pet,0.0
+1429,Illinois_Warren,2020,iron_bale,film,0.0002142996176405299
+1430,Illinois_Warren,2020,iron_bale,other,0.0
+1431,Illinois_Warren,2020,aluminum_bale,aluminum,11.06790375432
+1432,Illinois_Warren,2020,aluminum_bale,cardboard,0.0
+1433,Illinois_Warren,2020,aluminum_bale,iron,0.0
+1434,Illinois_Warren,2020,aluminum_bale,glass,1.5746089877280016
+1435,Illinois_Warren,2020,aluminum_bale,hdpe,0.0
+1436,Illinois_Warren,2020,aluminum_bale,paper,0.0
+1437,Illinois_Warren,2020,aluminum_bale,pet,0.0
+1438,Illinois_Warren,2020,aluminum_bale,film,0.0
+1439,Illinois_Warren,2020,aluminum_bale,other,0.0
