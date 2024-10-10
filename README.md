@@ -1,5 +1,7 @@
 # Team Trash
 
+MOTO: "something went wrong" - TJ
+
 ## TODO
 
 ### Vocabs
