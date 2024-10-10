@@ -472,11 +472,10 @@ class PlasticSD:
         self.general_unitops(i, 'vacuum', 'disc_screen1', 'glass_breaker', 'cardboard_bale')   
         self.general_unitops(i, 'disc_screen1', 'glass_breaker', 'disc_screen2', 'glass_bale')   
         self.general_unitops(i, 'glass_breaker', 'disc_screen2', 'nir_pet', 'paper_bale') 
-          
-
-        if self.material == 'pet':
-            for mat in self.recycle_stream_material:
-                self.flow[(i,mat,'bale','reclaimer')] = self.flow[(i,mat,'nir_pet','pet_bale')]
+        self.general_unitops(i, 'disc_screen2', 'nir_pet', 'pet_bale')
+        self.general_unitops(i, 'nir_pet', 'nir_hdpe', 'hdpe_bale')
+        self.general_unitops(i, 'nir_hdpe', 'magnet', 'iron_bale')
+        self.general_unitops(i, 'magnet', 'eddy', 'aluminum_bale')
 
     def main(self):
 
