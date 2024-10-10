@@ -185,6 +185,10 @@ class PlasticSD(SentierModel):
             self.general_unitops(
                 i, "glass_breaker", "disc_screen2", "nir_pet", "paper_bale"
             )
+            self.general_unitops(i, "disc_screen2", "nir_pet", "nir_hdpe", "pet_bale")
+            self.general_unitops(i, "nir_pet", "nir_hdpe", "magnet", "hdpe_bale")
+            self.general_unitops(i, "nir_hdpe", "magnet", "eddy", "iron_bale")
+            self.general_unitops(i, "magnet", "eddy", "exit", "aluminum_bale")
 
         return self.flow
 
@@ -346,14 +350,13 @@ if __name__ == "__main__":
     # ic(demands)
 
 
-
 import pandas as pd
 import numpy as np
 import sys
 import pickle
 
-class PlasticSD:
 
+class PlasticSD:
     """
     The Pylca class
     - Provides an object which stores the files names required for performing LCA calculations
@@ -394,23 +397,24 @@ class PlasticSD:
 
     """
 
-    def __init__(self,
-                 reg_df,
-                 flow,
-                 material,
-                 recycled_material,
-                 statewise_composition_filename,
-                 region_composition_filename,
-                 demand_model,
-                 year,
-                 initial_recycled_mat,
-                 initial_year,
-                 final_year,
-                 parameters,
-                 collection_rate_method,
-                 mrf_equipment_efficiency,
-                 verbose
-                 ):
+    def __init__(
+        self,
+        reg_df,
+        flow,
+        material,
+        recycled_material,
+        statewise_composition_filename,
+        region_composition_filename,
+        demand_model,
+        year,
+        initial_recycled_mat,
+        initial_year,
+        final_year,
+        parameters,
+        collection_rate_method,
+        mrf_equipment_efficiency,
+        verbose,
+    ):
 
         self.reg_df = reg_df
         self.flow = flow
@@ -429,21 +433,44 @@ class PlasticSD:
         self.mrf_equipment_efficiency = mrf_equipment_efficiency
         self.verbose = verbose
 
+        # List of material
+        self.recycle_stream_material = [
+            "aluminum",
+            "cardboard",
+            "iron",
+            "glass",
+            "hdpe",
+            "paper",
+            "pet",
+            "film",
+            "other",
+        ]
 
-        #List of material
-        self.recycle_stream_material= ['aluminum','cardboard','iron','glass','hdpe','paper','pet','film','other']
-    #dictionary used to convert between full state names and their abreviations
+    # dictionary used to convert between full state names and their abreviations
 
-    def general_unitops(self,i,source,unit_ops,destination,output):
-        
-        for m in  self.recycle_stream_material:
-            
-                self.flow[(i,m,unit_ops,destination)] = float(self.flow[(i,m,source,unit_ops)] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' '+unit_ops+' '+m]))
-                self.flow[(i,m,unit_ops,output)] = float(self.flow[(i,m,source,unit_ops)] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' '+unit_ops+' '+m]))
-            
+    def general_unitops(self, i, source, unit_ops, destination, output):
 
-    def mrf_sorting(self,i):
+        for m in self.recycle_stream_material:
 
+            self.flow[(i, m, unit_ops, destination)] = float(
+                self.flow[(i, m, source, unit_ops)]
+                * (
+                    1
+                    - self.mrf_equipment_efficiency["efficiency"][
+                        str(i) + " " + unit_ops + " " + m
+                    ]
+                )
+            )
+            self.flow[(i, m, unit_ops, output)] = float(
+                self.flow[(i, m, source, unit_ops)]
+                * (
+                    self.mrf_equipment_efficiency["efficiency"][
+                        str(i) + " " + unit_ops + " " + m
+                    ]
+                )
+            )
+
+    def mrf_sorting(self, i):
         """
         Calculates flows withing the mrf unit operation model
 
@@ -462,23 +489,37 @@ class PlasticSD:
 
         """
 
-        #List of material
-        recycle_stream_material = ['aluminum','cardboard','iron','glass','hdpe','paper','pet','film','other']
-        #Put 0 for no quality control. Otherwise enter the efficiency of the Quality Control.
-        qc = self.parameters['quality_control_mrf'][i]
+        # List of material
+        recycle_stream_material = [
+            "aluminum",
+            "cardboard",
+            "iron",
+            "glass",
+            "hdpe",
+            "paper",
+            "pet",
+            "film",
+            "other",
+        ]
+        # Put 0 for no quality control. Otherwise enter the efficiency of the Quality Control.
+        qc = self.parameters["quality_control_mrf"][i]
 
-
-        self.general_unitops(i, 'consumer', 'vacuum', 'disc_screen1', 'film_bale')
-        self.general_unitops(i, 'vacuum', 'disc_screen1', 'glass_breaker', 'cardboard_bale')   
-        self.general_unitops(i, 'disc_screen1', 'glass_breaker', 'disc_screen2', 'glass_bale')   
-        self.general_unitops(i, 'glass_breaker', 'disc_screen2', 'nir_pet', 'paper_bale') 
-        self.general_unitops(i, 'disc_screen2', 'nir_pet', 'pet_bale')
-        self.general_unitops(i, 'nir_pet', 'nir_hdpe', 'hdpe_bale')
-        self.general_unitops(i, 'nir_hdpe', 'magnet', 'iron_bale')
-        self.general_unitops(i, 'magnet', 'eddy', 'aluminum_bale')
+        self.general_unitops(i, "consumer", "vacuum", "disc_screen1", "film_bale")
+        self.general_unitops(
+            i, "vacuum", "disc_screen1", "glass_breaker", "cardboard_bale"
+        )
+        self.general_unitops(
+            i, "disc_screen1", "glass_breaker", "disc_screen2", "glass_bale"
+        )
+        self.general_unitops(
+            i, "glass_breaker", "disc_screen2", "nir_pet", "paper_bale"
+        )
+        self.general_unitops(i, "disc_screen2", "nir_pet", "pet_bale")
+        self.general_unitops(i, "nir_pet", "nir_hdpe", "hdpe_bale")
+        self.general_unitops(i, "nir_hdpe", "magnet", "iron_bale")
+        self.general_unitops(i, "magnet", "eddy", "aluminum_bale")
 
     def main(self):
-
         """
         The main function of the flow model that runs all the other supportive functions.
         Calculates all the flows and saves the flow information in the flow object.
@@ -494,7 +535,6 @@ class PlasticSD:
 
         """
 
-
         self.final_results = pd.DataFrame()
         self.circ_results_wtd = pd.DataFrame()
         self.circ_results_div = pd.DataFrame()
@@ -504,22 +544,12 @@ class PlasticSD:
         self.system_displaced_lca_df = pd.DataFrame()
         self.cost_df = pd.DataFrame()
 
-
-
-
         for region in self.reg_df:
-
 
             if self.verbose == 1:
                 print(region)
             for i in self.year:
-                
-                  
 
-                  self.mrf_sorting(i)
-                  
+                self.mrf_sorting(i)
+
             return self.flow
-
-
-
-    
