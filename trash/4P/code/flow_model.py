@@ -49,11 +49,16 @@ class PlasticSD:
                  reg_df,
                  flow,
                  material,
+                 recycled_material,
+                 statewise_composition_filename,
+                 region_composition_filename,
+                 demand_model,
                  year,
                  initial_recycled_mat,
                  initial_year,
                  final_year,
                  parameters,
+                 collection_rate_method,
                  mrf_equipment_efficiency,
                  verbose
                  ):
@@ -61,11 +66,17 @@ class PlasticSD:
         self.reg_df = reg_df
         self.flow = flow
         self.material = material
+        self.recycled_material = recycled_material
+        self.statewise_composition_filename = statewise_composition_filename
+        self.region_composition_filename = region_composition_filename
+        self.demand_model = demand_model
         self.year = year
         self.initial_recycled_mat = initial_recycled_mat
         self.initial_year = initial_year
         self.final_year = final_year
         self.parameters = parameters
+        self.collection_rate_method = collection_rate_method
+        self.waste_collection_rate = {}
         self.mrf_equipment_efficiency = mrf_equipment_efficiency
         self.verbose = verbose
 

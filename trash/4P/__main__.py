@@ -9,8 +9,9 @@ if __name__ == '__main__':
        from flow_model import PlasticSD
        import logging
        import yaml
-
-    
+       import os
+       print(os.getcwd())
+       os.chdir(os.path.join(os.getcwd(), 'trash', '4P'))
 
 
 
@@ -189,5 +190,4 @@ if __name__ == '__main__':
        
 
 import pandas as pd
-
 
