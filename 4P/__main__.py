@@ -8,19 +8,24 @@ if __name__ == '__main__':
        sys.path.append(os.path.join(os.path.dirname(__file__), 'code'))
        from flow_model import PlasticSD
        import logging
-
-       
-
        import yaml
+
+    
+
+
 
        scenario_from_yaml = {}
        with open('./input/options_files/' + 'singleyearanalysis' + '.yaml') as file:
               scenario_from_yaml = yaml.safe_load(file)
 
+       #Creating the time array for simulation
+       year = list(range(scenario_from_yaml['parameters']['initial_year'], scenario_from_yaml['parameters']['final_year'] + 1))
+       year = [2020]   
+
        # read input parameters file, and define mrf_equipment_efficiency from that
        parameters = pd.read_csv('./input/scenario_files/'+'mrf_equipment_efficiency'+'.csv')
-       mrf_equipment_efficiency = parameters[['year','discreen1 cardboard', 'discreen1 paper', 'discreen2 cardboard',
-              'discreen2 film', 'discreen2 paper', 'eddy aluminum', 'eddy glass',
+       mrf_equipment_efficiency = parameters[['year','disc_screen1 cardboard', 'disc_screen1 paper', 'disc_screen2 cardboard',
+              'disc_screen2 film', 'disc_screen2 paper', 'eddy aluminum', 'eddy glass',
               'glass_breaker glass', 'magnet film', 'magnet iron', 'magnet other',
               'nir_hdpe aluminum', 'nir_hdpe cardboard', 'nir_hdpe film',
               'nir_hdpe glass', 'nir_hdpe hdpe', 'nir_hdpe other', 'nir_hdpe paper',
@@ -35,11 +40,30 @@ if __name__ == '__main__':
        mrf_equipment_efficiency['year-source-targetmaterial'] = mrf_equipment_efficiency['year'].astype('str') + ' ' + mrf_equipment_efficiency['year-source-targetmaterial'].astype('str')
        mrf_equipment_efficiency = mrf_equipment_efficiency[['year-source-targetmaterial','efficiency']]
        mrf_equipment_efficiency = mrf_equipment_efficiency.set_index('year-source-targetmaterial')
+
+
+       mrf_equipment_efficiency_dic = {}
+       mrf_equipment_efficiency = mrf_equipment_efficiency.reset_index().drop_duplicates()
+       for index,row in mrf_equipment_efficiency.iterrows():
+            mrf_equipment_efficiency_dic[row['year-source-targetmaterial']] = row['efficiency']
+
+       recycle_stream_material= ['aluminum','cardboard','iron','glass','hdpe','paper','pet','film','other']
+       unit_ops = ['vacuum','disc_screen1','glass_breaker','disc_screen2','nir_pet','nir_hdpe','magnet','eddy']
+       for y in year:
+           for r in recycle_stream_material:
+            for u in unit_ops:
+                try:
+                    ck = mrf_equipment_efficiency_dic[str(y)+' '+u+' '+r]
+                except:
+                    mrf_equipment_efficiency_dic[str(y)+' '+u+' '+r] = 0
+                
+       mrf_equipment_efficiency = pd.DataFrame.from_dict(mrf_equipment_efficiency_dic,orient='index')
+       mrf_equipment_efficiency['efficiency'] = mrf_equipment_efficiency[0]
+
+       
        parameters = parameters.set_index('year')
 
-       #Creating the time array for simulation
-       year = list(range(scenario_from_yaml['parameters']['initial_year'], scenario_from_yaml['parameters']['final_year'] + 1))
-       year = [2020]
+
        #Cleaning the output directory
        r = glob.glob('./output/*')
        for i in r:
@@ -55,7 +79,9 @@ if __name__ == '__main__':
        flow = {}
        
        reg_df_data = pd.read_csv('./input/core_data_files/State_County.csv')
-       reg_df_data = reg_df_data.sample(20)
+       #reg_df_data = reg_df_data.sample(20)
+       reg_df_data = reg_df_data[reg_df_data['State_County'] == 'Maryland_Dorchester']
+
               
        # Film Bale
        yr_list = []
@@ -131,7 +157,7 @@ if __name__ == '__main__':
                ops_list.append(u)
                value_list_elec.append(total)
 
-            
+
 
 
            total_mrf_flow = 0
