@@ -95,9 +95,17 @@ class PlasticSD:
                             'South Dakota': 'SD', 'Tennessee': 'TN', 'Texas': 'TX', 'Utah': 'UT',
                             'Vermont': 'VT', 'Virginia': 'VA', 'Washington': 'WA', 'West Virginia':
                             'WV', 'Wisconsin': 'WI', 'Wyoming': 'WY'}
-        #dictionary used to convert between full state names and their abreviations
+    #dictionary used to convert between full state names and their abreviations
 
-    
+    def general_unitops(self,i,source,unit_ops,destination,output):
+        
+        for m in  self.recycle_stream_material:
+            
+                self.flow[(i,m,unit_ops,destination)] = float(self.flow[(i,m,source,unit_ops)] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' '+unit_ops+' '+m]))
+                self.flow[(i,m,unit_ops,output)] = float(self.flow[(i,m,source,unit_ops)] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' '+unit_ops+' '+m]))
+            
+
+
     def vacuum(self,i):
 
         """
@@ -151,11 +159,11 @@ class PlasticSD:
 
         for m in self.recycle_stream_material:
             if m == 'cardboard':
-                self.flow[(i,m,'disc_screen1','glass_breaker')] = self.flow[(i,m,'vacuum','disc_screen1')] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' discreen1 '+m])
-                self.flow[(i,m,'disc_screen1','cardboard_bale')] = self.flow[(i,m,'vacuum','disc_screen1')] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' discreen1 '+m])
+                self.flow[(i,m,'disc_screen1','glass_breaker')] = self.flow[(i,m,'vacuum','disc_screen1')] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' disc_screen1 '+m])
+                self.flow[(i,m,'disc_screen1','cardboard_bale')] = self.flow[(i,m,'vacuum','disc_screen1')] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' disc_screen1 '+m])
             elif m == 'paper':
-                self.flow[(i,m,'disc_screen1','glass_breaker')] = self.flow[(i,m,'vacuum','disc_screen1')] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' discreen1 '+m])
-                self.flow[(i,m,'disc_screen1','cardboard_bale')] = self.flow[(i,m,'vacuum','disc_screen1')] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' discreen1 '+m])
+                self.flow[(i,m,'disc_screen1','glass_breaker')] = self.flow[(i,m,'vacuum','disc_screen1')] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' disc_screen1 '+m])
+                self.flow[(i,m,'disc_screen1','cardboard_bale')] = self.flow[(i,m,'vacuum','disc_screen1')] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' disc_screen1 '+m])
             else:
                 self.flow[(i,m,'disc_screen1','glass_breaker')] = self.flow[(i,m,'vacuum','disc_screen1')]
                 self.flow[(i,m,'disc_screen1','cardboard_bale')] = 0.0
@@ -210,14 +218,14 @@ class PlasticSD:
 
         for m in self.recycle_stream_material:
             if m == 'cardboard':
-                 self.flow[(i,m,'disc_screen2','nir_pet')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' discreen2 '+m)])
-                 self.flow[(i,m,'disc_screen2','paper_bale')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (self.mrf_equipment_efficiency['efficiency'][(str(i)+' discreen2 '+m)])
+                 self.flow[(i,m,'disc_screen2','nir_pet')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' disc_screen2 '+m)])
+                 self.flow[(i,m,'disc_screen2','paper_bale')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (self.mrf_equipment_efficiency['efficiency'][(str(i)+' disc_screen2 '+m)])
             elif m == 'paper':
-                 self.flow[(i,m,'disc_screen2','nir_pet')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' discreen2 '+m)])
-                 self.flow[(i,m,'disc_screen2','paper_bale')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (self.mrf_equipment_efficiency['efficiency'][(str(i)+' discreen2 '+m)])
+                 self.flow[(i,m,'disc_screen2','nir_pet')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' disc_screen2 '+m)])
+                 self.flow[(i,m,'disc_screen2','paper_bale')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (self.mrf_equipment_efficiency['efficiency'][(str(i)+' disc_screen2 '+m)])
             elif m == 'film':
-                 self.flow[(i,m,'disc_screen2','nir_pet')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' discreen2 '+m)])
-                 self.flow[(i,m,'disc_screen2','paper_bale')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (self.mrf_equipment_efficiency['efficiency'][(str(i)+' discreen2 '+m)])
+                 self.flow[(i,m,'disc_screen2','nir_pet')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' disc_screen2 '+m)])
+                 self.flow[(i,m,'disc_screen2','paper_bale')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (self.mrf_equipment_efficiency['efficiency'][(str(i)+' disc_screen2 '+m)])
             else:
                  self.flow[(i,m,'disc_screen2','nir_pet')] = self.flow[(i,m,'glass_breaker','disc_screen2')]
                  self.flow[(i,m,'disc_screen2','paper_bale')] = 0.0
@@ -415,18 +423,22 @@ class PlasticSD:
         #Put 0 for no quality control. Otherwise enter the efficiency of the Quality Control.
         qc = self.parameters['quality_control_mrf'][i]
 
-    
-        self.vacuum(i)
-        self.disc_screen(i)
-        self.glass_breaker(i)
-        self.disc_screen2(i)
+
+        self.general_unitops(i, 'consumer', 'vacuum', 'disc_screen1', 'film_bale')
+        self.general_unitops(i, 'vacuum', 'disc_screen1', 'glass_breaker', 'cardboard_bale')   
+        self.general_unitops(i, 'disc_screen1', 'glass_breaker', 'disc_screen2', 'glass_bale')   
+        self.general_unitops(i, 'glass_breaker', 'disc_screen2', 'nir_pet', 'paper_bale')   
+        #self.vacuum(i) 
+        #self.disc_screen(i)
+        #self.glass_breaker(i)
+        #self.disc_screen2(i)
         self.nir_pet(i)
         self.nir_hdpe(i)
         self.pet_bale(i,qc)
         self.hdpe_bale(i,qc)
         self.magnet(i)
         self.eddy(i)
-        
+
 
         if self.material == 'pet':
             for mat in self.recycle_stream_material:
