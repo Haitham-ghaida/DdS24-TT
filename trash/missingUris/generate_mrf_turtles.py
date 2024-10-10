@@ -65,9 +65,8 @@ def generate_mrf_turtles(param_data_path,output_file_path):
     # make the concept thingy
     scheme = URIRef(sorting_machines)
 
-    #g.add((scheme, RDF.type, SKOS.ConceptScheme))
-    #g.add((scheme, SKOS.prefLabel, Literal("MRF Equipment Efficiency Units", lang="en")))
-
+    g.add((scheme, RDF.type, SKOS.ConceptScheme))
+    
     # add general concepts
 
     # sequence
@@ -76,6 +75,9 @@ def generate_mrf_turtles(param_data_path,output_file_path):
     
     g.add((URIRef("https://vocab.sentier.dev/model-terms/generic/sequence"),
           SKOS.exactMatch,sequence))
+
+    # mixed waste 
+
 
     # sorting machines
     path_to_file = Path(__file__).parent / param_data_path
