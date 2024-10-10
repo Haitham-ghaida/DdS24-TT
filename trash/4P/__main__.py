@@ -80,8 +80,8 @@ if __name__ == '__main__':
        flow = {}
        
        reg_df_data = pd.read_csv('./input/core_data_files/State_County.csv')
-       #reg_df_data = reg_df_data.sample(20)
-       reg_df_data = reg_df_data[reg_df_data['State_County'] == 'Maryland_Dorchester']
+       reg_df_data = reg_df_data.sample(20)
+       #reg_df_data = reg_df_data[reg_df_data['State_County'] == 'Maryland_Dorchester']
 
               
        # Film Bale
@@ -174,6 +174,13 @@ if __name__ == '__main__':
            df_energy['diesel_l'] = df_other_inputs['Diesel L/t'][0]*total_mrf_flow
            df_energy['baling wire kg'] = df_other_inputs['Baling Wire kg/t'][0]*total_mrf_flow
            df_energy['region'] = row['State_County']
+           df_energy['Building, Hall, Steel Construction m2'] = df_other_inputs['Building, Hall, Steel Construction m2'][0]*total_mrf_flow
+           df_energy['Building, Multi-Storey m3'] = df_other_inputs['Building, Multi-Storey m3'][0]*total_mrf_flow
+           df_energy['Polyethylene, High Density, Granulate kg'] = df_other_inputs['Polyethylene, High Density, Granulate kg'][0]*total_mrf_flow
+           df_energy['Road, Company, Internal m2/year'] = df_other_inputs['Road, Company, Internal m2/year'][0]*total_mrf_flow
+           df_energy['Steel, Chromium Steel 18/8, Hot Rolled kg'] = df_other_inputs['Steel, Chromium Steel 18/8, Hot Rolled kg'][0]*total_mrf_flow
+           df_energy['Steel, Low-Alloyed, Hot Rolled kg'] = df_other_inputs['Steel, Low-Alloyed, Hot Rolled kg'][0]*total_mrf_flow
+      
            electricity_df_result = pd.concat([electricity_df_result,df_energy])
            
          
