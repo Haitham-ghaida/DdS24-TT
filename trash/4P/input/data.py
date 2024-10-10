@@ -5,13 +5,15 @@ import pandas as pd
 
 import sentier_data_tools as sdt
 
+mrf_prefix = "https://vocab.example.org/mrf-equipment/"
+
 def create_mrf_datastorage(reset: bool = True):
     if reset:
         sdt.reset_local_database()
 
-    df = pd.read_excel(Path(__file__).parent / "mrf_equipment_efficiency.csv")
+    df = pd.read_csv(Path(__file__).parent / "mrf_equipment_efficiency.csv")
     assert len(COLUMNS) == len(UNITS)
-    assert len(COLUMNS) == len(df.columns) - 1
+    assert len(COLUMNS) == len(df.columns)
 
     metadata = sdt.Datapackage(
         name="data for a material recover facility (MRF) in the US context",
@@ -72,3 +74,9 @@ UNITS = [
     "https://vocab.sentier.dev/units/unit/FRACTION",
     "https://vocab.sentier.dev/units/unit/FRACTION",
 ]
+
+MACHINES = [
+    "",
+]
+
+create_mrf_datastorage()
