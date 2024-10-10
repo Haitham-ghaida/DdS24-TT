@@ -11,7 +11,7 @@ if __name__ == '__main__':
        import yaml
        import os
        print(os.getcwd())
-       #os.chdir(os.path.join(os.getcwd(), 'trash', '4P'))
+       os.chdir(os.path.join(os.getcwd(), 'trash', '4P'))
 
 
 
