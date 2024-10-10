@@ -285,7 +285,7 @@ class PlasticSD(SentierModel):
                             }
                         )
             # Generate Demand and Flow objects
-            ic(flow_result)
+            # ic(flow_result)
             for material in self.recycle_stream_material:
                 for year in self.year:
                     material_uri = next(
@@ -294,9 +294,9 @@ class PlasticSD(SentierModel):
                     flow_value = flow_result.get(
                         (year, material, "bale", "reclaimer"), 0
                     )
-                    ic(flow_value)
-                    ic(material_uri)
-                    ic(material)
+                    # ic(flow_value)
+                    # ic(material_uri)
+                    # ic(material)
 
                     county_uri = self.get_county_uri(row["State_County"])
 
@@ -343,3 +343,184 @@ if __name__ == "__main__":
     # if flows:
     #     print("First Flow:", flows[0])
     # ic(demands)
+    # ic(demands)
+
+
+
+import pandas as pd
+import numpy as np
+import sys
+import pickle
+
+class PlasticSD:
+
+    """
+    The Pylca class
+    - Provides an object which stores the files names required for performing LCA calculations
+
+    Parameters
+    ----------
+    flow: dict
+
+    material: str
+
+    recycled_material: str
+
+    statewise_composition_filename: str
+
+    region_composition_filename: str
+
+    demand_model: str
+
+    year: list of ints
+
+    initial_recycled_mat: int
+
+    initial_year: int
+
+    final_year: int
+
+    parameters: pandas dataframe
+
+    collection_rate_method : str
+
+    mrf_equipment_efficiency: pandas dataframe
+
+
+    Returns
+    -------
+
+    None
+
+    """
+
+    def __init__(self,
+                 reg_df,
+                 flow,
+                 material,
+                 recycled_material,
+                 statewise_composition_filename,
+                 region_composition_filename,
+                 demand_model,
+                 year,
+                 initial_recycled_mat,
+                 initial_year,
+                 final_year,
+                 parameters,
+                 collection_rate_method,
+                 mrf_equipment_efficiency,
+                 verbose
+                 ):
+
+        self.reg_df = reg_df
+        self.flow = flow
+        self.material = material
+        self.recycled_material = recycled_material
+        self.statewise_composition_filename = statewise_composition_filename
+        self.region_composition_filename = region_composition_filename
+        self.demand_model = demand_model
+        self.year = year
+        self.initial_recycled_mat = initial_recycled_mat
+        self.initial_year = initial_year
+        self.final_year = final_year
+        self.parameters = parameters
+        self.collection_rate_method = collection_rate_method
+        self.waste_collection_rate = {}
+        self.mrf_equipment_efficiency = mrf_equipment_efficiency
+        self.verbose = verbose
+
+
+        #List of material
+        self.recycle_stream_material= ['aluminum','cardboard','iron','glass','hdpe','paper','pet','film','other']
+    #dictionary used to convert between full state names and their abreviations
+
+    def general_unitops(self,i,source,unit_ops,destination,output):
+        
+        for m in  self.recycle_stream_material:
+            
+                self.flow[(i,m,unit_ops,destination)] = float(self.flow[(i,m,source,unit_ops)] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' '+unit_ops+' '+m]))
+                self.flow[(i,m,unit_ops,output)] = float(self.flow[(i,m,source,unit_ops)] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' '+unit_ops+' '+m]))
+            
+
+    def mrf_sorting(self,i):
+
+        """
+        Calculates flows withing the mrf unit operation model
+
+        Parameters
+        ----------
+        region: str
+            state
+
+        i : int
+            year
+
+        Return
+        ----------
+
+        None
+
+        """
+
+        #List of material
+        recycle_stream_material = ['aluminum','cardboard','iron','glass','hdpe','paper','pet','film','other']
+        #Put 0 for no quality control. Otherwise enter the efficiency of the Quality Control.
+        qc = self.parameters['quality_control_mrf'][i]
+
+
+        self.general_unitops(i, 'consumer', 'vacuum', 'disc_screen1', 'film_bale')
+        self.general_unitops(i, 'vacuum', 'disc_screen1', 'glass_breaker', 'cardboard_bale')   
+        self.general_unitops(i, 'disc_screen1', 'glass_breaker', 'disc_screen2', 'glass_bale')   
+        self.general_unitops(i, 'glass_breaker', 'disc_screen2', 'nir_pet', 'paper_bale') 
+          
+
+        if self.material == 'pet':
+            for mat in self.recycle_stream_material:
+                self.flow[(i,mat,'bale','reclaimer')] = self.flow[(i,mat,'nir_pet','pet_bale')]
+
+    def main(self):
+
+        """
+        The main function of the flow model that runs all the other supportive functions.
+        Calculates all the flows and saves the flow information in the flow object.
+
+        Parameters
+        ----------
+        None
+
+
+        Return
+        ------
+        None
+
+        """
+
+
+        self.final_results = pd.DataFrame()
+        self.circ_results_wtd = pd.DataFrame()
+        self.circ_results_div = pd.DataFrame()
+        self.circ_results_inflow_outflow = pd.DataFrame()
+        self.cost_results = pd.DataFrame()
+        self.lca_demand_df = pd.DataFrame()
+        self.system_displaced_lca_df = pd.DataFrame()
+        self.cost_df = pd.DataFrame()
+
+
+
+
+        for region in self.reg_df:
+
+
+            if self.verbose == 1:
+                print(region)
+            for i in self.year:
+                
+                  
+
+                  self.mrf_sorting(i)
+                  
+            return self.flow
+
+
+
+    
