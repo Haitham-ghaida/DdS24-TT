@@ -174,12 +174,11 @@ if __name__ == '__main__':
            
            df_energy = df_energy.merge(electricty_df,left_on=['Equipment'],right_on = ['ops_list'])
            df_energy['electricity kwh'] = df_energy['Rated motor capacity (kW)']/df_energy['Fraction of equipment capacity utilized ']*df_energy['time']
+           df_energy['diesel_l'] = 10*total_mrf_flow
            df_energy['region'] = row['State_County']
            electricity_df_result = pd.concat([electricity_df_result,df_energy])
            
-                      
-           
-                   
+         
                
        df['location'] = loc_list
        df['year'] = yr_list
