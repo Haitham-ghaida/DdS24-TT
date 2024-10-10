@@ -42,7 +42,7 @@ class PlasticSD(SentierModel):
         # Create a dummy Demand object and RunConfig
         dummy_demand = Demand(
             product_iri=ProductIRI("http://example.com/ontology/WasteSorting"),
-            unit_iri=UnitIRI("http://example.com/units/tons"),
+            unit_iri=UnitIRI("https://vocab.sentier.dev/units/unit/KiloGM"),
             amount=1.0,
             spatial_context=GeonamesIRI("http://sws.geonames.org/6252001/"),  # USA
             begin_date=date(2020, 1, 1),
@@ -90,6 +90,7 @@ class PlasticSD(SentierModel):
         self.parameters = None
         self.mrf_equipment_efficiency = None
         self.reg_df_data = None
+        self.county_uris = self.load_county_uris()
 
     def prepare(self) -> None:
         self.load_scenario()
@@ -242,6 +243,22 @@ class PlasticSD(SentierModel):
 
         return df_energy
 
+    def load_county_uris(self):
+        county_uris_df = pd.read_csv("../counties_uris.csv")
+        return {
+            f"{row['adminName1']}_{row['toponymName'].replace(' County', '')}": row[
+                "uri"
+            ]
+            for _, row in county_uris_df.iterrows()
+        }
+
+    def get_county_uri(self, state_county):
+        uri = self.county_uris.get(state_county)
+        if uri is None:
+            logging.warning(f"No URI found for {state_county}")
+            return f"http://example.com/county/{state_county}"
+        return uri
+
     def run(self) -> Tuple[List[Demand], List[Flow]]:
         self.prepare()
 
@@ -267,8 +284,8 @@ class PlasticSD(SentierModel):
                                 "value": value,
                             }
                         )
-            ic(flow_result)
             # Generate Demand and Flow objects
+            ic(flow_result)
             for material in self.recycle_stream_material:
                 for year in self.year:
                     material_uri = next(
@@ -277,14 +294,17 @@ class PlasticSD(SentierModel):
                     flow_value = flow_result.get(
                         (year, material, "bale", "reclaimer"), 0
                     )
+                    ic(flow_value)
+                    ic(material_uri)
+                    ic(material)
+
+                    county_uri = self.get_county_uri(row["State_County"])
 
                     demand = Demand(
                         product_iri=material_uri,
                         unit_iri=UnitIRI("https://vocab.sentier.dev/units/unit/KiloGM"),
                         amount=flow_value,
-                        spatial_context=GeonamesIRI(
-                            f"http://sws.geonames.org/{row['State_County']}/"
-                        ),
+                        spatial_context=GeonamesIRI(county_uri),
                         begin_date=date(year, 1, 1),
                         end_date=date(year, 12, 31),
                     )
@@ -292,11 +312,9 @@ class PlasticSD(SentierModel):
 
                     flow = Flow(
                         flow_iri=FlowIRI("http://example.com/flows/recycling"),
-                        unit_iri=UnitIRI("http://example.com/units/tons"),
+                        unit_iri=UnitIRI("https://vocab.sentier.dev/units/unit/KiloGM"),
                         amount=flow_value,
-                        spatial_context=GeonamesIRI(
-                            f"http://sws.geonames.org/{row['State_County']}/"
-                        ),
+                        spatial_context=GeonamesIRI(county_uri),
                         begin_date=date(year, 1, 1),
                         end_date=date(year, 12, 31),
                     )
