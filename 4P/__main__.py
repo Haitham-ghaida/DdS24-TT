@@ -144,6 +144,7 @@ if __name__ == '__main__':
                        
                        
            df_energy = pd.read_csv('./input/core_data_files/mrf_electricity.csv') 
+           df_other_inputs = pd.read_csv('./input/core_data_files/mrf_other_inputs.csv')
            
            ops_list = []
            value_list_elec = []
