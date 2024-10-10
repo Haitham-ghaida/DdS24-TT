@@ -1,521 +1,327 @@
 import pandas as pd
 import numpy as np
 import sys
-import pickle
+import glob
+import os
+import shutil
+import logging
+import yaml
+from datetime import date
+from typing import Optional, List, Tuple, Dict
+from icecream import ic
 
-class PlasticSD:
-
-    """
-    The Pylca class
-    - Provides an object which stores the files names required for performing LCA calculations
-
-    Parameters
-    ----------
-    flow: dict
-
-    material: str
-
-    year: list of ints
-
-    initial_recycled_mat: int
-
-    initial_year: int
-
-    final_year: int
-
-    parameters: pandas dataframe
+from sentier_data_tools import (
+    DatasetKind,
+    Demand,
+    Flow,
+    FlowIRI,
+    GeonamesIRI,
+    ModelTermIRI,
+    ProductIRI,
+    SentierModel,
+    RunConfig,
+    UnitIRI,
+)
 
 
-    mrf_equipment_efficiency: pandas dataframe
+class PlasticSD(SentierModel):
+    provides = [ProductIRI("http://example.com/ontology/WasteSorting")]
+    aliases = {
+        ProductIRI("http://data.europa.eu/xsp/cn2024/760200110010"): "aluminum",
+        ProductIRI("http://data.europa.eu/xsp/cn2024/470710000080"): "cardboard",
+        ProductIRI("http://data.europa.eu/xsp/cn2024/720400000080"): "iron",
+        ProductIRI("http://data.europa.eu/xsp/cn2024/700100000080"): "glass",
+        ProductIRI("http://data.europa.eu/xsp/cn2024/391510200080"): "hdpe",
+        ProductIRI("http://data.europa.eu/xsp/cn2024/470730000080"): "paper",
+        ProductIRI("http://data.europa.eu/xsp/cn2024/391510100080"): "pet",
+        ProductIRI("http://data.europa.eu/xsp/cn2024/392010230080"): "film",
+        ProductIRI("http://data.europa.eu/ehl/cpa21/381131"): "other",
+    }
 
+    def __init__(self, scenario_file="singleyearanalysis.yaml", verbose=0):
+        # Create a dummy Demand object and RunConfig
+        dummy_demand = Demand(
+            product_iri=ProductIRI("http://example.com/ontology/WasteSorting"),
+            unit_iri=UnitIRI("http://example.com/units/tons"),
+            amount=1.0,
+            spatial_context=GeonamesIRI("http://sws.geonames.org/6252001/"),  # USA
+            begin_date=date(2020, 1, 1),
+            end_date=date(2022, 12, 31),
+        )
+        run_config = RunConfig(num_samples=1000)
 
-    Returns
-    -------
+        super().__init__(demand=dummy_demand, run_config=run_config)
 
-    None
-
-    """
-
-    def __init__(self,
-                 reg_df,
-                 flow,
-                 material,
-                 year,
-                 initial_recycled_mat,
-                 initial_year,
-                 final_year,
-                 parameters,
-                 mrf_equipment_efficiency,
-                 verbose
-                 ):
-
-        self.reg_df = reg_df
-        self.flow = flow
-        self.material = material
-        self.year = year
-        self.initial_recycled_mat = initial_recycled_mat
-        self.initial_year = initial_year
-        self.final_year = final_year
-        self.parameters = parameters
-        self.mrf_equipment_efficiency = mrf_equipment_efficiency
         self.verbose = verbose
+        self.scenario_file = scenario_file
+        self.recycle_stream_material = [
+            "aluminum",
+            "cardboard",
+            "iron",
+            "glass",
+            "hdpe",
+            "paper",
+            "pet",
+            "film",
+            "other",
+        ]
+        self.outputs = [
+            "vacuum",
+            "film_bale",
+            "cardboard_bale",
+            "glass_bale",
+            "pet_bale",
+            "hdpe_bale",
+            "iron_bale",
+            "aluminum_bale",
+        ]
+        self.unit_ops = [
+            "vacuum",
+            "disc_screen1",
+            "glass_breaker",
+            "disc_screen2",
+            "nir_pet",
+            "nir_hdpe",
+            "magnet",
+            "eddy",
+        ]
+        self.flow = {}
+        self.year = []
+        self.parameters = None
+        self.mrf_equipment_efficiency = None
+        self.reg_df_data = None
 
+    def prepare(self) -> None:
+        self.load_scenario()
+        self.load_mrf_equipment_efficiency()
+        self.load_region_data()
+        self.clean_output_directory()
 
-        #List of material
-        self.recycle_stream_material= ['aluminum','cardboard','iron','glass','hdpe','paper','pet','film','other']
-        self.state_abrev = {'Alabama': 'AL', 'Arizona': 'AZ', 'Arkansas': 'AR',
-                            'California': 'CA', 'Colorado': 'CO', 'Connecticut': 'CT',
-                            'Delaware': 'DE', 'Florida': 'FL', 'Georgia': 'GA', 'Hawaii': 'HI', 'Idaho': 'ID',
-                            'Illinois': 'IL', 'Indiana': 'IN', 'Iowa': 'IA', 'Kansas': 'KS', 'Kentucky': 'KY',
-                            'Louisiana': 'LA', 'Maine': 'ME', 'Maryland': 'MD', 'Massachusetts': 'MA', 'Michigan': 'MI',
-                            'Minnesota': 'MN', 'Mississippi': 'MS', 'Missouri': 'MO', 'Montana': 'MT', 'Nebraska': 'NE',
-                            'Nevada': 'NV', 'New Hampshire': 'NH', 'New Jersey': 'NJ', 'New Mexico': 'NM',
-                            'New York': 'NY', 'North Carolina': 'NC', 'North Dakota': 'ND', 'Ohio': 'OH',
-                            'Oklahoma': 'OK', 'Oregon': 'OR', 'Pennsylvania': 'PA', 'Rhode Island': 'RI', 'South Carolina': 'SC',
-                            'South Dakota': 'SD', 'Tennessee': 'TN', 'Texas': 'TX', 'Utah': 'UT',
-                            'Vermont': 'VT', 'Virginia': 'VA', 'Washington': 'WA', 'West Virginia':
-                            'WV', 'Wisconsin': 'WI', 'Wyoming': 'WY'}
-    #dictionary used to convert between full state names and their abreviations
+    def load_scenario(self):
+        with open(f"./input/options_files/{self.scenario_file}", "r") as file:
+            self.scenario = yaml.safe_load(file)
+        self.year = list(
+            range(
+                self.scenario["parameters"]["initial_year"],
+                self.scenario["parameters"]["final_year"] + 1,
+            )
+        )
+        self.year = [2020]  # Overriding
 
-    def general_unitops(self,i,source,unit_ops,destination,output):
-        
-        for m in  self.recycle_stream_material:
-            
-                self.flow[(i,m,unit_ops,destination)] = float(self.flow[(i,m,source,unit_ops)] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' '+unit_ops+' '+m]))
-                self.flow[(i,m,unit_ops,output)] = float(self.flow[(i,m,source,unit_ops)] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' '+unit_ops+' '+m]))
-            
+    def load_mrf_equipment_efficiency(self):
+        parameters = pd.read_csv("./input/core_data_files/mrf_equipment_efficiency.csv")
+        mrf_equipment_efficiency = parameters[
+            ["year"]
+            + [
+                col
+                for col in parameters.columns
+                if any(op in col for op in self.unit_ops)
+            ]
+        ]
+        mrf_equipment_efficiency = mrf_equipment_efficiency.melt(
+            id_vars=["year"],
+            var_name="year-source-targetmaterial",
+            value_name="efficiency",
+        )
+        mrf_equipment_efficiency["year-source-targetmaterial"] = (
+            mrf_equipment_efficiency["year"].astype(str)
+            + " "
+            + mrf_equipment_efficiency["year-source-targetmaterial"].astype(str)
+        )
+        mrf_equipment_efficiency = mrf_equipment_efficiency[
+            ["year-source-targetmaterial", "efficiency"]
+        ]
+        self.mrf_equipment_efficiency = mrf_equipment_efficiency.set_index(
+            "year-source-targetmaterial"
+        )["efficiency"].to_dict()
 
+        for y in self.year:
+            for r in self.recycle_stream_material:
+                for u in self.unit_ops:
+                    key = f"{y} {u} {r}"
+                    if key not in self.mrf_equipment_efficiency:
+                        self.mrf_equipment_efficiency[key] = 0
 
-    def vacuum(self,i):
+        self.parameters = parameters.set_index("year")
 
-        """
-        Calculates flow of material in the vacuum unit of mrf
+    def load_region_data(self):
+        self.reg_df_data = pd.read_csv("./input/core_data_files/State_County.csv")
+        self.reg_df_data = self.reg_df_data.sample(20)
 
-        Parameters
-        ----------
+    def clean_output_directory(self):
+        r = glob.glob("./output/*")
+        for i in r:
+            os.remove(i)
 
-        i : int
-            year
+    def process_region(self, row):
+        for mat in self.recycle_stream_material:
+            data_df = pd.read_csv(
+                f"./input/core_data_files/projected_by_linear_model_to_2050/{mat}projected_amounts_to_relog_grouped_2050.csv"
+            )
+            data_df = data_df[data_df["State_County"] == row["State_County"]]
+            for y in self.year:
+                if len(data_df) > 1:
+                    logging.warning("Issue with dataframe size")
+                else:
+                    data_df = data_df.reset_index()
+                self.flow[(y, mat, "consumer", "vacuum")] = float(
+                    data_df.loc[0, str(float(y))]
+                )
 
-        Return
-        ----------
+        reg_df = [row["State_County"]]
+        return self.mrf_sorting(reg_df)
 
-        None
+    def mrf_sorting(self, reg_df):
+        for i in self.year:
+            qc = self.parameters.loc[i, "quality_control_mrf"]
+            self.general_unitops(i, "consumer", "vacuum", "disc_screen1", "film_bale")
+            self.general_unitops(
+                i, "vacuum", "disc_screen1", "glass_breaker", "cardboard_bale"
+            )
+            self.general_unitops(
+                i, "disc_screen1", "glass_breaker", "disc_screen2", "glass_bale"
+            )
+            self.general_unitops(
+                i, "glass_breaker", "disc_screen2", "nir_pet", "paper_bale"
+            )
 
-        """
-        
+        return self.flow
 
-        for m in  self.recycle_stream_material:
-            if m == 'cardboard':
-                self.flow[(i,m,'vacuum','disc_screen1')] = float(self.flow[(i,m,'consumer','vacuum')] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' vacuum '+m]))
-                self.flow[(i,m,'vacuum','film_bale')] = float(self.flow[(i,m,'consumer','vacuum')] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' vacuum '+m]))
-            elif m == 'paper':
-                self.flow[(i,m,'vacuum','disc_screen1')] = float(self.flow[(i,m,'consumer','vacuum')] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' vacuum '+m]))
-                self.flow[(i,m,'vacuum','film_bale')]= float(self.flow[(i,m,'consumer','vacuum')] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' vacuum '+m]))
-            elif m == 'film':
-                self.flow[(i,m,'vacuum','disc_screen1')] = float(self.flow[(i,m,'consumer','vacuum')] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' vacuum '+m]))
-                self.flow[(i,m,'vacuum','film_bale')] = float(self.flow[(i,m,'consumer','vacuum')] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' vacuum '+m]))
-            else:
-                self.flow[(i,m,'vacuum','disc_screen1')] = float(self.flow[(i,m,'consumer','vacuum')])
-                self.flow[(i,m,'vacuum','film_bale')] = float(0)
-
-    def disc_screen(self,i):
-
-        """
-        Calculates flow of material in the disc screen unit of mrf
-
-        Parameters
-        ----------
-
-        i : int
-            year
-
-        Return
-        ----------
-
-        None
-
-        """
-
+    def general_unitops(self, i, source, unit_ops, destination, output):
         for m in self.recycle_stream_material:
-            if m == 'cardboard':
-                self.flow[(i,m,'disc_screen1','glass_breaker')] = self.flow[(i,m,'vacuum','disc_screen1')] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' disc_screen1 '+m])
-                self.flow[(i,m,'disc_screen1','cardboard_bale')] = self.flow[(i,m,'vacuum','disc_screen1')] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' disc_screen1 '+m])
-            elif m == 'paper':
-                self.flow[(i,m,'disc_screen1','glass_breaker')] = self.flow[(i,m,'vacuum','disc_screen1')] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' disc_screen1 '+m])
-                self.flow[(i,m,'disc_screen1','cardboard_bale')] = self.flow[(i,m,'vacuum','disc_screen1')] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' disc_screen1 '+m])
-            else:
-                self.flow[(i,m,'disc_screen1','glass_breaker')] = self.flow[(i,m,'vacuum','disc_screen1')]
-                self.flow[(i,m,'disc_screen1','cardboard_bale')] = 0.0
-
-
-    def glass_breaker(self,i):
-
-        """
-        Calculates flow of material in the glass breaker unit of mrf
-
-        Parameters
-        ----------
-
-        i : int
-            year
-
-        Return
-        ----------
-
-        None
-
-        """
-
-        for m in self.recycle_stream_material:
-            if m == 'glass':
-                 self.flow[(i,m,'glass_breaker','disc_screen2')] = self.flow[(i,m,'disc_screen1','glass_breaker')] * (1-self.mrf_equipment_efficiency['efficiency'][str(i)+' glass_breaker '+m])
-                 self.flow[(i,m,'glass_breaker','glass_bale')] = self.flow[(i,m,'disc_screen1','glass_breaker')] * (self.mrf_equipment_efficiency['efficiency'][str(i)+' glass_breaker '+m])
-            else:
-                 self.flow[(i,m,'glass_breaker','disc_screen2')] = self.flow[(i,m,'disc_screen1','glass_breaker')]
-                 self.flow[(i,m,'glass_breaker','glass_bale')] = 0.0
-
-
-
-
-    def disc_screen2(self,i):
-
-        """
-        Calculates flow of material in the disc screen 2 unit of mrf
-
-        Parameters
-        ----------
-
-        i : int
-            year
-
-        Return
-        ----------
-
-        None
-
-        """
-
-        for m in self.recycle_stream_material:
-            if m == 'cardboard':
-                 self.flow[(i,m,'disc_screen2','nir_pet')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' disc_screen2 '+m)])
-                 self.flow[(i,m,'disc_screen2','paper_bale')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (self.mrf_equipment_efficiency['efficiency'][(str(i)+' disc_screen2 '+m)])
-            elif m == 'paper':
-                 self.flow[(i,m,'disc_screen2','nir_pet')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' disc_screen2 '+m)])
-                 self.flow[(i,m,'disc_screen2','paper_bale')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (self.mrf_equipment_efficiency['efficiency'][(str(i)+' disc_screen2 '+m)])
-            elif m == 'film':
-                 self.flow[(i,m,'disc_screen2','nir_pet')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' disc_screen2 '+m)])
-                 self.flow[(i,m,'disc_screen2','paper_bale')] = self.flow[(i,m,'glass_breaker','disc_screen2')] * (self.mrf_equipment_efficiency['efficiency'][(str(i)+' disc_screen2 '+m)])
-            else:
-                 self.flow[(i,m,'disc_screen2','nir_pet')] = self.flow[(i,m,'glass_breaker','disc_screen2')]
-                 self.flow[(i,m,'disc_screen2','paper_bale')] = 0.0
-
-
-    def nir_pet(self,i):
-
-        """
-        Calculates flow of material in the NIR PET unit of mrf
-
-        Parameters
-        ----------
-
-        i : int
-            year
-
-        Return
-        ----------
-
-        None
-
-        """
-
-        for m in self.recycle_stream_material:
-            if m != 'iron':
-                 self.flow[(i,m,'nir_pet','nir_hdpe')] = self.flow[(i,m,'disc_screen2','nir_pet')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' nir_pet '+m)])
-            else:
-                 self.flow[(i,m,'nir_pet','nir_hdpe')] = self.flow[(i,m,'disc_screen2','nir_pet')]
-
-
-
-    def nir_hdpe(self,i):
-
-        """
-        Calculates flow of material in the NIR HDPE unit of mrf
-
-        Parameters
-        ----------
-
-        i : int
-            year
-
-        Return
-        ----------
-
-        None
-
-        """
-
-        for m in self.recycle_stream_material:
-            if m != 'iron':
-                 self.flow[(i,m,'nir_hdpe','magnet')] = self.flow[(i,m,'nir_pet','nir_hdpe')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' nir_hdpe '+m)])
-            else:
-                 self.flow[(i,m,'nir_hdpe','magnet')] = self.flow[(i,m,'nir_pet','nir_hdpe')]
-
-    def magnet(self,i):
-
-        """
-        Calculates flow of material in the NIR HDPE unit of mrf
-
-        Parameters
-        ----------
-
-        i : int
-            year
-
-        Return
-        ----------
-
-        None
-
-        """
-
-        for m in self.recycle_stream_material:
-            if m == 'iron':
-                 self.flow[(i,m,'magnet','eddy')] = self.flow[(i,m,'nir_hdpe','magnet')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' magnet '+m)])
-                 self.flow[(i,m,'magnet','iron_bale')] = self.flow[(i,m,'nir_hdpe','magnet')] * (self.mrf_equipment_efficiency['efficiency'][(str(i)+' magnet '+m)])
-            elif m == 'film':
-                self.flow[(i,m,'magnet','eddy')] = self.flow[(i,m,'nir_hdpe','magnet')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' magnet '+m)])
-                self.flow[(i,m,'magnet','iron_bale')] = self.flow[(i,m,'nir_hdpe','magnet')] * (self.mrf_equipment_efficiency['efficiency'][(str(i)+' magnet '+m)])
-            else:
-                 self.flow[(i,m,'magnet','eddy')] = self.flow[(i,m,'nir_pet','nir_hdpe')]
-                 self.flow[(i,m,'magnet','iron_bale')] = 0.0
-
-    def eddy(self,i):
-
-        """
-        Calculates flow of material in the NIR HDPE unit of mrf
-
-        Parameters
-        ----------
-
-        i : int
-            year
-
-        Return
-        ----------
-
-        None
-
-        """
-
-        for m in self.recycle_stream_material:
-            if m == 'glass':
-                 self.flow[(i,m,'eddy','landfill')] = self.flow[(i,m,'magnet','eddy')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' eddy '+m)])
-                 self.flow[(i,m,'eddy','aluminum_bale')] = self.flow[(i,m,'magnet','eddy')] * (self.mrf_equipment_efficiency['efficiency'][(str(i)+' eddy '+m)])
-            elif m == 'aluminum':
-                self.flow[(i,m,'eddy','landfill')] = self.flow[(i,m,'magnet','eddy')] * (1-self.mrf_equipment_efficiency['efficiency'][(str(i)+' eddy '+m)])
-                self.flow[(i,m,'eddy','aluminum_bale')] = self.flow[(i,m,'magnet','eddy')] * (self.mrf_equipment_efficiency['efficiency'][(str(i)+' eddy '+m)])
-            else:
-                 self.flow[(i,m,'eddy','landfill')] = self.flow[(i,m,'magnet','eddy')]
-                 self.flow[(i,m,'eddy','aluminum_bale')] = 0.0
-
-
-
-    def pet_bale(self,i,qc):
-
-        """
-        Calculates flow of material in the PET BALE of mrf
-
-        Parameters
-        ----------
-
-        qc: int
-            quality control
-
-        i : int
-            year
-
-        Return
-        ----------
-
-        None
-
-        """
-
-        for m in self.recycle_stream_material:
-            self.flow[(i,m,'nir_pet','pet_bale')] = self.flow[(i,m,'disc_screen2','nir_pet')] - self.flow[(i,m,'nir_pet','nir_hdpe')]
-            if m != 'pet':
-               self.flow[(i,m,'nir_pet','pet_bale')] = self.flow[(i,m,'nir_pet','pet_bale')] * (1-qc)
-
-
-
-
-    def hdpe_bale(self,i,qc):
-
-        """
-        Calculates flow of material in the HDPE bale of mrf
-
-        Parameters
-        ----------
-
-        qc: int
-            quality control
-
-        i : int
-            year
-
-        Return
-        ----------
-
-        None
-
-        """
-
-        for m in self.recycle_stream_material:
-                self.flow[(i,m,'nir_hdpe','hdpe_bale')] = self.flow[(i,m,'nir_pet','nir_hdpe')] - self.flow[(i,m,'nir_hdpe','magnet')]
-                if m != 'hdpe':
-                   self.flow[(i,m,'nir_hdpe','hdpe_bale')] = self.flow[(i,m,'nir_hdpe','hdpe_bale')] * (1-qc)
-
-
-
-    def mrf_sorting(self,i):
-
-        """
-        Calculates flows withing the mrf unit operation model
-
-        Parameters
-        ----------
-        region: str
-            state
-
-        i : int
-            year
-
-        Return
-        ----------
-
-        None
-
-        """
-
-        #List of material
-        recycle_stream_material = ['aluminum','cardboard','iron','glass','hdpe','paper','pet','film','other']
-        #Put 0 for no quality control. Otherwise enter the efficiency of the Quality Control.
-        qc = self.parameters['quality_control_mrf'][i]
-
-
-        self.general_unitops(i, 'consumer', 'vacuum', 'disc_screen1', 'film_bale')
-        self.general_unitops(i, 'vacuum', 'disc_screen1', 'glass_breaker', 'cardboard_bale')   
-        self.general_unitops(i, 'disc_screen1', 'glass_breaker', 'disc_screen2', 'glass_bale')   
-        self.general_unitops(i, 'glass_breaker', 'disc_screen2', 'nir_pet', 'paper_bale')   
-        #self.vacuum(i) 
-        #self.disc_screen(i)
-        #self.glass_breaker(i)
-        #self.disc_screen2(i)
-        self.nir_pet(i)
-        self.nir_hdpe(i)
-        self.pet_bale(i,qc)
-        self.hdpe_bale(i,qc)
-        self.magnet(i)
-        self.eddy(i)
-
-
-        if self.material == 'pet':
-            for mat in self.recycle_stream_material:
-                self.flow[(i,mat,'bale','reclaimer')] = self.flow[(i,mat,'nir_pet','pet_bale')]
-
-        #LANDFILL 2
-        #self.flow[(i,self.material,'mrf','landfill')] = self.flow[(i,self.material,'disposal','mrf_tipping')] - self.flow[(i,self.material,'bale','reclaimer')]
-
-
-    def main(self):
-
-        """
-        The main function of the flow model that runs all the other supportive functions.
-        Calculates all the flows and saves the flow information in the flow object.
-
-        Parameters
-        ----------
-        None
-
-
-        Return
-        ------
-        None
-
-        """
-
-
-        self.final_results = pd.DataFrame()
-        self.circ_results_wtd = pd.DataFrame()
-        self.circ_results_div = pd.DataFrame()
-        self.circ_results_inflow_outflow = pd.DataFrame()
-        self.cost_results = pd.DataFrame()
-        self.lca_demand_df = pd.DataFrame()
-        self.system_displaced_lca_df = pd.DataFrame()
-        self.cost_df = pd.DataFrame()
-
-
-
-
-        for region in self.reg_df:
-
-            #Saving the flow information
-
-            #graph variables
-            vmanuf_use = []
-            use_to_dispose = []
-            dispose_to_landfill = []
-            dispose_to_collection = []
-            dispose_to_wte_uncollected = []
-            dispose_to_wte_collected = []
-            dispose_to_wte = []
-            dispose_to_mrf = []
-            total_bale_quantity = []
-            total_bale_quantity_mechanical_reclaimer = []
-            total_bale_quantity_chemical_reclaimer = []
-            total_bale_quantity_upcycling_reclaimer = []
-            total_bale_quantity_pyrolysis_reclaimer = []
-            total_bale_quantity_fiber_reinforced_resin_reclaimer = []
-
-            mrf_to_m_reclaimer = []
-            mrf_to_c_reclaimer = []
-            mrf_to_c_upcycler = []
-            mrf_to_ppo = []
-            mrf_to_frp = []
-            mrf_to_landfill = []
-
-            m_reclaimer_to_manuf = []
-            m_reclaimer_to_landfill = []
-            c_reclaimer_to_manuf = []
-            c_reclaimer_to_landfill = []
-            downcycled = []
-            recycled = []
-
-            rmanuf_to_use = []
-            rmanuf_to_landfill = []
-            wte_energy = []
-            pyrolysis_fuel_oil = []
-            fiber_reinforced_resin = []
-            plastic_demand_data = []
-            landfill = []
-
-            years = []
-            grade_array = []
-            lca_df = pd.DataFrame()
-            system_displaced_lca_df = pd.DataFrame()
-
-
-            if self.verbose == 1:
-                print(region)
-            for i in self.year:
-                
-                  
-
-                  self.mrf_sorting(i)
-                  
-            return self.flow
-
-
-
-    
+            efficiency_key = f"{i} {unit_ops} {m}"
+            efficiency = self.mrf_equipment_efficiency.get(efficiency_key, 0)
+
+            input_flow = self.flow.get((i, m, source, unit_ops), 0)
+            self.flow[(i, m, unit_ops, destination)] = input_flow * (1 - efficiency)
+            self.flow[(i, m, unit_ops, output)] = input_flow * efficiency
+
+    def calculate_energy_usage(self, row, flow_result):
+        df_energy = pd.read_csv("./input/core_data_files/mrf_electricity.csv")
+        df_other_inputs = pd.read_csv("./input/core_data_files/mrf_other_inputs.csv")
+
+        ops_list = []
+        value_list_elec = []
+        for u in self.unit_ops:
+            total = sum(flow_result[key] for key in flow_result if key[3] == u)
+            ops_list.append(u)
+            value_list_elec.append(total)
+
+        total_mrf_flow = sum(
+            flow_result[key] for key in flow_result if key[3] == "vacuum"
+        )
+        time = total_mrf_flow / df_other_inputs["MRF throughput t"][0]
+
+        electricity_df = pd.DataFrame(
+            {"ops_list": ops_list, "total_flow": value_list_elec, "time": time}
+        )
+
+        df_energy = df_energy.merge(
+            electricity_df, left_on=["Equipment"], right_on=["ops_list"]
+        )
+        df_energy["electricity kwh"] = (
+            df_energy["Rated motor capacity (kW)"]
+            / df_energy["Fraction of equipment capacity utilized "]
+            * df_energy["time"]
+        )
+        df_energy["diesel_l"] = df_other_inputs["Diesel L/t"][0] * total_mrf_flow
+        df_energy["baling wire kg"] = (
+            df_other_inputs["Baling Wire kg/t"][0] * total_mrf_flow
+        )
+        df_energy["region"] = row["State_County"]
+
+        for column in [
+            "Building, Hall, Steel Construction m2",
+            "Building, Multi-Storey m3",
+            "Polyethylene, High Density, Granulate kg",
+            "Road, Company, Internal m2/year",
+            "Steel, Chromium Steel 18/8, Hot Rolled kg",
+            "Steel, Low-Alloyed, Hot Rolled kg",
+        ]:
+            df_energy[column] = df_other_inputs[column][0] * total_mrf_flow
+
+        return df_energy
+
+    def run(self) -> Tuple[List[Demand], List[Flow]]:
+        self.prepare()
+
+        demands = []
+        flows = []
+        electricity_df_result = pd.DataFrame()
+        bale_data = []
+
+        for _, row in self.reg_df_data.iterrows():
+            flow_result = self.process_region(row)
+            df_energy = self.calculate_energy_usage(row, flow_result)
+            electricity_df_result = pd.concat([electricity_df_result, df_energy])
+
+            for o_bales in self.outputs:
+                for key, value in flow_result.items():
+                    if key[3] == o_bales:
+                        bale_data.append(
+                            {
+                                "location": row["State_County"],
+                                "year": key[0],
+                                "bale": o_bales,
+                                "material": key[1],
+                                "value": value,
+                            }
+                        )
+            ic(flow_result)
+            # Generate Demand and Flow objects
+            for material in self.recycle_stream_material:
+                for year in self.year:
+                    material_uri = next(
+                        uri for uri, alias in self.aliases.items() if alias == material
+                    )
+                    flow_value = flow_result.get(
+                        (year, material, "bale", "reclaimer"), 0
+                    )
+
+                    demand = Demand(
+                        product_iri=material_uri,
+                        unit_iri=UnitIRI("https://vocab.sentier.dev/units/unit/KiloGM"),
+                        amount=flow_value,
+                        spatial_context=GeonamesIRI(
+                            f"http://sws.geonames.org/{row['State_County']}/"
+                        ),
+                        begin_date=date(year, 1, 1),
+                        end_date=date(year, 12, 31),
+                    )
+                    demands.append(demand)
+
+                    flow = Flow(
+                        flow_iri=FlowIRI("http://example.com/flows/recycling"),
+                        unit_iri=UnitIRI("http://example.com/units/tons"),
+                        amount=flow_value,
+                        spatial_context=GeonamesIRI(
+                            f"http://sws.geonames.org/{row['State_County']}/"
+                        ),
+                        begin_date=date(year, 1, 1),
+                        end_date=date(year, 12, 31),
+                    )
+                    flows.append(flow)
+
+        pd.DataFrame(bale_data).to_csv("./output/bale_output.csv", index=False)
+        electricity_df_result.to_csv("./output/lci_output.csv", index=False)
+        return demands, flows
+
+
+if __name__ == "__main__":
+    # Change working directory
+    os.chdir(os.path.join(os.getcwd(), "trash", "4P"))
+    print("Current working directory:", os.getcwd())
+
+    # Create and run PlasticSD instance
+    psd = PlasticSD(scenario_file="singleyearanalysis.yaml", verbose=1)
+    demands, flows = psd.run()
+
+    # Process results
+    print(f"Generated {len(demands)} demands and {len(flows)} flows")
+
+    # Example: Print first demand and flow
+    # if demands:
+    #     print("First Demand:", demands[0])
+    # if flows:
+    #     print("First Flow:", flows[0])
+    # ic(demands)
