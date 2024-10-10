@@ -1,6 +1,9 @@
 # Team Trash
 
-MOTO: "something went wrong" - TJ
+quotes of the week: 
+- "something went wrong" - TJ
+- "just give me 10 minutes" - TJ
+
 
 ## TODO
 
@@ -9,13 +12,19 @@ MOTO: "something went wrong" - TJ
 - [ ] link to https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://data.europa.eu/6p8/ewc4-stat/scheme
 
 ### Model
-- [ ] Extract model
+- [X] Extract model
+- [X] Add model to the repo
 
 ### Python
 - [ ] Datapackage schema
 
 ### Integration
 - [ ] Vocab, model, DP
+
+## Documentation
+- [X] Add documentation to the repo
+- [X] Add mermaid diagrams
+- [X] publish readthedocs
 
 
 

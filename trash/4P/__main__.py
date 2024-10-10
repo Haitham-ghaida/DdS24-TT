@@ -31,7 +31,7 @@ if __name__ == '__main__':
               'nir_hdpe aluminum', 'nir_hdpe cardboard', 'nir_hdpe film',
               'nir_hdpe glass', 'nir_hdpe hdpe', 'nir_hdpe other', 'nir_hdpe paper',
               'nir_hdpe pet', 'nir_pet aluminum', 'nir_pet cardboard', 'nir_pet film',
-              'nir_pet glass', 'nir_pet hdpe', 'nir_pet other', 'nir_pet paper',
+              'nir_pet glass', 'nir_pet hdpe', 'nir_pet other', 'nir_pet paper', 
               'nir_pet pet', 'vacuum cardboard', 'vacuum film', 'vacuum paper']]
        mrf_equipment_efficiency = mrf_equipment_efficiency.melt(
               id_vars=['year'],
