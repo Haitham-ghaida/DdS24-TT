@@ -23,7 +23,7 @@ if __name__ == '__main__':
        year = [2020]   
 
        # read input parameters file, and define mrf_equipment_efficiency from that
-       parameters = pd.read_csv('./input/scenario_files/'+'mrf_equipment_efficiency'+'.csv')
+       parameters = pd.read_csv('./input/core_data_files/'+'mrf_equipment_efficiency'+'.csv')
        mrf_equipment_efficiency = parameters[['year','disc_screen1 cardboard', 'disc_screen1 paper', 'disc_screen2 cardboard',
               'disc_screen2 film', 'disc_screen2 paper', 'eddy aluminum', 'eddy glass',
               'glass_breaker glass', 'magnet film', 'magnet iron', 'magnet other',
@@ -116,16 +116,11 @@ if __name__ == '__main__':
            psd =  PlasticSD(reg_df = reg_df,
                             flow = flow,
                             material = "pet",
-                            recycled_material = "rpet",
-                            statewise_composition_filename = "./input/core_files/waste_composition.csv",
-                            region_composition_filename = scenario_from_yaml['input_filenames']['no_parse']['region_composition_filename'],
-                            demand_model = "linear",
                             year = year,
                             initial_recycled_mat = 0,
                             initial_year = scenario_from_yaml['parameters']['initial_year'],
                             final_year = scenario_from_yaml['parameters']['final_year'],
                             parameters = parameters,
-                            collection_rate_method = scenario_from_yaml['parameters']['collection_rate_method'],
                             mrf_equipment_efficiency = mrf_equipment_efficiency,
                             verbose = 0
                            )        
@@ -167,7 +162,7 @@ if __name__ == '__main__':
             if key[3] == 'vacuum':
                 total_mrf_flow = total_mrf_flow + flow_result[key]
 
-           time = total_mrf_flow/30
+           time = total_mrf_flow/df_other_inputs['MRF throughput t'][0]
            electricty_df = pd.DataFrame()
            electricty_df['ops_list'] = ops_list
            electricty_df['total_flow'] = value_list_elec
@@ -175,7 +170,8 @@ if __name__ == '__main__':
            
            df_energy = df_energy.merge(electricty_df,left_on=['Equipment'],right_on = ['ops_list'])
            df_energy['electricity kwh'] = df_energy['Rated motor capacity (kW)']/df_energy['Fraction of equipment capacity utilized ']*df_energy['time']
-           df_energy['diesel_l'] = 10*total_mrf_flow
+           df_energy['diesel_l'] = df_other_inputs['Diesel L/t'][0]*total_mrf_flow
+           df_energy['baling wire kg'] = df_other_inputs['Baling Wire kg/t'][0]*total_mrf_flow
            df_energy['region'] = row['State_County']
            electricity_df_result = pd.concat([electricity_df_result,df_energy])
            
@@ -189,7 +185,7 @@ if __name__ == '__main__':
        
        
        df.to_csv('./output/bale_output.csv')
-       electricity_df_result.to_csv('./output/electricity_output.csv')
+       electricity_df_result.to_csv('./output/lci_output.csv')
        
 
 import pandas as pd
