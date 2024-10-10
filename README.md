@@ -1,6 +1,9 @@
 # Team Trash
 
-MOTO: "something went wrong" - TJ
+quotes of the week: 
+- "something went wrong" - TJ
+- "just give me 10 minutes" - TJ
+
 
 ## TODO
 

@@ -4,7 +4,7 @@
 2,Maryland_Dorchester,2020,vacuum,iron,207.5674660215
 3,Maryland_Dorchester,2020,vacuum,glass,454.94239128
 4,Maryland_Dorchester,2020,vacuum,hdpe,312.772894005
-5,Maryland_Dorchester,2020,vacuum,paper,1972.0336847145652
+5,Maryland_Dorchester,2020,vacuum,paper,1972.0336847145647
 6,Maryland_Dorchester,2020,vacuum,pet,341.20679346
 7,Maryland_Dorchester,2020,vacuum,film,50.98758047135328
 8,Maryland_Dorchester,2020,vacuum,other,42.6508491825
@@ -13,7 +13,7 @@
 11,Maryland_Dorchester,2020,film_bale,iron,0.0
 12,Maryland_Dorchester,2020,film_bale,glass,0.0
 13,Maryland_Dorchester,2020,film_bale,hdpe,0.0
-14,Maryland_Dorchester,2020,film_bale,paper,39.440673694291306
+14,Maryland_Dorchester,2020,film_bale,paper,39.4406736942913
 15,Maryland_Dorchester,2020,film_bale,pet,0.0
 16,Maryland_Dorchester,2020,film_bale,film,49.967828861926215
 17,Maryland_Dorchester,2020,film_bale,other,0.0
@@ -22,7 +22,7 @@
 20,Maryland_Dorchester,2020,cardboard_bale,iron,0.0
 21,Maryland_Dorchester,2020,cardboard_bale,glass,0.0
 22,Maryland_Dorchester,2020,cardboard_bale,hdpe,0.0
-23,Maryland_Dorchester,2020,cardboard_bale,paper,38.65186022040548
+23,Maryland_Dorchester,2020,cardboard_bale,paper,38.65186022040547
 24,Maryland_Dorchester,2020,cardboard_bale,pet,0.0
 25,Maryland_Dorchester,2020,cardboard_bale,film,0.0
 26,Maryland_Dorchester,2020,cardboard_bale,other,0.0
