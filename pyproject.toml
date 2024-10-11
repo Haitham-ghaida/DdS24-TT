@@ -5,10 +5,10 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "trash"
 authors = [
-  { name="haitham", email="<your email here>" }
+  { name="haitham", email="haitham@welovemiguel.com" }
 ]
 maintainers = [
-  { name="haitham", email="<your email here>" }
+  { name="haitham", email="haitham@welovemiguel.com" }
 ]
 description = "Contains all the python boilerplate you need to create a Brightway ecosystem package."
 readme = "README.md"
