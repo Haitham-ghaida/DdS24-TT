@@ -54,7 +54,9 @@ class PlasticSD(SentierModel):
         ProductIRI("http://data.europa.eu/ehl/cpa21/381131"): "other",
     }
 
-    def __init__(self, year: list[int] = 2020, verbose=0):
+    def __init__(
+        self, year: list[int] = 2020, verbose=0, region_selection=None, sample_size=None
+    ):
         # Create a dummy Demand object and RunConfig
         dummy_demand = Demand(
             product_iri=ProductIRI("http://example.com/ontology/WasteSorting"),
@@ -101,6 +103,8 @@ class PlasticSD(SentierModel):
         ]
         self.flow = {}
         self.year = year
+        self.region_selection = region_selection
+        self.sample_size = sample_size
         self.parameters = None
         self.mrf_equipment_efficiency = None
         self.reg_df_data = None
@@ -150,7 +154,43 @@ class PlasticSD(SentierModel):
 
     def load_region_data(self):
         self.reg_df_data = pd.read_csv(PATH_TO_STATE_COUNTY)
-        self.reg_df_data = self.reg_df_data.sample(20)
+
+        if self.region_selection:
+            if isinstance(self.region_selection, str):
+                # Single State_County specified
+                self.reg_df_data = self.reg_df_data[
+                    self.reg_df_data["State_County"] == self.region_selection
+                ]
+                if self.reg_df_data.empty:
+                    raise ValueError(
+                        f"Specified State_County '{self.region_selection}' not found in the data."
+                    )
+            elif isinstance(self.region_selection, list):
+                # List of State_County specified
+                self.reg_df_data = self.reg_df_data[
+                    self.reg_df_data["State_County"].isin(self.region_selection)
+                ]
+                if self.reg_df_data.empty:
+                    raise ValueError(
+                        f"None of the specified State_County values were found in the data."
+                    )
+            else:
+                raise ValueError(
+                    "region_selection must be a string or a list of strings."
+                )
+        elif self.sample_size:
+            if isinstance(self.sample_size, int) and self.sample_size > 0:
+                self.reg_df_data = self.reg_df_data.sample(
+                    min(self.sample_size, len(self.reg_df_data))
+                )
+            else:
+                raise ValueError("sample_size must be a positive integer.")
+        else:
+            # If neither region_selection nor sample_size is specified, use all data
+            pass
+
+        if self.verbose:
+            print(f"Selected regions:\n{self.reg_df_data['State_County'].tolist()}")
 
     def create_output_directory(self):
         if not os.path.exists("./output"):
@@ -324,7 +364,6 @@ class PlasticSD(SentierModel):
                     )
                     demands.append(demand)
 
-
         pd.DataFrame(bale_data).to_csv("./output/bale_output.csv", index=False)
         electricity_df_result.to_csv("./output/lci_output.csv", index=False)
         return demands, flows
@@ -337,7 +376,7 @@ if __name__ == "__main__":
     # print(pd.read_csv(PATH_TO_COUNTY_URI))
 
     # Create and run PlasticSD instance
-    psd = PlasticSD(year=[2020], verbose=1)
+    psd = PlasticSD(year=[2020], verbose=1, region_selection="Mississippi_Adams")
     demands, flows = psd.run()
 
     # Process results
