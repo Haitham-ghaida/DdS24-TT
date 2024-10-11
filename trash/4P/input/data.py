@@ -50,18 +50,16 @@ def create_mrf_datastorage(reset: bool = True):
     assert len(COLUMNS_COUNTY) == len(UNITS_COUNTY)
     assert len(COLUMNS_COUNTY) == len(df_county.columns)
 
-    print(df_county)
-
     sdt.Dataset(
         name=f"county-level municipal solid waste, for single-stream collection, covering both observed and prospective data",
         dataframe=df_county,	
         product="https://vocab.sentier.dev/model-terms/generic/sorting", # IRI of waste sorting with MRF
         columns=[{"iri": x, "unit": y} for x, y in zip(COLUMNS_COUNTY, UNITS_COUNTY)],
         metadata=metadata,
-        location="...",
+        location="https://www.geonames.org/6295630",
         version=1,
-        valid_from=date(2004, 1, 1), # based on observations 
-        valid_to=date(2050, 1, 1), # prospective data based on population projections
+        valid_from=date(2004, 1, 1), # based on observations from 2000 census
+        valid_to=date(2050, 1, 1), # based on population projections
     ).save()
     # )
 
@@ -106,8 +104,8 @@ MACHINES_EFF = [
 ]
 
 COLUMNS_COUNTY = [
-    "...", # year
-    "...", # GeoURI
+    "https://vocab.sentier.dev/units/unit/YR", # year
+    "https://www.geonames.org/ontology#A.ADM2", # GeoURI
     "http://data.europa.eu/xsp/cn2024/391510100080", # Having a specific gravity of less than 0,94 (for example, PE-LD) (under: Waste, parings and scrap, of plastics > Of polymers of ethylene)
     "http://data.europa.eu/xsp/cn2024/470710000080", # Unbleached kraft paper or paperboard or corrugated paper or paperboard (under waste)
     "http://data.europa.eu/ehl/cpa21/381131", # Non-recyclable non-hazardous municipal waste; taxonomy can be accessed here: https://op.europa.eu/s/zXfR
@@ -121,7 +119,7 @@ COLUMNS_COUNTY = [
 
 UNITS_COUNTY = [
     "https://vocab.sentier.dev/units/unit/YR",
-    "...", # GeoURI
+    "https://www.geonames.org/ontology#A.ADM2",
     "https://vocab.sentier.dev/units/unit/KiloGM",
     "https://vocab.sentier.dev/units/unit/KiloGM",
     "https://vocab.sentier.dev/units/unit/KiloGM",
