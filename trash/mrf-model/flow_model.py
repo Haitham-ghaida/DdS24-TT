@@ -23,6 +23,11 @@ from sentier_data_tools import (
     UnitIRI,
 )
 
+from pathlib import Path
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+PATH_TO_INPUT = SCRIPT_DIR.parent /'inputs'
+
 
 class PlasticSD(SentierModel):
     provides = [ProductIRI("http://example.com/ontology/WasteSorting")]
@@ -318,15 +323,17 @@ class PlasticSD(SentierModel):
 
 if __name__ == "__main__":
     # Change working directory
-    os.chdir(os.path.join(os.getcwd(), "trash", "4P"))
-    print("Current working directory:", os.getcwd())
+    # os.chdir(os.path.join(os.getcwd(), "trash", "4P"))
+    # print("Current working directory:", os.getcwd())
+    print(SCRIPT_DIR)
+    print(PATH_TO_INPUT)
 
     # Create and run PlasticSD instance
-    psd = PlasticSD(year=[2020], verbose=1)
-    demands, flows = psd.run()
+    # psd = PlasticSD(year = [2020], verbose=1)
+    # demands, flows = psd.run()
 
     # Process results
-    print(f"Generated {len(demands)} demands and {len(flows)} flows")
+    # print(f"Generated {len(demands)} demands and {len(flows)} flows")
 
     # Example: Print first demand and flow
     # if demands:
