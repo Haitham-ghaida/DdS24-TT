@@ -61,10 +61,10 @@ you can find documentation of the model in [here](https://dds24-tt.readthedocs.i
 
 ## Installation
 
-You can install _trash_ via [pip] from [PyPI]:
+You can install _trash_ via [pip] ~~from [PyPI]~~:
 
 ```console
-$ pip install trash
+$ pip install git+https://github.com/Haitham-ghaida/DdS24-TT.git@main
 ```
 
 ## Contributing
