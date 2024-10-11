@@ -66,7 +66,6 @@ class PlasticSD(SentierModel):
             "other",
         ]
         self.outputs = [
-            "vacuum",
             "film_bale",
             "cardboard_bale",
             "glass_bale",
@@ -288,19 +287,21 @@ class PlasticSD(SentierModel):
                                 "value": value,
                             }
                         )
-            # Generate Demand and Flow objects
-            # ic(flow_result)
+
+            # Generate Demand objects
             for material in self.recycle_stream_material:
                 for year in self.year:
                     material_uri = next(
                         uri for uri, alias in self.aliases.items() if alias == material
                     )
-                    flow_value = flow_result.get(
-                        (year, material, "bale", "reclaimer"), 0
+
+                    # Sum up the flow values for all bale types for this material
+                    flow_value = sum(
+                        flow_result.get((year, material, unit_op, bale_type), 0)
+                        for unit_op in self.unit_ops
+                        for bale_type in self.outputs
+                        if (year, material, unit_op, bale_type) in flow_result
                     )
-                    # ic(flow_value)
-                    # ic(material_uri)
-                    # ic(material)
 
                     county_uri = self.get_county_uri(row["State_County"])
 
@@ -314,15 +315,9 @@ class PlasticSD(SentierModel):
                     )
                     demands.append(demand)
 
-                    flow = Flow(
-                        flow_iri=FlowIRI("http://example.com/flows/recycling"),
-                        unit_iri=UnitIRI("https://vocab.sentier.dev/units/unit/KiloGM"),
-                        amount=flow_value,
-                        spatial_context=GeonamesIRI(county_uri),
-                        begin_date=date(year, 1, 1),
-                        end_date=date(year, 12, 31),
+                    print(
+                        f"Created Demand for {material} in {row['State_County']} with amount: {flow_value}"
                     )
-                    flows.append(flow)
 
         pd.DataFrame(bale_data).to_csv("./output/bale_output.csv", index=False)
         electricity_df_result.to_csv("./output/lci_output.csv", index=False)
@@ -347,7 +342,7 @@ if __name__ == "__main__":
     # if flows:
     #     print("First Flow:", flows[0])
     # ic(demands)
-    # ic(demands)
+    ic(demands)
 
 
 import pandas as pd
