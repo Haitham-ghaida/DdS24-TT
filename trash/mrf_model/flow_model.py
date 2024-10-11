@@ -324,9 +324,6 @@ class PlasticSD(SentierModel):
                     )
                     demands.append(demand)
 
-                    print(
-                        f"Created Demand for {material} in {row['State_County']} with amount: {flow_value}"
-                    )
 
         pd.DataFrame(bale_data).to_csv("./output/bale_output.csv", index=False)
         electricity_df_result.to_csv("./output/lci_output.csv", index=False)
