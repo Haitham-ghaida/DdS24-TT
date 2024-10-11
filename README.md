@@ -4,12 +4,13 @@ quotes of the week:
 - "something went wrong" - TJ
 - "just give me 10 minutes" - TJ
 
+you can find documentation of the model in [here](https://dds24-tt.readthedocs.io/en/latest/)
 
 ## TODO
 
 ### Vocabs
-- [ ] link to DDS vocabs
-- [ ] link to https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://data.europa.eu/6p8/ewc4-stat/scheme
+- [x] link to DDS vocabs
+- [x] link to https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://data.europa.eu/6p8/ewc4-stat/scheme
 
 ### Model
 - [X] Extract model
