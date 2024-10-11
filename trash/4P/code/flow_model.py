@@ -9,6 +9,7 @@ import yaml
 from datetime import date
 from typing import Optional, List, Tuple, Dict
 from icecream import ic
+from pathlib import Path
 
 from sentier_data_tools import (
     DatasetKind,
@@ -46,10 +47,10 @@ class PlasticSD(SentierModel):
             amount=1.0,
             spatial_context=GeonamesIRI("http://sws.geonames.org/6252001/"),  # USA
             begin_date=date(2020, 1, 1),
-            end_date=date(2022, 12, 31),
-        )
+            end_date=date(2022, 12, 31),)
         run_config = RunConfig(num_samples=1000)
 
+        self._input_data_dir = Path(__file__).parent.parent /'input'
         super().__init__(demand=dummy_demand, run_config=run_config)
 
         self.verbose = verbose
@@ -99,7 +100,9 @@ class PlasticSD(SentierModel):
         self.clean_output_directory()
 
     def load_scenario(self):
-        with open(f"./input/options_files/{self.scenario_file}", "r") as file:
+        scenario_file_path = self._input_data_dir/"options_files"/f"{self.scenario_file}"
+
+        with open(scenario_file_path, "r") as file:
             self.scenario = yaml.safe_load(file)
         self.year = list(
             range(
@@ -110,7 +113,9 @@ class PlasticSD(SentierModel):
         self.year = [2020]  # Overriding
 
     def load_mrf_equipment_efficiency(self):
-        parameters = pd.read_csv("./input/core_data_files/mrf_equipment_efficiency.csv")
+        # fix paths
+        path_to_parameters = self._input_data_dir/"core_data_files"/"mrf_equipment_efficiency.csv"
+        parameters = pd.read_csv(path_to_parameters)
         mrf_equipment_efficiency = parameters[
             ["year"]
             + [
@@ -146,7 +151,8 @@ class PlasticSD(SentierModel):
         self.parameters = parameters.set_index("year")
 
     def load_region_data(self):
-        self.reg_df_data = pd.read_csv("./input/core_data_files/State_County.csv")
+        path_to_state_countys = self._input_data_dir / 'core_data_files'/"State_County.csv"
+        self.reg_df_data = pd.read_csv(path_to_state_countys)
         self.reg_df_data = self.reg_df_data.sample(20)
 
     def clean_output_directory(self):
@@ -156,9 +162,10 @@ class PlasticSD(SentierModel):
 
     def process_region(self, row):
         for mat in self.recycle_stream_material:
-            data_df = pd.read_csv(
-                f"./input/core_data_files/projected_by_linear_model_to_2050/{mat}projected_amounts_to_relog_grouped_2050.csv"
-            )
+
+            path_to_file = self._input_data_dir/'core_data_files'/'projected_by_linear_model_to_2050'/f"{mat}projected_amounts_to_relog_grouped_2050.csv"
+            assert path_to_file.is_file(),path_to_file
+            data_df = pd.read_csv(path_to_file)
             data_df = data_df[data_df["State_County"] == row["State_County"]]
             for y in self.year:
                 if len(data_df) > 1:
@@ -202,8 +209,9 @@ class PlasticSD(SentierModel):
             self.flow[(i, m, unit_ops, output)] = input_flow * efficiency
 
     def calculate_energy_usage(self, row, flow_result):
-        df_energy = pd.read_csv("./input/core_data_files/mrf_electricity.csv")
-        df_other_inputs = pd.read_csv("./input/core_data_files/mrf_other_inputs.csv")
+        path_to_dir = self._input_data_dir / "core_data_files"
+        df_energy = pd.read_csv(path_to_dir/"mrf_electricity.csv")
+        df_other_inputs = pd.read_csv(path_to_dir/"mrf_other_inputs.csv")
 
         ops_list = []
         value_list_elec = []
@@ -248,7 +256,7 @@ class PlasticSD(SentierModel):
         return df_energy
 
     def load_county_uris(self):
-        county_uris_df = pd.read_csv("../counties_uris.csv")
+        county_uris_df = pd.read_csv(self._input_data_dir/'counties_uris.csv')
         return {
             f"{row['adminName1']}_{row['toponymName'].replace(' County', '')}": row[
                 "uri"
@@ -323,19 +331,24 @@ class PlasticSD(SentierModel):
                         end_date=date(year, 12, 31),
                     )
                     flows.append(flow)
-
-        pd.DataFrame(bale_data).to_csv("./output/bale_output.csv", index=False)
-        electricity_df_result.to_csv("./output/lci_output.csv", index=False)
+        output_dir = self._input_data_dir.parent/'output'
+        pd.DataFrame(bale_data).to_csv(output_dir/"bale_output.csv", index=False)
+        electricity_df_result.to_csv(output_dir/"lci_output.csv", index=False)
         return demands, flows
 
 
 if __name__ == "__main__":
     # Change working directory
-    os.chdir(os.path.join(os.getcwd(), "trash", "4P"))
+    script_dir = Path(__file__).resolve().parent
+    path_to_input_dir = script_dir.parent /'input'
+    scenario_file_path = path_to_input_dir/"options_files"/"singleyearanalysis.yaml"
+    assert scenario_file_path.is_file(),scenario_file_path
+    #os.chdir(os.path.join(os.getcwd(), "trash", "4P"))
     print("Current working directory:", os.getcwd())
 
     # Create and run PlasticSD instance
-    psd = PlasticSD(scenario_file="singleyearanalysis.yaml", verbose=1)
+    psd = PlasticSD(scenario_file=scenario_file_path, 
+                    verbose=1)
     demands, flows = psd.run()
 
     # Process results
