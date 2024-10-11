@@ -61,7 +61,6 @@ def create_mrf_datastorage(reset: bool = True):
         valid_from=date(2004, 1, 1), # based on observations from 2000 census
         valid_to=date(2050, 1, 1), # based on population projections
     ).save()
-    # )
 
 COLUMNS_EFF = [
     "http://data.europa.eu/xsp/cn2024/847410000080", # Sorting, screening, separating or washing machines
@@ -130,5 +129,3 @@ UNITS_COUNTY = [
     "https://vocab.sentier.dev/units/unit/KiloGM",
     "https://vocab.sentier.dev/units/unit/KiloGM",
 ]
-
-create_mrf_datastorage()
