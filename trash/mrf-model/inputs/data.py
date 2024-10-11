@@ -24,7 +24,7 @@ def create_mrf_datastorage(reset: bool = True):
     metadata.pop("version")
 
     # data package for equipment efficiency
-    df_eff = pd.read_csv(Path(__file__).parent / "mrf_equipment_efficiency.csv")
+    df_eff = pd.read_csv(Path(__file__).parent / "mrf_equipment_efficiency copy.csv")
     assert len(COLUMNS_EFF) == len(UNITS_EFF)
     assert len(COLUMNS_EFF) == len(df_eff.columns)
     assert len(MACHINES_EFF) == df_eff.shape[0]
@@ -44,8 +44,7 @@ def create_mrf_datastorage(reset: bool = True):
     ).save()
 
     # data package for county waste streams
-    df_county = pd.read_csv(Path(__file__).parent / "input.csv")
-    del df_county[df_county.columns[0]]
+    df_county = pd.read_csv(Path(__file__).parent /"others"/"combined_waste_data_with_uri.csv")
     df_county.drop(labels=["County","State","State_County","latitude (deg)","longitude (deg)"], axis="columns", inplace=True)
     assert len(COLUMNS_COUNTY) == len(UNITS_COUNTY)
     assert len(COLUMNS_COUNTY) == len(df_county.columns)
