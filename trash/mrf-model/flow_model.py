@@ -26,7 +26,18 @@ from sentier_data_tools import (
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-PATH_TO_INPUT = SCRIPT_DIR.parent /'inputs'
+PATH_TO_INPUT = SCRIPT_DIR / "inputs"
+
+PATH_TO_EFFICIENCY = PATH_TO_INPUT / "mrf_equipment_efficiency.csv"
+PATH_TO_MRF_OTHER = PATH_TO_INPUT / "mrf_other_inputs.csv"
+PATH_TO_MRF_ELECTRICITY = PATH_TO_INPUT / "mrf_electricity.csv"
+PATH_TO_PROJECTED_AMOUNTS = PATH_TO_INPUT / "projected_by_linear_model_to_2050"
+PATH_TO_STATE_COUNTY = PATH_TO_INPUT / "State_County.csv"
+PATH_TO_COUNTY_URI = PATH_TO_INPUT / "county_to_mrf" / "counties_uris.csv"
+
+
+# scenario_file_path = PATH_TO_INPUT/"options_files"/"singleyearanalysis.yaml"
+# assert scenario_file_path.is_file(),scenario_file_path
 
 
 class PlasticSD(SentierModel):
@@ -102,7 +113,7 @@ class PlasticSD(SentierModel):
         self.clean_output_directory()
 
     def load_mrf_equipment_efficiency(self):
-        parameters = pd.read_csv("./input/core_data_files/mrf_equipment_efficiency.csv")
+        parameters = pd.read_csv(PATH_TO_EFFICIENCY)
         mrf_equipment_efficiency = parameters[
             ["year"]
             + [
@@ -138,7 +149,7 @@ class PlasticSD(SentierModel):
         self.parameters = parameters.set_index("year")
 
     def load_region_data(self):
-        self.reg_df_data = pd.read_csv("./input/core_data_files/State_County.csv")
+        self.reg_df_data = pd.read_csv(PATH_TO_STATE_COUNTY)
         self.reg_df_data = self.reg_df_data.sample(20)
 
     def create_output_directory(self):
@@ -153,7 +164,8 @@ class PlasticSD(SentierModel):
     def process_region(self, row):
         for mat in self.recycle_stream_material:
             data_df = pd.read_csv(
-                f"./input/core_data_files/projected_by_linear_model_to_2050/{mat}projected_amounts_to_relog_grouped_2050.csv"
+                PATH_TO_PROJECTED_AMOUNTS
+                / f"{mat}projected_amounts_to_relog_grouped_2050.csv"
             )
             data_df = data_df[data_df["State_County"] == row["State_County"]]
             for y in self.year:
@@ -198,8 +210,8 @@ class PlasticSD(SentierModel):
             self.flow[(i, m, unit_ops, output)] = input_flow * efficiency
 
     def calculate_energy_usage(self, row, flow_result):
-        df_energy = pd.read_csv("./input/core_data_files/mrf_electricity.csv")
-        df_other_inputs = pd.read_csv("./input/core_data_files/mrf_other_inputs.csv")
+        df_energy = pd.read_csv(PATH_TO_MRF_ELECTRICITY)
+        df_other_inputs = pd.read_csv(PATH_TO_MRF_OTHER)
 
         ops_list = []
         value_list_elec = []
@@ -244,7 +256,7 @@ class PlasticSD(SentierModel):
         return df_energy
 
     def load_county_uris(self):
-        county_uris_df = pd.read_csv("../counties_uris.csv")
+        county_uris_df = pd.read_csv(PATH_TO_COUNTY_URI)
         return {
             f"{row['adminName1']}_{row['toponymName'].replace(' County', '')}": row[
                 "uri"
@@ -325,20 +337,19 @@ if __name__ == "__main__":
     # Change working directory
     # os.chdir(os.path.join(os.getcwd(), "trash", "4P"))
     # print("Current working directory:", os.getcwd())
-    print(SCRIPT_DIR)
-    print(PATH_TO_INPUT)
+    # print(pd.read_csv(PATH_TO_COUNTY_URI))
 
     # Create and run PlasticSD instance
-    # psd = PlasticSD(year = [2020], verbose=1)
-    # demands, flows = psd.run()
+    psd = PlasticSD(year=[2020], verbose=1)
+    demands, flows = psd.run()
 
     # Process results
     # print(f"Generated {len(demands)} demands and {len(flows)} flows")
 
     # Example: Print first demand and flow
-    # if demands:
-    #     print("First Demand:", demands[0])
-    # if flows:
-    #     print("First Flow:", flows[0])
+    if demands:
+        print("First Demand:", demands[0])
+    if flows:
+        print("First Flow:", flows[0])
     # ic(demands)
     # ic(demands)
