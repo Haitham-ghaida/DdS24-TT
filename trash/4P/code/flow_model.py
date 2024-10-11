@@ -38,7 +38,7 @@ class PlasticSD(SentierModel):
         ProductIRI("http://data.europa.eu/ehl/cpa21/381131"): "other",
     }
 
-    def __init__(self, scenario_file="singleyearanalysis.yaml", verbose=0):
+    def __init__(self, year: list[int] = 2020, verbose=0):
         # Create a dummy Demand object and RunConfig
         dummy_demand = Demand(
             product_iri=ProductIRI("http://example.com/ontology/WasteSorting"),
@@ -53,7 +53,6 @@ class PlasticSD(SentierModel):
         super().__init__(demand=dummy_demand, run_config=run_config)
 
         self.verbose = verbose
-        self.scenario_file = scenario_file
         self.recycle_stream_material = [
             "aluminum",
             "cardboard",
@@ -85,28 +84,17 @@ class PlasticSD(SentierModel):
             "eddy",
         ]
         self.flow = {}
-        self.year = []
+        self.year = year
         self.parameters = None
         self.mrf_equipment_efficiency = None
         self.reg_df_data = None
         self.county_uris = self.load_county_uris()
 
     def prepare(self) -> None:
-        self.load_scenario()
         self.load_mrf_equipment_efficiency()
         self.load_region_data()
         self.clean_output_directory()
 
-    def load_scenario(self):
-        with open(f"./input/options_files/{self.scenario_file}", "r") as file:
-            self.scenario = yaml.safe_load(file)
-        self.year = list(
-            range(
-                self.scenario["parameters"]["initial_year"],
-                self.scenario["parameters"]["final_year"] + 1,
-            )
-        )
-        self.year = [2020]  # Overriding
 
     def load_mrf_equipment_efficiency(self):
         parameters = pd.read_csv("./input/core_data_files/mrf_equipment_efficiency.csv")
@@ -330,7 +318,7 @@ if __name__ == "__main__":
     print("Current working directory:", os.getcwd())
 
     # Create and run PlasticSD instance
-    psd = PlasticSD(scenario_file="singleyearanalysis.yaml", verbose=1)
+    psd = PlasticSD(year = [2020], verbose=1)
     demands, flows = psd.run()
 
     # Process results
